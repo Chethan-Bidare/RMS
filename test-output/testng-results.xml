@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20210" started-at="2018-04-11T12:15:50Z" finished-at="2018-04-11T12:16:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20210" started-at="2018-04-11T12:15:50Z" finished-at="2018-04-11T12:16:10Z">
+      <class name="com.c2info.RMS_HomePage.TC_006_VerifySearchForEmployeeName">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.c2info.RMS_HomePage.TC_006_VerifySearchForEmployeeName@61009542]" name="setup" is-config="true" duration-ms="7707" started-at="2018-04-11T17:45:50Z" finished-at="2018-04-11T17:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.RMS_HomePage.TC_006_VerifySearchForEmployeeName@61009542]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2018-04-11T17:45:58Z" finished-at="2018-04-11T17:45:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.c2info.RMS_HomePage.TC_006_VerifySearchForEmployeeName.verifyEmployeeSearchInGridView() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyEmployeeSearchInGridView()[pri:0, instance:com.c2info.RMS_HomePage.TC_006_VerifySearchForEmployeeName@61009542]" name="verifyEmployeeSearchInGridView" duration-ms="5881" started-at="2018-04-11T17:45:58Z" finished-at="2018-04-11T17:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeSearchInGridView -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.RMS_HomePage.TC_006_VerifySearchForEmployeeName@61009542]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-04-11T17:46:04Z" finished-at="2018-04-11T17:46:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmployeeSearchInGridView status=SUCCESS method=TC_006_VerifySearchForEmployeeName.verifyEmployeeSearchInGridView()[pri:0, instance:com.c2info.RMS_HomePage.TC_006_VerifySearchForEmployeeName@61009542] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.RMS_HomePage.TC_006_VerifySearchForEmployeeName@61009542]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-04-11T17:46:04Z" finished-at="2018-04-11T17:46:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.c2info.RMS_HomePage.TC_006_VerifySearchForEmployeeName.verifyEmployeeSearchInListView() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyEmployeeSearchInListView()[pri:1, instance:com.c2info.RMS_HomePage.TC_006_VerifySearchForEmployeeName@61009542]" name="verifyEmployeeSearchInListView" duration-ms="6202" started-at="2018-04-11T17:46:04Z" finished-at="2018-04-11T17:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeSearchInListView -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.RMS_HomePage.TC_006_VerifySearchForEmployeeName@61009542]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-11T17:46:10Z" finished-at="2018-04-11T17:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmployeeSearchInListView status=SUCCESS method=TC_006_VerifySearchForEmployeeName.verifyEmployeeSearchInListView()[pri:1, instance:com.c2info.RMS_HomePage.TC_006_VerifySearchForEmployeeName@61009542] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.c2info.RMS_HomePage.TC_006_VerifySearchForEmployeeName@61009542]" name="endTest" is-config="true" duration-ms="400" started-at="2018-04-11T17:46:10Z" finished-at="2018-04-11T17:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.c2info.RMS_HomePage.TC_006_VerifySearchForEmployeeName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
