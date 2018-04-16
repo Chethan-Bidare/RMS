@@ -942,3 +942,73 @@
 2018-04-16 16:47:34 INFO  NewRequestPage:133 - Desktop Computer not found in Search List
 2018-04-16 16:47:34 INFO  NewRequestPage:133 - Desktop Computer not found in Search List
 2018-04-16 16:47:34 INFO  NewRequestPage:130 - Clicked on the searched Product Name : Desktop Computer
+2018-04-16 17:45:33 INFO  TC003_VerifyQtyField:20 - Initializing Setup
+2018-04-16 17:45:33 INFO  HomePage:75 - User Mobile Number entered 8147519664
+2018-04-16 17:45:33 INFO  HomePage:77 - Clicked on Send OTP button
+2018-04-16 17:45:33 INFO  HomePage:79 - OTP entered0000
+2018-04-16 17:45:33 INFO  HomePage:81 - Clicked on Verify button
+2018-04-16 17:45:34 INFO  TC003_VerifyQtyField:24 - Login Successfull
+2018-04-16 17:45:35 INFO  HomePage:410 - Clicked on New Request button
+2018-04-16 17:45:35 INFO  NewRequestPage:97 - Itemselected from the Request Type dropdown
+2018-04-16 17:45:35 INFO  NewRequestPage:112 - BANGLOREselected from the Ref Branch dropdown
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:45:38 INFO  NewRequestPage:130 - Clicked on the searched Product Name : Laptop-Toshiba
+2018-04-16 17:47:14 INFO  TC003_VerifyQtyField:20 - Initializing Setup
+2018-04-16 17:47:14 INFO  HomePage:75 - User Mobile Number entered 8147519664
+2018-04-16 17:47:15 INFO  HomePage:77 - Clicked on Send OTP button
+2018-04-16 17:47:15 INFO  HomePage:79 - OTP entered0000
+2018-04-16 17:47:15 INFO  HomePage:81 - Clicked on Verify button
+2018-04-16 17:47:16 INFO  TC003_VerifyQtyField:24 - Login Successfull
+2018-04-16 17:47:17 INFO  HomePage:410 - Clicked on New Request button
+2018-04-16 17:47:17 INFO  NewRequestPage:97 - Itemselected from the Request Type dropdown
+2018-04-16 17:47:17 INFO  NewRequestPage:112 - BANGLOREselected from the Ref Branch dropdown
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
+2018-04-16 17:47:21 INFO  NewRequestPage:130 - Clicked on the searched Product Name : Laptop-Toshiba

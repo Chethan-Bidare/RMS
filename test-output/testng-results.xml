@@ -2,46 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23945" started-at="2018-04-16T11:17:15Z" finished-at="2018-04-16T11:17:39Z">
+  <suite name="Default suite" duration-ms="26441" started-at="2018-04-16T12:17:07Z" finished-at="2018-04-16T12:17:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23945" started-at="2018-04-16T11:17:15Z" finished-at="2018-04-16T11:17:39Z">
-      <class name="com.c2info.RMS_NewRequestTCs.TC002_VerifyByAddingItemsInRequest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC002_VerifyByAddingItemsInRequest@61009542]" name="setup" is-config="true" duration-ms="7394" started-at="2018-04-16T16:47:15Z" finished-at="2018-04-16T16:47:22Z">
+    <test name="Default test" duration-ms="26441" started-at="2018-04-16T12:17:07Z" finished-at="2018-04-16T12:17:33Z">
+      <class name="com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField@61009542]" name="setup" is-config="true" duration-ms="9361" started-at="2018-04-16T17:47:07Z" finished-at="2018-04-16T17:47:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC002_VerifyByAddingItemsInRequest@61009542]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2018-04-16T16:47:22Z" finished-at="2018-04-16T16:47:22Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField@61009542]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2018-04-16T17:47:16Z" finished-at="2018-04-16T17:47:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.c2info.RMS_NewRequestTCs.TC002_VerifyByAddingItemsInRequest.verifyAddingItems() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField.verifyQtyField() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyAddingItems()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC002_VerifyByAddingItemsInRequest@61009542]" name="verifyAddingItems" duration-ms="16269" started-at="2018-04-16T16:47:22Z" finished-at="2018-04-16T16:47:39Z">
+        <test-method status="PASS" signature="verifyQtyField()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField@61009542]" name="verifyQtyField" duration-ms="16754" started-at="2018-04-16T17:47:16Z" finished-at="2018-04-16T17:47:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddingItems -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC002_VerifyByAddingItemsInRequest@61009542]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-04-16T16:47:39Z" finished-at="2018-04-16T16:47:39Z">
+        </test-method> <!-- verifyQtyField -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField@61009542]" name="endTest" is-config="true" duration-ms="298" started-at="2018-04-16T17:47:33Z" finished-at="2018-04-16T17:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField@61009542]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-16T17:47:33Z" finished-at="2018-04-16T17:47:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAddingItems status=SUCCESS method=TC002_VerifyByAddingItemsInRequest.verifyAddingItems()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC002_VerifyByAddingItemsInRequest@61009542] output={null}]]]>
+                <![CDATA[[TestResult name=verifyQtyField status=SUCCESS method=TC003_VerifyQtyField.verifyQtyField()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField@61009542] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC002_VerifyByAddingItemsInRequest@61009542]" name="endTest" is-config="true" duration-ms="264" started-at="2018-04-16T16:47:39Z" finished-at="2018-04-16T16:47:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- com.c2info.RMS_NewRequestTCs.TC002_VerifyByAddingItemsInRequest -->
+      </class> <!-- com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -168,6 +168,8 @@ public class NewRequestPage extends TestBase{
 		return itemNames;
 	}
 	
+	public ArrayList<Integer>
+	
 	public void clickOnSubmitButton() throws InterruptedException{
 		SubmitBtn.click();
 		Thread.sleep(2000);
