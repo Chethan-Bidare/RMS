@@ -1,4 +1,4 @@
-package com.c2info.RMS_HomePage;
+package com.c2info.RMS_HomePageTCs;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -3,16 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.c2info.RMS_HomePage.TC_006_VerifySearchForEmployeeName">
+      <class name="com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct">
         <methods>
           <include name="beforeMethod"/>
-          <include name="verifyEmployeeSearchInGridView"/>
           <include name="endTest"/>
+          <include name="verifyNewRequestFunctionality"/>
           <include name="setup"/>
-          <include name="verifyEmployeeSearchInListView"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.c2info.RMS_HomePage.TC_006_VerifySearchForEmployeeName -->
+      </class> <!-- com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

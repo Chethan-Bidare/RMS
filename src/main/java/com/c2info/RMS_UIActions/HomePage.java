@@ -1,7 +1,6 @@
 package com.c2info.RMS_UIActions;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -53,10 +52,10 @@ public class HomePage extends TestBase{
 	
 	@FindBy(id="request_search")
 	WebElement GlobalSearch ;
-	/*
-	@FindBy(id="")
-	WebElement abc ;
 	
+	@FindBy(id="generalbtn")
+	WebElement NewRequestBtn ;
+	/*
 	@FindBy(id="")
 	WebElement abc ;
 	
@@ -73,14 +72,19 @@ public class HomePage extends TestBase{
 
 	public void doLogin(String UserNum,String otp){
 		UserNumber.sendKeys(UserNum);
+		log.info("User Mobile Number entered "+UserNum);
 		SendOTPBtn.click();
+		log.info("Clicked on Send OTP button");
 		OTP.sendKeys(otp);
+		log.info("OTP entered"+otp);
 		VerifyBtn.click();
+		log.info("Clicked on Verify button");
 	}
 	
 	public void doLogOut(){
 		SelectFromAutoSuggestionSearch(": CSQUARE");
 		logoutOKBtn.click();
+		log.info("Clicked on LogOut button");
 	}
 	
 	public void waitForHomePagetoLoad(){
@@ -95,6 +99,7 @@ public class HomePage extends TestBase{
 			for(WebElement we : AutoSuggestionItemList){
 				if(we.getText().contains(MenuName)){
 					we.click();
+					log.info("Clicked on the Menu option : "+MenuName);
 				}
 			}
 		
@@ -103,6 +108,7 @@ public class HomePage extends TestBase{
     public void clickOnGlobalSearch(String SearchText){
     	GlobalSearch.clear();
     	GlobalSearch.sendKeys(SearchText);
+    	log.info("Search data entered in global Search");
     }
 
 	public void selectAnOptionFromSubMenu(String SubMenuName){
@@ -110,6 +116,7 @@ public class HomePage extends TestBase{
 		for(WebElement we: SubMenu){
 			if(we.getText().contains(SubMenuName)){
 				we.click();
+				log.info("Clicked on the Sub Menu option : "+SubMenuName);
 			}
 		}
 	}
@@ -117,14 +124,17 @@ public class HomePage extends TestBase{
 	public void selectVisibleTextFromSortingDropdown(String text){
 		Select select = new Select(Sort);
 		select.selectByVisibleText(text);
+		log.info("Clicked on Sorting Type : "+text);
 	}
 	
 	public void clickOnGridORListView(String ViewType){
 		if(ViewType.equalsIgnoreCase("Grid")){
 			grid.click();
+			log.info("Clicked on "+ViewType+" view");
 		}
 		else if(ViewType.equalsIgnoreCase("List")){
 			list.click();
+			log.info("Clicked on "+ViewType+" view");
 		}
 	}
 	
@@ -140,7 +150,7 @@ public class HomePage extends TestBase{
 				
 			}
 		}
-		System.out.println(PrNum);
+		log.info("List Of PR Numbers are fetched"+PrNum);
 	    return PrNum ;
 	}
 	
@@ -158,6 +168,7 @@ public class HomePage extends TestBase{
 				}
 			
 			}
+			log.info("Fetching the list of PR Numbers for "+RequestType+" in Grid view : "+PrNum);
 			return PrNum ;
 		}
 		else if(RequestType.equalsIgnoreCase("Projectwise Request")){
@@ -172,6 +183,7 @@ public class HomePage extends TestBase{
 				PrNum.add(Pr);
 				}
 			}
+			log.info("Fetching the list of PR Numbers for "+RequestType+" in Grid view : "+PrNum);
 			return PrNum ;
 		}
 		else if(RequestType.equalsIgnoreCase("Approval List")){
@@ -185,6 +197,7 @@ public class HomePage extends TestBase{
 				PrNum.add(Pr);
 				}
 			}
+			log.info("Fetching the list of PR Numbers for "+RequestType+" in Grid view : "+PrNum);
 			return PrNum ;
 		}
 		return null ;
@@ -204,6 +217,7 @@ public class HomePage extends TestBase{
 				PrNum.add(Pr);
 				}
 			}
+			log.info("Fetching the list of PR Numbers for "+RequestType+" in List view :" +PrNum);
 			return PrNum ;
 		}
 		else if(RequestType.equalsIgnoreCase("Projectwise Request")){
@@ -218,6 +232,7 @@ public class HomePage extends TestBase{
 				PrNum.add(Pr);
 				}
 			}
+			log.info("Fetching the list of PR Numbers for "+RequestType+" in List view :"+PrNum);
 			return PrNum ;
 		}
 		else if(RequestType.equalsIgnoreCase("Approval List")){
@@ -231,6 +246,7 @@ public class HomePage extends TestBase{
 				PrNum.add(Pr);
 				}
 			}
+			log.info("Fetching the list of PR Numbers for "+RequestType+" in List view : "+PrNum);
 			return PrNum ;
 		}
 		return null;
@@ -250,6 +266,7 @@ public class HomePage extends TestBase{
 				}
 			
 			}
+			log.info("Fetching the list of Item Names for "+RequestType+" in grid view : "+ItemNames);
 			return ItemNames ;
 		}
 		else if(RequestType.equalsIgnoreCase("Projectwise Request")){
@@ -263,6 +280,7 @@ public class HomePage extends TestBase{
 				}
 			
 			}
+			log.info("Fetching the list of Item Names for "+RequestType+" in grid view : "+ItemNames);
 			return ItemNames ;
 		}
 		else if(RequestType.equalsIgnoreCase("Approval List")){
@@ -276,6 +294,7 @@ public class HomePage extends TestBase{
 				}
 			
 			}
+			log.info("Fetching the list of Item Names for "+RequestType+" in grid view"+ItemNames);
 			return ItemNames ;
 		}
 		return null ;
@@ -295,6 +314,7 @@ public class HomePage extends TestBase{
 			}
 		
 		}
+		log.info("Fetching the list of Item Names for "+RequestType+" in List view"+ItemNames);
 		return ItemNames ;
 	}
 	else if(RequestType.equalsIgnoreCase("Projectwise Request")){
@@ -308,6 +328,7 @@ public class HomePage extends TestBase{
 			}
 		
 		}
+		log.info("Fetching the list of Item Names for "+RequestType+" in List view"+ItemNames);
 		return ItemNames ;
 	}
 	else if(RequestType.equalsIgnoreCase("Approval List")){
@@ -321,6 +342,7 @@ public class HomePage extends TestBase{
 			}
 		
 		}
+		log.info("Fetching the list of Item Names for "+RequestType+" in List view"+ItemNames);
 		return ItemNames ;
 	}
 	return null ;
@@ -338,7 +360,7 @@ public class HomePage extends TestBase{
 			
 		}
 	}
-	
+		log.info("Fetching the list of Employee Names in List view : "+employeeNames);
     return employeeNames ;
 }	
 	
@@ -354,13 +376,39 @@ public class HomePage extends TestBase{
 		}
 		}
 	}
-	
+		log.info("Fetching the list of Employee Names in Grid view : "+employeeNames);
     return employeeNames ;
 }	
 	
+	public boolean gridViewIsDisplayed(){
+		WebElement carousel = driver.findElement(By.id("theCarousel"));
+		if(carousel.isDisplayed()==true){
+			log.info("Returned true when checked for Grid view");
+			return true ;
+		}
+		else{
+			log.info("Returned false when checked for Grid view");
+			return false ;
+		}
+	}
+	
+	public boolean listViewIsDisplayed(){
+		WebElement list = driver.findElement(By.id("collapse1"));
+		if(list.isDisplayed()==true){
+			log.info("Returned true when checked for List view");
+			return true ;
+		}
+		else{
+			log.info("Returned False when checked for List view");
+			return false ;
+		}
+	}
 	
 	
-	
+	public void clickOnNewRequestButton(){
+		NewRequestBtn.click();
+		log.info("Clicked on New Request button");
+	}
 	
 	
 	
