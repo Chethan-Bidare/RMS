@@ -92,9 +92,7 @@ public class HomePage extends TestBase{
 	}
 	
     public void ClickOnMenuOption(String MenuName){
-		
-		//WebElement AutoSuggestion = driver.findElement(By.id("ui-id-1"));
-		//if(AutoSuggestion.isDisplayed()==true){
+
 			List<WebElement> AutoSuggestionItemList = driver.findElements(By.tagName("li"));
 			for(WebElement we : AutoSuggestionItemList){
 				if(we.getText().contains(MenuName)){
@@ -380,6 +378,11 @@ public class HomePage extends TestBase{
     return employeeNames ;
 }	
 	
+	
+/*	public ArrayList<String> getStatusOfPRInGridView(String statusName){
+		
+	}
+*/	
 	public boolean gridViewIsDisplayed(){
 		WebElement carousel = driver.findElement(By.id("theCarousel"));
 		if(carousel.isDisplayed()==true){

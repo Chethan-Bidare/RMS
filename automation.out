@@ -1012,3 +1012,139 @@
 2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
 2018-04-16 17:47:20 INFO  NewRequestPage:133 - Laptop-Toshiba not found in Search List
 2018-04-16 17:47:21 INFO  NewRequestPage:130 - Clicked on the searched Product Name : Laptop-Toshiba
+2018-06-11 12:44:47 INFO  TC_001_VerifyLoginLogOut:21 - Initializing Setup
+2018-06-11 12:44:47 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-11 12:44:47 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-11 12:44:49 INFO  HomePage:79 - OTP entered0000
+2018-06-11 12:44:49 INFO  HomePage:81 - Clicked on Verify button
+2018-06-11 12:45:13 INFO  TC_001_VerifyLoginLogOut:21 - Initializing Setup
+2018-06-11 12:45:13 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-11 12:45:13 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-11 12:45:14 INFO  HomePage:79 - OTP entered0000
+2018-06-11 12:45:14 INFO  HomePage:81 - Clicked on Verify button
+2018-06-11 12:45:38 INFO  TC_001_VerifyLoginLogOut:21 - Initializing Setup
+2018-06-11 12:45:38 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-11 12:45:38 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-11 12:45:39 INFO  HomePage:79 - OTP entered0000
+2018-06-11 12:45:39 INFO  HomePage:81 - Clicked on Verify button
+2018-06-11 12:49:55 INFO  TC_001_VerifyLoginLogOut:21 - Initializing Setup
+2018-06-11 12:49:56 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-11 12:49:56 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-11 12:49:56 INFO  HomePage:79 - OTP entered0000
+2018-06-11 12:49:57 INFO  HomePage:81 - Clicked on Verify button
+2018-06-11 12:51:21 INFO  TC_001_VerifyLoginLogOut:21 - Initializing Setup
+2018-06-11 12:51:21 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-11 12:51:21 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-11 12:51:22 INFO  HomePage:79 - OTP entered0000
+2018-06-11 12:51:22 INFO  HomePage:81 - Clicked on Verify button
+2018-06-11 12:52:08 INFO  TC_001_VerifyLoginLogOut:21 - Initializing Setup
+2018-06-11 12:52:08 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-11 12:52:08 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-11 12:52:09 INFO  HomePage:79 - OTP entered0000
+2018-06-11 12:52:09 INFO  HomePage:81 - Clicked on Verify button
+2018-06-11 12:52:12 INFO  HomePage:102 - Clicked on the Menu option : TRANSACTIONS
+2018-06-11 14:33:52 INFO  TC001_VerifyNewRequestFunctionailtyForSingleProduct:22 - Initializing Setup
+2018-06-11 14:33:53 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-11 14:33:53 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-11 14:33:54 INFO  HomePage:79 - OTP entered0000
+2018-06-11 14:33:54 INFO  HomePage:81 - Clicked on Verify button
+2018-06-11 14:33:57 INFO  TC001_VerifyNewRequestFunctionailtyForSingleProduct:26 - Login Successfull
+2018-06-11 14:33:58 INFO  HomePage:169 - Fetching the list of PR Numbers for My Request in Grid view : [111, 110, 109, 102]
+2018-06-11 14:34:00 INFO  HomePage:413 - Clicked on New Request button
+2018-06-11 14:34:00 INFO  NewRequestPage:97 - Itemselected from the Request Type dropdown
+2018-06-11 14:39:52 INFO  TC001_VerifyNewRequestFunctionailtyForSingleProduct:22 - Initializing Setup
+2018-06-11 14:39:52 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-11 14:39:52 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-11 14:39:53 INFO  HomePage:79 - OTP entered0000
+2018-06-11 14:39:53 INFO  HomePage:81 - Clicked on Verify button
+2018-06-11 14:39:56 INFO  TC001_VerifyNewRequestFunctionailtyForSingleProduct:26 - Login Successfull
+2018-06-11 14:39:58 INFO  HomePage:169 - Fetching the list of PR Numbers for My Request in Grid view : [111, 110, 109, 102]
+2018-06-11 14:39:59 INFO  HomePage:413 - Clicked on New Request button
+2018-06-11 14:39:59 INFO  NewRequestPage:97 - Itemselected from the Request Type dropdown
+2018-06-11 14:45:07 INFO  TC001_VerifyNewRequestFunctionailtyForSingleProduct:22 - Initializing Setup
+2018-06-11 14:45:07 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-11 14:45:07 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-11 14:45:08 INFO  HomePage:79 - OTP entered0000
+2018-06-11 14:45:08 INFO  HomePage:81 - Clicked on Verify button
+2018-06-11 14:45:12 INFO  TC001_VerifyNewRequestFunctionailtyForSingleProduct:26 - Login Successfull
+2018-06-11 14:45:13 INFO  HomePage:169 - Fetching the list of PR Numbers for My Request in Grid view : [111, 110, 109, 102]
+2018-06-11 14:45:15 INFO  HomePage:413 - Clicked on New Request button
+2018-06-11 14:45:15 INFO  NewRequestPage:97 - Itemselected from the Request Type dropdown
+2018-06-11 14:45:15 INFO  NewRequestPage:112 - 000selected from the Ref Branch dropdown
+2018-06-11 14:46:15 INFO  TC001_VerifyNewRequestFunctionailtyForSingleProduct:22 - Initializing Setup
+2018-06-11 14:46:15 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-11 14:46:15 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-11 14:46:16 INFO  HomePage:79 - OTP entered0000
+2018-06-11 14:46:16 INFO  HomePage:81 - Clicked on Verify button
+2018-06-11 14:46:19 INFO  TC001_VerifyNewRequestFunctionailtyForSingleProduct:26 - Login Successfull
+2018-06-11 14:46:21 INFO  HomePage:169 - Fetching the list of PR Numbers for My Request in Grid view : [111, 110, 109, 102]
+2018-06-11 14:46:22 INFO  HomePage:413 - Clicked on New Request button
+2018-06-11 14:46:22 INFO  NewRequestPage:97 - Itemselected from the Request Type dropdown
+2018-06-11 14:46:23 INFO  NewRequestPage:112 - 000selected from the Ref Branch dropdown
+2018-06-11 14:46:26 INFO  NewRequestPage:138 - item 2 not found in Search List
+2018-06-11 14:46:26 INFO  NewRequestPage:138 - item 2 not found in Search List
+2018-06-11 14:46:26 INFO  NewRequestPage:138 - item 2 not found in Search List
+2018-06-11 14:46:26 INFO  NewRequestPage:138 - item 2 not found in Search List
+2018-06-11 14:46:26 INFO  NewRequestPage:138 - item 2 not found in Search List
+2018-06-11 14:46:26 INFO  NewRequestPage:138 - item 2 not found in Search List
+2018-06-11 14:46:26 INFO  NewRequestPage:138 - item 2 not found in Search List
+2018-06-11 14:46:26 INFO  NewRequestPage:138 - item 2 not found in Search List
+2018-06-11 14:46:26 INFO  NewRequestPage:138 - item 2 not found in Search List
+2018-06-11 14:47:47 INFO  TC001_VerifyNewRequestFunctionailtyForSingleProduct:22 - Initializing Setup
+2018-06-11 14:47:47 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-11 14:47:47 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-11 14:47:48 INFO  HomePage:79 - OTP entered0000
+2018-06-11 14:47:48 INFO  HomePage:81 - Clicked on Verify button
+2018-06-11 14:47:51 INFO  TC001_VerifyNewRequestFunctionailtyForSingleProduct:26 - Login Successfull
+2018-06-11 14:47:53 INFO  HomePage:169 - Fetching the list of PR Numbers for My Request in Grid view : [111, 110, 109, 102]
+2018-06-11 14:47:54 INFO  HomePage:413 - Clicked on New Request button
+2018-06-11 14:47:54 INFO  NewRequestPage:97 - Itemselected from the Request Type dropdown
+2018-06-11 14:47:54 INFO  NewRequestPage:112 - 000selected from the Ref Branch dropdown
+2018-06-11 14:47:58 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:47:58 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:47:58 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:47:58 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:47:58 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:47:58 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:47:58 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:47:58 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:52:18 INFO  TC001_VerifyNewRequestFunctionailtyForSingleProduct:22 - Initializing Setup
+2018-06-11 14:52:18 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-11 14:52:18 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-11 14:52:19 INFO  HomePage:79 - OTP entered0000
+2018-06-11 14:52:19 INFO  HomePage:81 - Clicked on Verify button
+2018-06-11 14:52:22 INFO  TC001_VerifyNewRequestFunctionailtyForSingleProduct:26 - Login Successfull
+2018-06-11 14:52:24 INFO  HomePage:169 - Fetching the list of PR Numbers for My Request in Grid view : [111, 110, 109, 102]
+2018-06-11 14:52:25 INFO  HomePage:413 - Clicked on New Request button
+2018-06-11 14:52:25 INFO  NewRequestPage:97 - Itemselected from the Request Type dropdown
+2018-06-11 14:52:25 INFO  NewRequestPage:112 - 000selected from the Ref Branch dropdown
+2018-06-11 14:52:29 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:52:29 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:52:29 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:52:29 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:52:29 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:52:29 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:52:29 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:52:29 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:52:29 INFO  NewRequestPage:135 - Clicked on the searched Product Name : Item 2
+2018-06-11 14:56:24 INFO  TC001_VerifyNewRequestFunctionailtyForSingleProduct:22 - Initializing Setup
+2018-06-11 14:56:25 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-11 14:56:25 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-11 14:56:26 INFO  HomePage:79 - OTP entered0000
+2018-06-11 14:56:26 INFO  HomePage:81 - Clicked on Verify button
+2018-06-11 14:56:29 INFO  TC001_VerifyNewRequestFunctionailtyForSingleProduct:26 - Login Successfull
+2018-06-11 14:56:31 INFO  HomePage:169 - Fetching the list of PR Numbers for My Request in Grid view : [113, 112, 111, 110]
+2018-06-11 14:56:32 INFO  HomePage:413 - Clicked on New Request button
+2018-06-11 14:56:32 INFO  NewRequestPage:97 - Itemselected from the Request Type dropdown
+2018-06-11 14:56:32 INFO  NewRequestPage:112 - 000selected from the Ref Branch dropdown
+2018-06-11 14:56:36 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:56:36 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:56:36 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:56:36 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:56:36 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:56:36 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:56:36 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:56:36 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 14:56:36 INFO  NewRequestPage:135 - Clicked on the searched Product Name : Item 2
+2018-06-11 14:56:50 INFO  NewRequestPage:187 - Clicked on Submit button
+2018-06-11 14:56:55 INFO  HomePage:169 - Fetching the list of PR Numbers for My Request in Grid view : [114, 113, 112, 111]

@@ -72,10 +72,10 @@ public class NewRequestPage extends TestBase{
 	WebElement SubmitSuccessOkBtn ;
 	
 	
-	/*
-	@FindBy(id="number")
-	WebElement QtyEdit ;
 	
+	@FindBy(id="cost_center")
+	WebElement CostCenter ;
+	/*
 	@FindBy(id="number")
 	WebElement QtyEdit ;
 	
@@ -108,8 +108,13 @@ public class NewRequestPage extends TestBase{
 
 	public void selectRefBranch(String refBr){
 		Select select = new Select(ReferenceBranch);
-		select.selectByVisibleText(refBr);
+		select.selectByValue(refBr);
 		log.info(refBr +"selected from the Ref Branch dropdown");
+	}
+	
+	public void selectCostCenter(String costCenterName){
+		Select select = new Select(CostCenter);
+		select.selectByVisibleText(costCenterName);
 	}
 	
 	public void selectCategory(String category){
@@ -168,13 +173,15 @@ public class NewRequestPage extends TestBase{
 		return itemNames;
 	}
 	
-	public ArrayList<Integer>
+	/*public ArrayList<Integer> getQtyForItemsAddedToCart(){
+		
+	}*/
 	
 	public void clickOnSubmitButton() throws InterruptedException{
 		SubmitBtn.click();
 		Thread.sleep(2000);
 		SubmitOKBtn.click();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		SubmitSuccessOkBtn.click();
 		Thread.sleep(2000);
 		log.info("Clicked on Submit button");

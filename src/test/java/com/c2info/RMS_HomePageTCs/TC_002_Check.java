@@ -20,7 +20,7 @@ public static final Logger log = Logger.getLogger(TC_001_VerifyLoginLogOut.class
 		init();
 		log.info("Initializing Setup");
 		HomePage hp = new HomePage();
-		hp.doLogin(OR.getProperty("Employee"),OR.getProperty("otp"));
+		hp.doLogin(OR.getProperty("Requestor"),OR.getProperty("otp"));
 		hp.waitForHomePagetoLoad();
 		
 	}
@@ -28,13 +28,7 @@ public static final Logger log = Logger.getLogger(TC_001_VerifyLoginLogOut.class
 	@Test
 	public void check() throws InterruptedException{
 		HomePage hp = new HomePage();
-		/*hp.ClickOnMenuOption("MASTERS");
-		hp.selectAnOptionFromSubMenu("ITEM MASTER");*/
-		
-		/*hp.selectVisibleTextFromSortingDropdown("Order Asce");
-		Thread.sleep(3000);*/
-		hp.clickOnGlobalSearch("chethan");
-		Thread.sleep(3000);
-		System.out.println(hp.getEmployeeNamesInGridView());
+		hp.ClickOnMenuOption("TRANSACTIONS");
+		Thread.sleep(5000);
 	}
 }

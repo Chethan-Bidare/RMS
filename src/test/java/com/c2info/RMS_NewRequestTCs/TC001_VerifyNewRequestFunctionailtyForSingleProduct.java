@@ -21,7 +21,7 @@ public static final Logger log = Logger.getLogger(TC001_VerifyNewRequestFunction
 		init();
 		log.info("Initializing Setup");
 		HomePage hp = new HomePage();
-		hp.doLogin(OR.getProperty("Employee"),OR.getProperty("otp"));
+		hp.doLogin(OR.getProperty("Requestor"),OR.getProperty("otp"));
 		hp.waitForHomePagetoLoad();
 		log.info("Login Successfull");
 	}
@@ -35,11 +35,9 @@ public static final Logger log = Logger.getLogger(TC001_VerifyNewRequestFunction
 		int ExpectedprNo = prnumbers.get(prnumbers.size()-1);
 		homePage.clickOnNewRequestButton();
 		newRequestPage.selectRequestType("Item");
-		newRequestPage.selectRefBranch("BANGLORE");
+		newRequestPage.selectRefBranch(APP.getProperty("BranchCode"));
+		newRequestPage.selectCostCenter("Information Technology");
 		newRequestPage.selectProductFromAutoSuggestionBox(APP.getProperty("ItemName2"));
-		//newRequestPage.enterQty("2");
-		//newRequestPage.increaseQty(2);
-		//newRequestPage.decreaseQty(2);
 		Thread.sleep(2000);
 		newRequestPage.clickOnAddButton();
 		Thread.sleep(3000);

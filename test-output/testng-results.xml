@@ -2,46 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26441" started-at="2018-04-16T12:17:07Z" finished-at="2018-04-16T12:17:33Z">
+  <suite name="Default suite" duration-ms="38810" started-at="2018-06-11T09:26:18Z" finished-at="2018-06-11T09:26:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26441" started-at="2018-04-16T12:17:07Z" finished-at="2018-04-16T12:17:33Z">
-      <class name="com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField@61009542]" name="setup" is-config="true" duration-ms="9361" started-at="2018-04-16T17:47:07Z" finished-at="2018-04-16T17:47:16Z">
+    <test name="Default test" duration-ms="38810" started-at="2018-06-11T09:26:18Z" finished-at="2018-06-11T09:26:57Z">
+      <class name="com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct@61009542]" name="setup" is-config="true" duration-ms="10880" started-at="2018-06-11T14:56:18Z" finished-at="2018-06-11T14:56:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField@61009542]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2018-04-16T17:47:16Z" finished-at="2018-04-16T17:47:16Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct@61009542]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2018-06-11T14:56:29Z" finished-at="2018-06-11T14:56:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField.verifyQtyField() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct.verifyNewRequestFunctionality() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyQtyField()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField@61009542]" name="verifyQtyField" duration-ms="16754" started-at="2018-04-16T17:47:16Z" finished-at="2018-04-16T17:47:33Z">
+        <test-method status="PASS" signature="verifyNewRequestFunctionality()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct@61009542]" name="verifyNewRequestFunctionality" duration-ms="25355" started-at="2018-06-11T14:56:29Z" finished-at="2018-06-11T14:56:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyQtyField -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField@61009542]" name="endTest" is-config="true" duration-ms="298" started-at="2018-04-16T17:47:33Z" finished-at="2018-04-16T17:47:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField@61009542]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-16T17:47:33Z" finished-at="2018-04-16T17:47:33Z">
+        </test-method> <!-- verifyNewRequestFunctionality -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct@61009542]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-06-11T14:56:55Z" finished-at="2018-06-11T14:56:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyQtyField status=SUCCESS method=TC003_VerifyQtyField.verifyQtyField()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField@61009542] output={null}]]]>
+                <![CDATA[[TestResult name=verifyNewRequestFunctionality status=SUCCESS method=TC001_VerifyNewRequestFunctionailtyForSingleProduct.verifyNewRequestFunctionality()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct@61009542] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct@61009542]" name="endTest" is-config="true" duration-ms="2553" started-at="2018-06-11T14:56:55Z" finished-at="2018-06-11T14:56:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
