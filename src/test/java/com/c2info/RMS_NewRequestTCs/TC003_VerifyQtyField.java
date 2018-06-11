@@ -39,7 +39,9 @@ public class TC003_VerifyQtyField extends TestBase{
 		Thread.sleep(2000);
 		newRequestPage.enterQty("2");
 		newRequestPage.clickOnAddButton();
-		
+		/*
+		 .//*[@id='items-value']/div[1]/div[3]
+		 */
 		
 	}
 
