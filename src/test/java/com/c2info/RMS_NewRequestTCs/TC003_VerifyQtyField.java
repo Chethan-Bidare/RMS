@@ -30,12 +30,16 @@ public class TC003_VerifyQtyField extends TestBase{
 		NewRequestPage newRequestPage = new NewRequestPage();
 		homePage.clickOnNewRequestButton();
 		newRequestPage.selectRequestType("Item");
-		newRequestPage.selectRefBranch("BANGLORE");
+		newRequestPage.selectRefBranch("BranchCode");
 		newRequestPage.selectProductFromAutoSuggestionBox(APP.getProperty("ItemName2"));
 		Thread.sleep(2000);
 		newRequestPage.enterQty("2");
 		newRequestPage.clickOnAddButton();
+		newRequestPage.selectProductFromAutoSuggestionBox(APP.getProperty("ItemName2"));
 		Thread.sleep(2000);
+		newRequestPage.enterQty("2");
+		newRequestPage.clickOnAddButton();
+		
 		
 	}
 

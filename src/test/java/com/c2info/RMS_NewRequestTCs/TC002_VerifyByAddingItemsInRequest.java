@@ -32,17 +32,17 @@ public static final Logger log = Logger.getLogger(TC002_VerifyByAddingItemsInReq
 		NewRequestPage newRequestPage = new NewRequestPage();
 		homePage.clickOnNewRequestButton();
 		newRequestPage.selectRequestType("Item");
-		newRequestPage.selectRefBranch("BANGLORE");
+		newRequestPage.selectRefBranch(APP.getProperty("BranchCode"));
 		newRequestPage.selectProductFromAutoSuggestionBox(APP.getProperty("ItemName2"));
 		Thread.sleep(2000);
 		newRequestPage.clickOnAddButton();
 		Thread.sleep(2000);
-		newRequestPage.selectProductFromAutoSuggestionBox(APP.getProperty("ItemName1"));
+		newRequestPage.selectProductFromAutoSuggestionBox(APP.getProperty("ItemName3"));
 		Thread.sleep(2000);
 		newRequestPage.clickOnAddButton();
 		Thread.sleep(2000);
 		ArrayList<String> itemNames = newRequestPage.getItemNamesAddedToCart();
 		Assert.assertTrue(itemNames.contains(APP.getProperty("ItemName2")));
-		Assert.assertTrue(itemNames.contains(APP.getProperty("ItemName1")));
+		Assert.assertTrue(itemNames.contains(APP.getProperty("ItemName3")));
 	}
 }

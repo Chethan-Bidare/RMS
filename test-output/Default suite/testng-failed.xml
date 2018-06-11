@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct">
+      <class name="com.c2info.RMS_NewRequestTCs.TC002_VerifyByAddingItemsInRequest">
         <methods>
           <include name="beforeMethod"/>
-          <include name="endTest"/>
-          <include name="verifyNewRequestFunctionality"/>
           <include name="setup"/>
+          <include name="endTest"/>
+          <include name="verifyAddingItems"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct -->
+      </class> <!-- com.c2info.RMS_NewRequestTCs.TC002_VerifyByAddingItemsInRequest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

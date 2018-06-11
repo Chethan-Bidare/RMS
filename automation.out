@@ -1148,3 +1148,66 @@
 2018-06-11 14:56:36 INFO  NewRequestPage:135 - Clicked on the searched Product Name : Item 2
 2018-06-11 14:56:50 INFO  NewRequestPage:187 - Clicked on Submit button
 2018-06-11 14:56:55 INFO  HomePage:169 - Fetching the list of PR Numbers for My Request in Grid view : [114, 113, 112, 111]
+2018-06-11 15:14:30 INFO  TC002_VerifyByAddingItemsInRequest:22 - Initializing Setup
+2018-06-11 15:14:30 INFO  HomePage:75 - User Mobile Number entered 8147519664
+2018-06-11 15:14:30 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-11 15:14:31 INFO  HomePage:79 - OTP entered0000
+2018-06-11 15:14:31 INFO  HomePage:81 - Clicked on Verify button
+2018-06-11 15:14:33 INFO  TC002_VerifyByAddingItemsInRequest:26 - Login Successfull
+2018-06-11 15:14:35 INFO  HomePage:413 - Clicked on New Request button
+2018-06-11 15:14:35 INFO  NewRequestPage:97 - Itemselected from the Request Type dropdown
+2018-06-11 15:14:35 INFO  NewRequestPage:112 - 000selected from the Ref Branch dropdown
+2018-06-11 15:14:38 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 15:14:38 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 15:14:38 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 15:14:38 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 15:14:38 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 15:14:38 INFO  NewRequestPage:135 - Clicked on the searched Product Name : Item 2
+2018-06-11 15:14:45 INFO  NewRequestPage:138 - Item 1 not found in Search List
+2018-06-11 15:14:45 INFO  NewRequestPage:138 - Item 1 not found in Search List
+2018-06-11 15:14:45 INFO  NewRequestPage:138 - Item 1 not found in Search List
+2018-06-11 15:14:45 INFO  NewRequestPage:138 - Item 1 not found in Search List
+2018-06-11 15:14:45 INFO  NewRequestPage:138 - Item 1 not found in Search List
+2018-06-11 15:14:46 INFO  NewRequestPage:138 - Item 1 not found in Search List
+2018-06-11 15:19:50 INFO  TC002_VerifyByAddingItemsInRequest:22 - Initializing Setup
+2018-06-11 15:19:50 INFO  HomePage:75 - User Mobile Number entered 8147519664
+2018-06-11 15:19:50 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-11 15:19:51 INFO  HomePage:79 - OTP entered0000
+2018-06-11 15:19:51 INFO  HomePage:81 - Clicked on Verify button
+2018-06-11 15:19:53 INFO  TC002_VerifyByAddingItemsInRequest:26 - Login Successfull
+2018-06-11 15:19:55 INFO  HomePage:413 - Clicked on New Request button
+2018-06-11 15:19:55 INFO  NewRequestPage:97 - Itemselected from the Request Type dropdown
+2018-06-11 15:19:55 INFO  NewRequestPage:112 - 000selected from the Ref Branch dropdown
+2018-06-11 15:19:58 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 15:19:58 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 15:19:58 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 15:19:58 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 15:19:58 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 15:19:58 INFO  NewRequestPage:135 - Clicked on the searched Product Name : Item 2
+2018-06-11 15:20:05 INFO  NewRequestPage:138 - Item 1 not found in Search List
+2018-06-11 15:20:05 INFO  NewRequestPage:138 - Item 1 not found in Search List
+2018-06-11 15:20:05 INFO  NewRequestPage:138 - Item 1 not found in Search List
+2018-06-11 15:20:05 INFO  NewRequestPage:138 - Item 1 not found in Search List
+2018-06-11 15:20:05 INFO  NewRequestPage:138 - Item 1 not found in Search List
+2018-06-11 15:20:05 INFO  NewRequestPage:138 - Item 1 not found in Search List
+2018-06-11 15:24:00 INFO  TC002_VerifyByAddingItemsInRequest:22 - Initializing Setup
+2018-06-11 15:24:00 INFO  HomePage:75 - User Mobile Number entered 8147519664
+2018-06-11 15:24:00 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-11 15:24:01 INFO  HomePage:79 - OTP entered0000
+2018-06-11 15:24:01 INFO  HomePage:81 - Clicked on Verify button
+2018-06-11 15:24:03 INFO  TC002_VerifyByAddingItemsInRequest:26 - Login Successfull
+2018-06-11 15:24:04 INFO  HomePage:413 - Clicked on New Request button
+2018-06-11 15:24:04 INFO  NewRequestPage:97 - Itemselected from the Request Type dropdown
+2018-06-11 15:24:04 INFO  NewRequestPage:112 - 000selected from the Ref Branch dropdown
+2018-06-11 15:24:08 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 15:24:08 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 15:24:08 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 15:24:08 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 15:24:08 INFO  NewRequestPage:138 - Item 2 not found in Search List
+2018-06-11 15:24:08 INFO  NewRequestPage:135 - Clicked on the searched Product Name : Item 2
+2018-06-11 15:24:15 INFO  NewRequestPage:138 - Item 3 not found in Search List
+2018-06-11 15:24:15 INFO  NewRequestPage:138 - Item 3 not found in Search List
+2018-06-11 15:24:15 INFO  NewRequestPage:138 - Item 3 not found in Search List
+2018-06-11 15:24:15 INFO  NewRequestPage:138 - Item 3 not found in Search List
+2018-06-11 15:24:15 INFO  NewRequestPage:138 - Item 3 not found in Search List
+2018-06-11 15:24:15 INFO  NewRequestPage:135 - Clicked on the searched Product Name : Item 3
