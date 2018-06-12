@@ -1,6 +1,7 @@
 package com.c2info.RMS_UIActions;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -71,19 +72,40 @@ public class NewRequestPage extends TestBase{
 	@FindBy(id="btn_success")
 	WebElement SubmitSuccessOkBtn ;
 	
-	
-	
 	@FindBy(id="cost_center")
 	WebElement CostCenter ;
+	
+	@FindBy(xpath=".//*[@id='myModal1']/div/div/div[2]/div[1]/div[2]/div/h5[2]/span/img[2]")
+	WebElement IncreaseQtyOnUpdate ;
+	
+	@FindBy(xpath=".//*[@id='myModal1']/div/div/div[2]/div[1]/div[2]/div/h5[2]/span/img[1]")
+	WebElement DecreaseQtyOnUpdate ;
+	
+	@FindBy(id="product-add-btn1")
+	WebElement AddBtnOnUpdate ;
+	
+	
+	@FindBy(id="amount")
+	WebElement Price ;
+	
+	
+	@FindBy(id="amount1")
+	WebElement PriceOnUpdate ;
 	/*
-	@FindBy(id="number")
-	WebElement QtyEdit ;
+	@FindBy(id="amount1")
+	WebElement PriceOnUpdate ;
 	
-	@FindBy(id="number")
-	WebElement QtyEdit ;
+	@FindBy(id="amount1")
+	WebElement PriceOnUpdate ;
 	
-	@FindBy(id="number")
-	WebElement QtyEdit ;
+	@FindBy(id="amount1")
+	WebElement PriceOnUpdate ;
+	
+	@FindBy(id="amount1")
+	WebElement PriceOnUpdate ;
+	
+	@FindBy(id="amount1")
+	WebElement PriceOnUpdate ;
 	*/ 
 	 
 	
@@ -109,18 +131,19 @@ public class NewRequestPage extends TestBase{
 	public void selectRefBranch(String refBr){
 		Select select = new Select(ReferenceBranch);
 		select.selectByValue(refBr);
-		log.info(refBr +"selected from the Ref Branch dropdown");
+		log.info(refBr +" selected from the Ref Branch dropdown");
 	}
 	
 	public void selectCostCenter(String costCenterName){
 		Select select = new Select(CostCenter);
 		select.selectByVisibleText(costCenterName);
+		log.info(costCenterName +" selected from the Cost Center dropdown");
 	}
 	
 	public void selectCategory(String category){
 		Select select = new Select(Category);
 		select.selectByVisibleText(category);
-		log.info(category +"selected from the Category dropdown");
+		log.info(category +" selected from the Category dropdown");
 	}
 	
 	public void selectProductFromAutoSuggestionBox(String productName) throws InterruptedException{
@@ -144,6 +167,19 @@ public class NewRequestPage extends TestBase{
 	public void enterQty(String Qty){
 		QtyEdit.clear();
 		QtyEdit.sendKeys(Qty);
+		log.info("Qty entered in the Qty field : "+Qty);
+	}
+	
+	public void enterAmount(String price){
+		Price.clear();
+		Price.sendKeys(price);
+		log.info("Price entered in the Price field : "+price);
+	}
+	
+	public void enterAmountOnUpdate(String price){
+		PriceOnUpdate.clear();
+		PriceOnUpdate.sendKeys(price);
+		log.info("Price entered in the Price field : "+price);
 	}
 	
 	public void increaseQty(int qty){
@@ -158,8 +194,26 @@ public class NewRequestPage extends TestBase{
 		}
 	}
 	
+	public void increaseQtyOnUpdate(int qty){
+		for(int i=1;i<=qty;i++){
+			IncreaseQtyOnUpdate.click();
+		}
+	}
+	
+	public void decreaseQtyOnUpdate(int qty){
+		for(int i=1;i<=qty;i++){
+			DecreaseQtyOnUpdate.click();
+		}
+	}
+	
 	public void clickOnAddButton(){
 		AddBtn.click();
+		log.info("Clicked on Add button");
+	}
+	
+	public void clickOnAddButtonOnUpdate(){
+		AddBtnOnUpdate.click();
+		log.info("Clicked on Add button");
 	}
 	
 	
@@ -170,6 +224,7 @@ public class NewRequestPage extends TestBase{
 			String item = we.getText().trim().toString();
 			itemNames.add(item);
 		}
+		log.info("Item Names are stored in an Array list");
 		return itemNames;
 	}
 	
@@ -181,9 +236,9 @@ public class NewRequestPage extends TestBase{
 		SubmitBtn.click();
 		Thread.sleep(2000);
 		SubmitOKBtn.click();
-		Thread.sleep(3000);
+		Thread.sleep(10000);
 		SubmitSuccessOkBtn.click();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		log.info("Clicked on Submit button");
 	}
 	
@@ -196,6 +251,82 @@ public class NewRequestPage extends TestBase{
 		ClearAllBtn.click();
 		log.info("Clicked on Clear All button");
 	}
+	
+	public HashMap<String, Integer> getItemNamesWithQtyInMyRequestPage(){
+		HashMap<String, Integer> itemNamesWithQty = new HashMap<String,Integer>();
+		List<WebElement> noOfItems = driver.findElements(By.xpath(".//*[@id='items-value']/div"));
+		
+		for(int i=1;i<=noOfItems.size();i++){
+			String tempItem = driver.findElement(By.xpath(".//*[@id='items-value']/div["+i+"]/div[2]")).getText();
+			tempItem = tempItem.trim().toString();
+			
+			String tempQty = driver.findElement(By.xpath(".//*[@id='items-value']/div["+i+"]/div[3]")).getText();
+			tempQty = tempQty.trim().toString();
+			int tempqty = Integer.parseInt(tempQty);
+			itemNamesWithQty.put(tempItem, tempqty);
+		}
+		log.info("Item Names and Qty are stored in a hash map");
+		return itemNamesWithQty ;
+	}
+	
+	public HashMap<String, Double> getItemNamesWithPriceInMyRequestPage(){
+		HashMap<String, Double> itemNamesWithPrice = new HashMap<String,Double>();
+		List<WebElement> noOfItems = driver.findElements(By.xpath(".//*[@id='items-value']/div"));
+		
+		for(int i=1;i<=noOfItems.size();i++){
+			String tempItem = driver.findElement(By.xpath(".//*[@id='items-value']/div["+i+"]/div[2]")).getText();
+			tempItem = tempItem.trim().toString();
+			
+			String tempPrice = driver.findElement(By.xpath(".//*[@id='items-value']/div["+i+"]/div[4]/p")).getText();
+			tempPrice = tempPrice.trim().toString();
+			double tempprice = Double.parseDouble(tempPrice);
+			itemNamesWithPrice.put(tempItem, tempprice);
+		}
+		log.info("Item Names and Qty are stored in a hash map");
+		return itemNamesWithPrice ;
+	}
+	
+	
+	public void increaseQtyBy2ForAllItemsAfterAdding() throws InterruptedException{
+		List<WebElement> noOfItems = driver.findElements(By.xpath(".//*[@id='items-value']/div"));
+		log.info("Fetching the no of items added");
+		for(int i=1;i<=noOfItems.size();i++){
+			Thread.sleep(2000);
+			driver.findElement(By.xpath(".//*[@id='items-value']/div["+i+"]/div[2]")).click();
+			Thread.sleep(2000);
+			increaseQtyOnUpdate(2);
+			log.info("Increasing the Qty +"+2+" for the item number : "+i);
+			clickOnAddButtonOnUpdate();
+		}
+	}
+	
+	public void decreaseQtyBy2ForAllItemsAfterAdding() throws InterruptedException{
+		List<WebElement> noOfItems = driver.findElements(By.xpath(".//*[@id='items-value']/div"));
+		log.info("Fetching the no of items added");
+		for(int i=1;i<=noOfItems.size();i++){
+			Thread.sleep(2000);
+			driver.findElement(By.xpath(".//*[@id='items-value']/div["+i+"]/div[2]")).click();
+			Thread.sleep(2000);
+			decreaseQtyOnUpdate(2);
+			log.info("Decreasing the Qty +"+2+" for the item number : "+i);
+			clickOnAddButtonOnUpdate();
+		}
+	}
+	
+	public void updateAmountField() throws InterruptedException{
+		List<WebElement> noOfItems = driver.findElements(By.xpath(".//*[@id='items-value']/div"));
+		log.info("Fetching the no of items added");
+		for(int i=1;i<=noOfItems.size();i++){
+			Thread.sleep(2000);
+			driver.findElement(By.xpath(".//*[@id='items-value']/div["+i+"]/div[2]")).click();
+			Thread.sleep(2000);
+			enterAmountOnUpdate("10000");
+			log.info("Amount updated for the item number : "+i);
+			clickOnAddButtonOnUpdate();
+		}
+	}
+	
+	
 	
 	
 }

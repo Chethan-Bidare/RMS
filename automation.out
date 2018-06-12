@@ -1211,3 +1211,1282 @@
 2018-06-11 15:24:15 INFO  NewRequestPage:138 - Item 3 not found in Search List
 2018-06-11 15:24:15 INFO  NewRequestPage:138 - Item 3 not found in Search List
 2018-06-11 15:24:15 INFO  NewRequestPage:135 - Clicked on the searched Product Name : Item 3
+2018-06-12 10:42:50 INFO  TC003_VerifyQtyField:22 - Initializing Setup
+2018-06-12 10:43:56 INFO  TC003_VerifyQtyField:22 - Initializing Setup
+2018-06-12 10:43:56 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 10:43:56 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 10:43:57 INFO  HomePage:79 - OTP entered0000
+2018-06-12 10:43:57 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 10:44:01 INFO  TC003_VerifyQtyField:26 - Login Successfull
+2018-06-12 10:44:03 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 10:44:03 INFO  NewRequestPage:98 - Itemselected from the Request Type dropdown
+2018-06-12 10:49:27 INFO  TC003_VerifyQtyField:22 - Initializing Setup
+2018-06-12 10:49:27 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 10:49:27 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 10:49:28 INFO  HomePage:79 - OTP entered0000
+2018-06-12 10:49:28 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 10:49:31 INFO  TC003_VerifyQtyField:26 - Login Successfull
+2018-06-12 10:49:32 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 10:49:32 INFO  NewRequestPage:98 - Itemselected from the Request Type dropdown
+2018-06-12 10:49:33 INFO  NewRequestPage:113 - 000selected from the Ref Branch dropdown
+2018-06-12 10:49:36 INFO  NewRequestPage:139 - Item 2 not found in Search List
+2018-06-12 10:49:36 INFO  NewRequestPage:139 - Item 2 not found in Search List
+2018-06-12 10:49:36 INFO  NewRequestPage:139 - Item 2 not found in Search List
+2018-06-12 10:49:36 INFO  NewRequestPage:139 - Item 2 not found in Search List
+2018-06-12 10:49:36 INFO  NewRequestPage:139 - Item 2 not found in Search List
+2018-06-12 10:49:36 INFO  NewRequestPage:139 - Item 2 not found in Search List
+2018-06-12 10:49:36 INFO  NewRequestPage:139 - Item 2 not found in Search List
+2018-06-12 10:49:36 INFO  NewRequestPage:139 - Item 2 not found in Search List
+2018-06-12 10:49:36 INFO  NewRequestPage:136 - Clicked on the searched Product Name : Item 2
+2018-06-12 10:49:41 INFO  NewRequestPage:139 - Item 3 not found in Search List
+2018-06-12 10:49:41 INFO  NewRequestPage:139 - Item 3 not found in Search List
+2018-06-12 10:49:41 INFO  NewRequestPage:139 - Item 3 not found in Search List
+2018-06-12 10:49:41 INFO  NewRequestPage:139 - Item 3 not found in Search List
+2018-06-12 10:49:41 INFO  NewRequestPage:139 - Item 3 not found in Search List
+2018-06-12 10:49:41 INFO  NewRequestPage:139 - Item 3 not found in Search List
+2018-06-12 10:49:41 INFO  NewRequestPage:139 - Item 3 not found in Search List
+2018-06-12 10:49:42 INFO  NewRequestPage:139 - Item 3 not found in Search List
+2018-06-12 10:49:42 INFO  NewRequestPage:136 - Clicked on the searched Product Name : Item 3
+2018-06-12 11:45:47 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 11:45:47 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 11:45:47 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 11:45:51 INFO  HomePage:79 - OTP entered0000
+2018-06-12 11:45:51 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 11:46:12 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 11:46:15 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 11:46:15 INFO  NewRequestPage:98 - Itemselected from the Request Type dropdown
+2018-06-12 11:46:15 INFO  NewRequestPage:113 - 000 selected from the Ref Branch dropdown
+2018-06-12 11:46:18 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:46:18 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:46:18 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:46:18 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:46:18 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:46:18 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:46:18 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:46:18 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:46:18 INFO  NewRequestPage:137 - Clicked on the searched Product Name : Item 2
+2018-06-12 11:46:20 INFO  NewRequestPage:149 - Qty entered in the Qty field : 5
+2018-06-12 11:46:20 INFO  NewRequestPage:166 - Clicked on Add button
+2018-06-12 11:46:23 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:46:23 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:46:23 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:46:23 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:46:23 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:46:23 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:46:23 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:46:23 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:46:24 INFO  NewRequestPage:137 - Clicked on the searched Product Name : Item 3
+2018-06-12 11:46:26 INFO  NewRequestPage:149 - Qty entered in the Qty field : 4
+2018-06-12 11:46:26 INFO  NewRequestPage:166 - Clicked on Add button
+2018-06-12 11:46:26 INFO  NewRequestPage:218 - Item Names and Qty are stored in a hash map
+2018-06-12 11:46:26 INFO  NewRequestPage:224 - Fetching the no of items added
+2018-06-12 11:47:53 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 11:47:53 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 11:47:53 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 11:47:54 INFO  HomePage:79 - OTP entered0000
+2018-06-12 11:47:54 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 11:47:57 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 11:47:58 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 11:47:58 INFO  NewRequestPage:98 - Itemselected from the Request Type dropdown
+2018-06-12 11:47:59 INFO  NewRequestPage:113 - 000 selected from the Ref Branch dropdown
+2018-06-12 11:48:02 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:48:02 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:48:02 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:48:02 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:48:02 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:48:02 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:48:02 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:48:02 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:48:02 INFO  NewRequestPage:137 - Clicked on the searched Product Name : Item 2
+2018-06-12 11:48:04 INFO  NewRequestPage:149 - Qty entered in the Qty field : 5
+2018-06-12 11:48:04 INFO  NewRequestPage:166 - Clicked on Add button
+2018-06-12 11:48:07 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:48:07 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:48:07 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:48:07 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:48:07 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:48:07 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:48:07 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:48:07 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:48:07 INFO  NewRequestPage:137 - Clicked on the searched Product Name : Item 3
+2018-06-12 11:48:09 INFO  NewRequestPage:149 - Qty entered in the Qty field : 4
+2018-06-12 11:48:10 INFO  NewRequestPage:166 - Clicked on Add button
+2018-06-12 11:48:10 INFO  NewRequestPage:218 - Item Names and Qty are stored in a hash map
+2018-06-12 11:48:13 INFO  NewRequestPage:224 - Fetching the no of items added
+2018-06-12 11:50:30 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 11:50:30 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 11:50:30 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 11:50:31 INFO  HomePage:79 - OTP entered0000
+2018-06-12 11:50:31 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 11:50:35 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 11:50:36 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 11:50:36 INFO  NewRequestPage:98 - Itemselected from the Request Type dropdown
+2018-06-12 11:50:36 INFO  NewRequestPage:113 - 000 selected from the Ref Branch dropdown
+2018-06-12 11:50:39 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:50:39 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:50:39 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:50:39 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:50:39 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:50:39 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:50:39 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:50:40 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:50:40 INFO  NewRequestPage:137 - Clicked on the searched Product Name : Item 2
+2018-06-12 11:50:42 INFO  NewRequestPage:149 - Qty entered in the Qty field : 5
+2018-06-12 11:50:42 INFO  NewRequestPage:166 - Clicked on Add button
+2018-06-12 11:50:45 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:50:45 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:50:45 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:50:45 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:50:45 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:50:45 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:50:45 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:50:45 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:50:45 INFO  NewRequestPage:137 - Clicked on the searched Product Name : Item 3
+2018-06-12 11:50:47 INFO  NewRequestPage:149 - Qty entered in the Qty field : 4
+2018-06-12 11:50:47 INFO  NewRequestPage:166 - Clicked on Add button
+2018-06-12 11:50:47 INFO  NewRequestPage:218 - Item Names and Qty are stored in a hash map
+2018-06-12 11:50:52 INFO  NewRequestPage:224 - Fetching the no of items added
+2018-06-12 11:51:42 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 11:51:42 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 11:51:42 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 11:51:43 INFO  HomePage:79 - OTP entered0000
+2018-06-12 11:51:43 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 11:51:46 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 11:51:48 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 11:51:48 INFO  NewRequestPage:98 - Itemselected from the Request Type dropdown
+2018-06-12 11:51:48 INFO  NewRequestPage:113 - 000 selected from the Ref Branch dropdown
+2018-06-12 11:51:51 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:51:51 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:51:51 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:51:51 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:51:51 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:51:51 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:51:51 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:51:51 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:51:51 INFO  NewRequestPage:137 - Clicked on the searched Product Name : Item 2
+2018-06-12 11:51:53 INFO  NewRequestPage:149 - Qty entered in the Qty field : 5
+2018-06-12 11:51:53 INFO  NewRequestPage:166 - Clicked on Add button
+2018-06-12 11:51:57 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:51:57 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:51:57 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:51:57 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:51:57 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:51:57 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:51:57 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:51:57 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:51:57 INFO  NewRequestPage:137 - Clicked on the searched Product Name : Item 3
+2018-06-12 11:51:59 INFO  NewRequestPage:149 - Qty entered in the Qty field : 4
+2018-06-12 11:51:59 INFO  NewRequestPage:166 - Clicked on Add button
+2018-06-12 11:51:59 INFO  NewRequestPage:218 - Item Names and Qty are stored in a hash map
+2018-06-12 11:52:04 INFO  NewRequestPage:224 - Fetching the no of items added
+2018-06-12 11:53:01 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 11:53:02 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 11:53:02 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 11:53:02 INFO  HomePage:79 - OTP entered0000
+2018-06-12 11:53:03 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 11:53:06 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 11:53:07 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 11:53:07 INFO  NewRequestPage:98 - Itemselected from the Request Type dropdown
+2018-06-12 11:53:07 INFO  NewRequestPage:113 - 000 selected from the Ref Branch dropdown
+2018-06-12 11:53:11 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:53:11 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:53:11 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:53:11 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:53:11 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:53:11 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:53:11 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:53:11 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:53:11 INFO  NewRequestPage:137 - Clicked on the searched Product Name : Item 2
+2018-06-12 11:53:13 INFO  NewRequestPage:149 - Qty entered in the Qty field : 5
+2018-06-12 11:53:13 INFO  NewRequestPage:166 - Clicked on Add button
+2018-06-12 11:53:16 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:53:16 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:53:16 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:53:16 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:53:16 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:53:16 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:53:16 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:53:16 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:53:16 INFO  NewRequestPage:137 - Clicked on the searched Product Name : Item 3
+2018-06-12 11:53:18 INFO  NewRequestPage:149 - Qty entered in the Qty field : 4
+2018-06-12 11:53:18 INFO  NewRequestPage:166 - Clicked on Add button
+2018-06-12 11:53:19 INFO  NewRequestPage:218 - Item Names and Qty are stored in a hash map
+2018-06-12 11:53:27 INFO  NewRequestPage:224 - Fetching the no of items added
+2018-06-12 11:56:39 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 11:56:39 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 11:56:39 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 11:56:41 INFO  HomePage:79 - OTP entered0000
+2018-06-12 11:56:41 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 11:56:49 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 11:56:51 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 11:56:51 INFO  NewRequestPage:98 - Itemselected from the Request Type dropdown
+2018-06-12 11:56:52 INFO  NewRequestPage:113 - 000 selected from the Ref Branch dropdown
+2018-06-12 11:56:55 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:56:55 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:56:55 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:56:55 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:56:55 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:56:55 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:56:55 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:56:55 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 11:56:55 INFO  NewRequestPage:137 - Clicked on the searched Product Name : Item 2
+2018-06-12 11:56:57 INFO  NewRequestPage:149 - Qty entered in the Qty field : 5
+2018-06-12 11:56:57 INFO  NewRequestPage:166 - Clicked on Add button
+2018-06-12 11:57:00 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:57:00 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:57:00 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:57:00 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:57:00 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:57:00 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:57:00 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:57:00 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 11:57:00 INFO  NewRequestPage:137 - Clicked on the searched Product Name : Item 3
+2018-06-12 11:57:03 INFO  NewRequestPage:149 - Qty entered in the Qty field : 4
+2018-06-12 11:57:03 INFO  NewRequestPage:166 - Clicked on Add button
+2018-06-12 11:57:03 INFO  NewRequestPage:218 - Item Names and Qty are stored in a hash map
+2018-06-12 11:57:06 INFO  NewRequestPage:224 - Fetching the no of items added
+2018-06-12 12:02:29 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 12:02:29 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 12:02:29 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 12:02:30 INFO  HomePage:79 - OTP entered0000
+2018-06-12 12:02:30 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 12:02:33 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 12:02:34 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 12:02:34 INFO  NewRequestPage:98 - Itemselected from the Request Type dropdown
+2018-06-12 12:02:35 INFO  NewRequestPage:113 - 000 selected from the Ref Branch dropdown
+2018-06-12 12:02:38 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:02:38 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:02:38 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:02:38 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:02:38 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:02:38 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:02:38 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:02:38 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:02:38 INFO  NewRequestPage:137 - Clicked on the searched Product Name : Item 2
+2018-06-12 12:02:40 INFO  NewRequestPage:149 - Qty entered in the Qty field : 5
+2018-06-12 12:02:40 INFO  NewRequestPage:166 - Clicked on Add button
+2018-06-12 12:02:43 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:02:43 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:02:43 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:02:43 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:02:43 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:02:43 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:02:43 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:02:43 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:02:43 INFO  NewRequestPage:137 - Clicked on the searched Product Name : Item 3
+2018-06-12 12:02:45 INFO  NewRequestPage:149 - Qty entered in the Qty field : 4
+2018-06-12 12:02:45 INFO  NewRequestPage:166 - Clicked on Add button
+2018-06-12 12:02:46 INFO  NewRequestPage:218 - Item Names and Qty are stored in a hash map
+2018-06-12 12:02:49 INFO  NewRequestPage:224 - Fetching the no of items added
+2018-06-12 12:29:15 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 12:29:15 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 12:29:15 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 12:29:16 INFO  HomePage:79 - OTP entered0000
+2018-06-12 12:29:16 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 12:29:19 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 12:29:21 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 12:29:21 INFO  NewRequestPage:98 - Itemselected from the Request Type dropdown
+2018-06-12 12:29:21 INFO  NewRequestPage:113 - 000 selected from the Ref Branch dropdown
+2018-06-12 12:29:24 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:29:24 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:29:24 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:29:24 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:29:24 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:29:24 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:29:24 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:29:24 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:29:24 INFO  NewRequestPage:137 - Clicked on the searched Product Name : Item 2
+2018-06-12 12:29:26 INFO  NewRequestPage:149 - Qty entered in the Qty field : 5
+2018-06-12 12:29:26 INFO  NewRequestPage:166 - Clicked on Add button
+2018-06-12 12:29:30 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:29:30 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:29:30 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:29:30 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:29:30 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:29:30 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:29:30 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:29:30 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:29:30 INFO  NewRequestPage:137 - Clicked on the searched Product Name : Item 3
+2018-06-12 12:29:32 INFO  NewRequestPage:149 - Qty entered in the Qty field : 4
+2018-06-12 12:29:32 INFO  NewRequestPage:166 - Clicked on Add button
+2018-06-12 12:29:32 INFO  NewRequestPage:218 - Item Names and Qty are stored in a hash map
+2018-06-12 12:29:35 INFO  NewRequestPage:224 - Fetching the no of items added
+2018-06-12 12:31:45 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 12:31:46 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 12:31:46 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 12:31:46 INFO  HomePage:79 - OTP entered0000
+2018-06-12 12:31:46 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 12:31:50 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 12:31:51 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 12:31:51 INFO  NewRequestPage:98 - Itemselected from the Request Type dropdown
+2018-06-12 12:31:51 INFO  NewRequestPage:113 - 000 selected from the Ref Branch dropdown
+2018-06-12 12:31:54 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:31:54 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:31:54 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:31:54 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:31:54 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:31:54 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:31:54 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:31:54 INFO  NewRequestPage:140 - Item 2 not found in Search List
+2018-06-12 12:31:54 INFO  NewRequestPage:137 - Clicked on the searched Product Name : Item 2
+2018-06-12 12:31:57 INFO  NewRequestPage:149 - Qty entered in the Qty field : 5
+2018-06-12 12:31:57 INFO  NewRequestPage:166 - Clicked on Add button
+2018-06-12 12:32:00 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:32:00 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:32:00 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:32:00 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:32:00 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:32:00 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:32:00 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:32:00 INFO  NewRequestPage:140 - Item 3 not found in Search List
+2018-06-12 12:32:00 INFO  NewRequestPage:137 - Clicked on the searched Product Name : Item 3
+2018-06-12 12:32:02 INFO  NewRequestPage:149 - Qty entered in the Qty field : 4
+2018-06-12 12:32:02 INFO  NewRequestPage:166 - Clicked on Add button
+2018-06-12 12:32:03 INFO  NewRequestPage:218 - Item Names and Qty are stored in a hash map
+2018-06-12 12:32:06 INFO  NewRequestPage:224 - Fetching the no of items added
+2018-06-12 12:46:25 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 12:46:26 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 12:46:26 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 12:46:28 INFO  HomePage:79 - OTP entered0000
+2018-06-12 12:46:28 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 12:46:34 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 12:46:37 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 12:46:37 INFO  NewRequestPage:100 - Itemselected from the Request Type dropdown
+2018-06-12 12:46:37 INFO  NewRequestPage:115 - 000 selected from the Ref Branch dropdown
+2018-06-12 12:46:41 INFO  NewRequestPage:142 - Item 2 not found in Search List
+2018-06-12 12:46:41 INFO  NewRequestPage:142 - Item 2 not found in Search List
+2018-06-12 12:46:41 INFO  NewRequestPage:142 - Item 2 not found in Search List
+2018-06-12 12:46:41 INFO  NewRequestPage:142 - Item 2 not found in Search List
+2018-06-12 12:46:41 INFO  NewRequestPage:142 - Item 2 not found in Search List
+2018-06-12 12:46:41 INFO  NewRequestPage:142 - Item 2 not found in Search List
+2018-06-12 12:46:41 INFO  NewRequestPage:142 - Item 2 not found in Search List
+2018-06-12 12:46:41 INFO  NewRequestPage:142 - Item 2 not found in Search List
+2018-06-12 12:46:41 INFO  NewRequestPage:139 - Clicked on the searched Product Name : Item 2
+2018-06-12 12:46:43 INFO  NewRequestPage:151 - Qty entered in the Qty field : 5
+2018-06-12 12:46:43 INFO  NewRequestPage:180 - Clicked on Add button
+2018-06-12 12:46:46 INFO  NewRequestPage:142 - Item 3 not found in Search List
+2018-06-12 12:46:46 INFO  NewRequestPage:142 - Item 3 not found in Search List
+2018-06-12 12:46:46 INFO  NewRequestPage:142 - Item 3 not found in Search List
+2018-06-12 12:46:46 INFO  NewRequestPage:142 - Item 3 not found in Search List
+2018-06-12 12:46:46 INFO  NewRequestPage:142 - Item 3 not found in Search List
+2018-06-12 12:46:46 INFO  NewRequestPage:142 - Item 3 not found in Search List
+2018-06-12 12:46:46 INFO  NewRequestPage:142 - Item 3 not found in Search List
+2018-06-12 12:46:46 INFO  NewRequestPage:142 - Item 3 not found in Search List
+2018-06-12 12:46:46 INFO  NewRequestPage:142 - Item 3 not found in Search List
+2018-06-12 12:47:28 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 12:47:28 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 12:47:28 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 12:47:29 INFO  HomePage:79 - OTP entered0000
+2018-06-12 12:47:29 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 12:47:32 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 12:47:33 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 12:47:33 INFO  NewRequestPage:100 - Itemselected from the Request Type dropdown
+2018-06-12 12:47:34 INFO  NewRequestPage:115 - 000 selected from the Ref Branch dropdown
+2018-06-12 12:47:37 INFO  NewRequestPage:142 - Item 2 not found in Search List
+2018-06-12 12:47:37 INFO  NewRequestPage:142 - Item 2 not found in Search List
+2018-06-12 12:47:37 INFO  NewRequestPage:142 - Item 2 not found in Search List
+2018-06-12 12:47:37 INFO  NewRequestPage:142 - Item 2 not found in Search List
+2018-06-12 12:47:37 INFO  NewRequestPage:142 - Item 2 not found in Search List
+2018-06-12 12:47:37 INFO  NewRequestPage:142 - Item 2 not found in Search List
+2018-06-12 12:47:37 INFO  NewRequestPage:142 - Item 2 not found in Search List
+2018-06-12 12:47:37 INFO  NewRequestPage:142 - Item 2 not found in Search List
+2018-06-12 12:47:37 INFO  NewRequestPage:139 - Clicked on the searched Product Name : Item 2
+2018-06-12 12:47:39 INFO  NewRequestPage:151 - Qty entered in the Qty field : 5
+2018-06-12 12:47:39 INFO  NewRequestPage:180 - Clicked on Add button
+2018-06-12 12:47:42 INFO  NewRequestPage:142 - Item 3 not found in Search List
+2018-06-12 12:47:42 INFO  NewRequestPage:142 - Item 3 not found in Search List
+2018-06-12 12:47:42 INFO  NewRequestPage:142 - Item 3 not found in Search List
+2018-06-12 12:47:42 INFO  NewRequestPage:142 - Item 3 not found in Search List
+2018-06-12 12:47:42 INFO  NewRequestPage:142 - Item 3 not found in Search List
+2018-06-12 12:47:42 INFO  NewRequestPage:142 - Item 3 not found in Search List
+2018-06-12 12:47:42 INFO  NewRequestPage:142 - Item 3 not found in Search List
+2018-06-12 12:47:42 INFO  NewRequestPage:142 - Item 3 not found in Search List
+2018-06-12 12:47:42 INFO  NewRequestPage:139 - Clicked on the searched Product Name : Item 3
+2018-06-12 12:47:44 INFO  NewRequestPage:151 - Qty entered in the Qty field : 4
+2018-06-12 12:47:44 INFO  NewRequestPage:180 - Clicked on Add button
+2018-06-12 12:47:45 INFO  NewRequestPage:232 - Item Names and Qty are stored in a hash map
+2018-06-12 12:47:48 INFO  NewRequestPage:238 - Fetching the no of items added
+2018-06-12 12:47:51 INFO  NewRequestPage:243 - Increasing the Qty +2 for the item number1
+2018-06-12 12:56:28 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 12:56:28 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 12:56:29 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 12:56:33 INFO  HomePage:79 - OTP entered0000
+2018-06-12 12:56:33 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 12:56:50 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 12:56:53 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 12:56:53 INFO  NewRequestPage:103 - Itemselected from the Request Type dropdown
+2018-06-12 12:56:53 INFO  NewRequestPage:118 - 000 selected from the Ref Branch dropdown
+2018-06-12 12:56:56 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 12:56:56 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 12:56:56 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 12:56:56 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 12:56:56 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 12:56:56 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 12:56:56 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 12:56:56 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 12:56:56 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 2
+2018-06-12 12:56:59 INFO  NewRequestPage:154 - Qty entered in the Qty field : 5
+2018-06-12 12:56:59 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 12:57:02 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 12:57:02 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 12:57:02 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 12:57:02 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 12:57:02 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 12:57:02 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 12:57:02 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 12:57:02 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 12:57:02 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 3
+2018-06-12 12:57:04 INFO  NewRequestPage:154 - Qty entered in the Qty field : 4
+2018-06-12 12:57:04 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 12:57:04 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 12:57:07 INFO  NewRequestPage:246 - Fetching the no of items added
+2018-06-12 12:57:11 INFO  NewRequestPage:251 - Increasing the Qty +2 for the item number1
+2018-06-12 12:57:11 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 12:58:33 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 12:58:33 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 12:58:33 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 12:58:34 INFO  HomePage:79 - OTP entered0000
+2018-06-12 12:58:34 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 12:58:37 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 12:58:38 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 12:58:38 INFO  NewRequestPage:103 - Itemselected from the Request Type dropdown
+2018-06-12 12:58:39 INFO  NewRequestPage:118 - 000 selected from the Ref Branch dropdown
+2018-06-12 12:58:42 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 12:58:42 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 12:58:42 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 12:58:42 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 12:58:42 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 12:58:42 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 12:58:42 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 12:58:42 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 12:58:42 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 2
+2018-06-12 12:58:44 INFO  NewRequestPage:154 - Qty entered in the Qty field : 5
+2018-06-12 12:58:44 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 12:58:47 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 12:58:47 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 12:58:47 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 12:58:47 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 12:58:47 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 12:58:47 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 12:58:47 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 12:58:47 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 12:58:47 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 3
+2018-06-12 12:58:49 INFO  NewRequestPage:154 - Qty entered in the Qty field : 4
+2018-06-12 12:58:49 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 12:58:50 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 12:58:53 INFO  NewRequestPage:246 - Fetching the no of items added
+2018-06-12 12:58:57 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number1
+2018-06-12 12:58:57 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 12:59:01 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number2
+2018-06-12 12:59:01 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 12:59:01 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 13:40:25 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 13:40:26 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 13:40:26 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 13:40:27 INFO  HomePage:79 - OTP entered0000
+2018-06-12 13:40:27 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 13:40:30 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 13:40:31 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 13:40:31 INFO  NewRequestPage:103 - Itemselected from the Request Type dropdown
+2018-06-12 13:40:31 INFO  NewRequestPage:118 - 000 selected from the Ref Branch dropdown
+2018-06-12 13:40:34 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:40:34 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:40:34 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:40:34 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:40:34 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:40:34 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:40:34 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:40:34 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:40:34 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 2
+2018-06-12 13:40:37 INFO  NewRequestPage:154 - Qty entered in the Qty field : 5
+2018-06-12 13:40:37 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 13:40:40 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:40:40 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:40:40 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:40:40 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:40:40 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:40:40 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:40:40 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:40:40 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:40:40 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 3
+2018-06-12 13:40:42 INFO  NewRequestPage:154 - Qty entered in the Qty field : 4
+2018-06-12 13:40:42 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 13:40:42 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 13:40:45 INFO  NewRequestPage:246 - Fetching the no of items added
+2018-06-12 13:40:50 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number : 1
+2018-06-12 13:40:50 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 13:40:54 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number : 2
+2018-06-12 13:40:54 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 13:40:54 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 13:45:32 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 13:45:32 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 13:45:32 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 13:45:40 INFO  HomePage:79 - OTP entered0000
+2018-06-12 13:45:40 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 13:45:57 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 13:46:01 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 13:46:01 INFO  NewRequestPage:103 - Itemselected from the Request Type dropdown
+2018-06-12 13:46:02 INFO  NewRequestPage:118 - 000 selected from the Ref Branch dropdown
+2018-06-12 13:46:05 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:46:05 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:46:05 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:46:05 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:46:05 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:46:05 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:46:05 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:46:05 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:46:05 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 2
+2018-06-12 13:46:07 INFO  NewRequestPage:154 - Qty entered in the Qty field : 5
+2018-06-12 13:46:07 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 13:46:10 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:46:10 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:46:10 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:46:10 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:46:10 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:46:10 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:46:10 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:46:10 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:46:10 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 3
+2018-06-12 13:46:12 INFO  NewRequestPage:154 - Qty entered in the Qty field : 4
+2018-06-12 13:46:13 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 13:46:13 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 13:46:16 INFO  NewRequestPage:246 - Fetching the no of items added
+2018-06-12 13:46:20 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number : 1
+2018-06-12 13:46:20 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 13:46:25 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number : 2
+2018-06-12 13:46:25 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 13:46:25 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 13:48:58 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 13:48:59 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 13:48:59 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 13:49:00 INFO  HomePage:79 - OTP entered0000
+2018-06-12 13:49:00 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 13:49:03 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 13:49:04 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 13:49:04 INFO  NewRequestPage:103 - Itemselected from the Request Type dropdown
+2018-06-12 13:49:05 INFO  NewRequestPage:118 - 000 selected from the Ref Branch dropdown
+2018-06-12 13:49:05 INFO  NewRequestPage:124 - Information Technology selected from the Cost Center dropdown
+2018-06-12 13:49:08 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:49:08 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:49:08 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:49:08 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:49:08 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:49:08 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:49:08 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:49:08 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:49:08 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 2
+2018-06-12 13:49:10 INFO  NewRequestPage:154 - Qty entered in the Qty field : 5
+2018-06-12 13:49:10 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 13:49:13 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:49:13 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:49:13 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:49:13 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:49:13 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:49:13 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:49:13 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:49:13 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:49:13 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 3
+2018-06-12 13:49:16 INFO  NewRequestPage:154 - Qty entered in the Qty field : 4
+2018-06-12 13:49:16 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 13:49:16 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 13:49:19 INFO  NewRequestPage:246 - Fetching the no of items added
+2018-06-12 13:49:23 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number : 1
+2018-06-12 13:49:23 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 13:49:27 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number : 2
+2018-06-12 13:49:28 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 13:49:28 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 13:49:34 INFO  HomePage:100 - Clicked on the Menu option : HOME
+2018-06-12 13:52:45 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 13:52:45 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 13:52:46 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 13:52:46 INFO  HomePage:79 - OTP entered0000
+2018-06-12 13:52:46 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 13:52:50 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 13:52:51 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 13:52:51 INFO  NewRequestPage:103 - Itemselected from the Request Type dropdown
+2018-06-12 13:52:51 INFO  NewRequestPage:118 - 000 selected from the Ref Branch dropdown
+2018-06-12 13:52:51 INFO  NewRequestPage:124 - Information Technology selected from the Cost Center dropdown
+2018-06-12 13:52:55 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:52:55 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:52:55 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:52:55 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:52:55 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:52:55 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:52:55 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:52:55 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:52:55 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 2
+2018-06-12 13:52:57 INFO  NewRequestPage:154 - Qty entered in the Qty field : 5
+2018-06-12 13:52:57 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 13:53:00 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:53:00 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:53:00 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:53:00 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:53:00 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:53:00 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:53:00 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:53:00 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:53:00 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 3
+2018-06-12 13:53:02 INFO  NewRequestPage:154 - Qty entered in the Qty field : 4
+2018-06-12 13:53:02 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 13:53:03 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 13:53:06 INFO  NewRequestPage:246 - Fetching the no of items added
+2018-06-12 13:53:10 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number : 1
+2018-06-12 13:53:10 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 13:53:14 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number : 2
+2018-06-12 13:53:14 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 13:53:14 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 13:56:33 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 13:56:33 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 13:56:33 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 13:56:36 INFO  HomePage:79 - OTP entered0000
+2018-06-12 13:56:36 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 13:56:44 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 13:56:47 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 13:56:47 INFO  NewRequestPage:103 - Itemselected from the Request Type dropdown
+2018-06-12 13:56:48 INFO  NewRequestPage:118 - 000 selected from the Ref Branch dropdown
+2018-06-12 13:56:48 INFO  NewRequestPage:124 - Information Technology selected from the Cost Center dropdown
+2018-06-12 13:56:51 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:56:51 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:56:51 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:56:51 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:56:51 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:56:51 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:56:51 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:56:51 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:56:51 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 2
+2018-06-12 13:56:53 INFO  NewRequestPage:154 - Qty entered in the Qty field : 5
+2018-06-12 13:56:53 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 13:56:56 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:56:56 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:56:56 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:56:56 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:56:56 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:56:56 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:56:56 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:56:56 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:56:57 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 3
+2018-06-12 13:56:59 INFO  NewRequestPage:154 - Qty entered in the Qty field : 4
+2018-06-12 13:56:59 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 13:56:59 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 13:57:02 INFO  NewRequestPage:246 - Fetching the no of items added
+2018-06-12 13:57:06 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number : 1
+2018-06-12 13:57:06 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 13:57:11 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number : 2
+2018-06-12 13:57:11 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 13:57:11 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 13:58:08 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 13:58:08 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 13:58:08 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 13:58:09 INFO  HomePage:79 - OTP entered0000
+2018-06-12 13:58:09 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 13:58:12 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 13:58:13 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 13:58:13 INFO  NewRequestPage:103 - Itemselected from the Request Type dropdown
+2018-06-12 13:58:13 INFO  NewRequestPage:118 - 000 selected from the Ref Branch dropdown
+2018-06-12 13:58:14 INFO  NewRequestPage:124 - Information Technology selected from the Cost Center dropdown
+2018-06-12 13:58:17 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:58:17 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:58:17 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:58:17 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:58:17 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:58:17 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:58:17 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:58:17 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:58:17 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 2
+2018-06-12 13:58:19 INFO  NewRequestPage:154 - Qty entered in the Qty field : 5
+2018-06-12 13:58:19 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 13:58:22 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:58:22 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:58:22 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:58:22 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:58:22 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:58:22 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:58:22 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:58:22 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:58:22 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 3
+2018-06-12 13:58:25 INFO  NewRequestPage:154 - Qty entered in the Qty field : 4
+2018-06-12 13:58:25 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 13:58:25 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 13:58:28 INFO  NewRequestPage:246 - Fetching the no of items added
+2018-06-12 13:58:32 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number : 1
+2018-06-12 13:58:32 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 13:58:36 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number : 2
+2018-06-12 13:58:36 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 13:58:37 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 13:59:23 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 13:59:23 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 13:59:24 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 13:59:24 INFO  HomePage:79 - OTP entered0000
+2018-06-12 13:59:25 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 13:59:28 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 13:59:30 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 13:59:30 INFO  NewRequestPage:103 - Itemselected from the Request Type dropdown
+2018-06-12 13:59:30 INFO  NewRequestPage:118 - 000 selected from the Ref Branch dropdown
+2018-06-12 13:59:30 INFO  NewRequestPage:124 - Information Technology selected from the Cost Center dropdown
+2018-06-12 13:59:33 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:59:33 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:59:33 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:59:33 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:59:33 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:59:33 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:59:33 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:59:33 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 13:59:33 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 2
+2018-06-12 13:59:35 INFO  NewRequestPage:154 - Qty entered in the Qty field : 5
+2018-06-12 13:59:35 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 13:59:39 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:59:39 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:59:39 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:59:39 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:59:39 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:59:39 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:59:39 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:59:39 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 13:59:39 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 3
+2018-06-12 13:59:41 INFO  NewRequestPage:154 - Qty entered in the Qty field : 4
+2018-06-12 13:59:41 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 13:59:41 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 13:59:44 INFO  NewRequestPage:246 - Fetching the no of items added
+2018-06-12 13:59:48 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number : 1
+2018-06-12 13:59:48 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 13:59:53 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number : 2
+2018-06-12 13:59:53 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 13:59:53 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 14:00:14 INFO  NewRequestPage:214 - Clicked on Submit button
+2018-06-12 14:00:17 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 14:00:17 INFO  NewRequestPage:103 - Itemselected from the Request Type dropdown
+2018-06-12 14:00:17 INFO  NewRequestPage:118 - 000 selected from the Ref Branch dropdown
+2018-06-12 14:00:17 INFO  NewRequestPage:124 - Information Technology selected from the Cost Center dropdown
+2018-06-12 14:00:21 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:00:21 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:00:21 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:00:21 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:00:21 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:00:21 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:00:21 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:00:21 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:00:21 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 2
+2018-06-12 14:00:23 INFO  NewRequestPage:154 - Qty entered in the Qty field : 5
+2018-06-12 14:00:23 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 14:00:26 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:00:26 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:00:26 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:00:26 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:00:26 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:00:26 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:00:26 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:00:26 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:00:26 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 3
+2018-06-12 14:00:28 INFO  NewRequestPage:154 - Qty entered in the Qty field : 4
+2018-06-12 14:00:28 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 14:00:29 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 14:00:32 INFO  NewRequestPage:246 - Fetching the no of items added
+2018-06-12 14:00:36 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number : 1
+2018-06-12 14:00:36 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 14:00:40 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number : 2
+2018-06-12 14:00:40 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 14:00:40 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 14:01:33 INFO  TC004_VerifyQtyFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 14:01:33 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 14:01:33 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 14:01:34 INFO  HomePage:79 - OTP entered0000
+2018-06-12 14:01:34 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 14:01:37 INFO  TC004_VerifyQtyFieldAfterUpdate:25 - Login Successfull
+2018-06-12 14:01:38 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 14:01:38 INFO  NewRequestPage:103 - Itemselected from the Request Type dropdown
+2018-06-12 14:01:38 INFO  NewRequestPage:118 - 000 selected from the Ref Branch dropdown
+2018-06-12 14:01:39 INFO  NewRequestPage:124 - Information Technology selected from the Cost Center dropdown
+2018-06-12 14:01:42 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:01:42 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:01:42 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:01:42 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:01:42 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:01:42 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:01:42 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:01:42 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:01:42 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 2
+2018-06-12 14:01:44 INFO  NewRequestPage:154 - Qty entered in the Qty field : 5
+2018-06-12 14:01:44 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 14:01:47 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:01:47 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:01:47 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:01:47 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:01:47 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:01:47 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:01:47 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:01:47 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:01:47 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 3
+2018-06-12 14:01:49 INFO  NewRequestPage:154 - Qty entered in the Qty field : 4
+2018-06-12 14:01:50 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 14:01:50 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 14:01:53 INFO  NewRequestPage:246 - Fetching the no of items added
+2018-06-12 14:01:57 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number : 1
+2018-06-12 14:01:57 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 14:02:01 INFO  NewRequestPage:252 - Increasing the Qty +2 for the item number : 2
+2018-06-12 14:02:01 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 14:02:02 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 14:02:23 INFO  NewRequestPage:214 - Clicked on Submit button
+2018-06-12 14:02:26 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 14:02:26 INFO  NewRequestPage:103 - Itemselected from the Request Type dropdown
+2018-06-12 14:02:26 INFO  NewRequestPage:118 - 000 selected from the Ref Branch dropdown
+2018-06-12 14:02:26 INFO  NewRequestPage:124 - Information Technology selected from the Cost Center dropdown
+2018-06-12 14:02:30 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:02:30 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:02:30 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:02:30 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:02:30 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:02:30 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:02:30 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:02:30 INFO  NewRequestPage:145 - Item 2 not found in Search List
+2018-06-12 14:02:30 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 2
+2018-06-12 14:02:32 INFO  NewRequestPage:154 - Qty entered in the Qty field : 5
+2018-06-12 14:02:32 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 14:02:35 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:02:35 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:02:35 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:02:35 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:02:35 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:02:35 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:02:35 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:02:35 INFO  NewRequestPage:145 - Item 3 not found in Search List
+2018-06-12 14:02:35 INFO  NewRequestPage:142 - Clicked on the searched Product Name : Item 3
+2018-06-12 14:02:37 INFO  NewRequestPage:154 - Qty entered in the Qty field : 4
+2018-06-12 14:02:37 INFO  NewRequestPage:183 - Clicked on Add button
+2018-06-12 14:02:38 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 14:02:41 INFO  NewRequestPage:259 - Fetching the no of items added
+2018-06-12 14:02:45 INFO  NewRequestPage:265 - Decreasing the Qty +2 for the item number : 1
+2018-06-12 14:02:45 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 14:02:49 INFO  NewRequestPage:265 - Decreasing the Qty +2 for the item number : 2
+2018-06-12 14:02:49 INFO  NewRequestPage:188 - Clicked on Add button
+2018-06-12 14:02:49 INFO  NewRequestPage:240 - Item Names and Qty are stored in a hash map
+2018-06-12 14:24:22 INFO  TC005_VerifyPriceField:21 - Initializing Setup
+2018-06-12 14:24:22 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 14:24:22 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 14:24:23 INFO  HomePage:79 - OTP entered0000
+2018-06-12 14:24:23 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 14:24:25 INFO  TC005_VerifyPriceField:25 - Login Successfull
+2018-06-12 14:24:27 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 14:24:27 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-12 14:24:27 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-12 14:24:27 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-12 14:24:30 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:24:30 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:24:30 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:24:30 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:24:30 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:24:30 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:24:30 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:24:31 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:24:31 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-12 14:24:33 INFO  NewRequestPage:176 - Price entered in the Price field : 5000
+2018-06-12 14:24:33 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:24:36 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:24:36 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:24:36 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:24:36 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:24:36 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:24:36 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:24:36 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:24:36 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:24:36 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 3
+2018-06-12 14:24:38 INFO  NewRequestPage:176 - Price entered in the Price field : 8000
+2018-06-12 14:24:38 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:24:38 INFO  NewRequestPage:268 - Item Names and Qty are stored in a hash map
+2018-06-12 14:28:21 INFO  TC005_VerifyPriceField:21 - Initializing Setup
+2018-06-12 14:28:21 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 14:28:21 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 14:28:22 INFO  HomePage:79 - OTP entered0000
+2018-06-12 14:28:22 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 14:28:26 INFO  TC005_VerifyPriceField:25 - Login Successfull
+2018-06-12 14:28:28 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 14:28:28 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-12 14:28:28 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-12 14:28:28 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-12 14:28:31 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:28:31 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:28:31 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:28:31 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:28:31 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:28:31 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:28:31 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:28:31 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:28:31 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-12 14:28:33 INFO  NewRequestPage:176 - Price entered in the Price field : 5000
+2018-06-12 14:28:33 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:28:37 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:28:37 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:28:37 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:28:37 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:28:37 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:28:37 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:28:37 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:28:37 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:28:37 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 3
+2018-06-12 14:28:39 INFO  NewRequestPage:176 - Price entered in the Price field : 8000
+2018-06-12 14:28:39 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:31:06 INFO  TC005_VerifyPriceField:21 - Initializing Setup
+2018-06-12 14:31:06 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 14:31:07 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 14:31:07 INFO  HomePage:79 - OTP entered0000
+2018-06-12 14:31:07 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 14:31:16 INFO  TC005_VerifyPriceField:25 - Login Successfull
+2018-06-12 14:31:18 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 14:31:18 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-12 14:31:18 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-12 14:31:18 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-12 14:31:21 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:31:21 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:31:21 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:31:21 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:31:21 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:31:21 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:31:21 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:31:21 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:31:21 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-12 14:31:23 INFO  NewRequestPage:176 - Price entered in the Price field : 5000
+2018-06-12 14:31:23 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:31:26 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:31:27 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:31:27 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:31:27 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:31:27 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:31:27 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:31:27 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:31:27 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:31:27 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 3
+2018-06-12 14:31:29 INFO  NewRequestPage:176 - Price entered in the Price field : 8000
+2018-06-12 14:31:29 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:33:05 INFO  TC005_VerifyPriceField:21 - Initializing Setup
+2018-06-12 14:33:05 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 14:33:05 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 14:33:06 INFO  HomePage:79 - OTP entered0000
+2018-06-12 14:33:06 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 14:33:09 INFO  TC005_VerifyPriceField:25 - Login Successfull
+2018-06-12 14:33:10 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 14:33:10 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-12 14:33:10 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-12 14:33:10 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-12 14:33:13 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:33:13 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:33:13 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:33:13 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:33:13 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:33:13 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:33:13 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:33:13 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:33:14 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-12 14:33:16 INFO  NewRequestPage:176 - Price entered in the Price field : 5000
+2018-06-12 14:33:16 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:33:19 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:33:19 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:33:19 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:33:19 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:33:19 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:33:19 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:33:19 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:33:19 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:33:19 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 3
+2018-06-12 14:33:21 INFO  NewRequestPage:176 - Price entered in the Price field : 8000
+2018-06-12 14:33:21 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:33:21 INFO  NewRequestPage:286 - Item Names and Qty are stored in a hash map
+2018-06-12 14:34:00 INFO  TC005_VerifyPriceField:21 - Initializing Setup
+2018-06-12 14:34:00 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 14:34:00 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 14:34:01 INFO  HomePage:79 - OTP entered0000
+2018-06-12 14:34:01 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 14:34:04 INFO  TC005_VerifyPriceField:25 - Login Successfull
+2018-06-12 14:34:05 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 14:34:05 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-12 14:34:05 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-12 14:34:05 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-12 14:34:09 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:34:09 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:34:09 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:34:09 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:34:09 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:34:09 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:34:09 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:34:09 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:34:09 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-12 14:34:11 INFO  NewRequestPage:176 - Price entered in the Price field : 5000
+2018-06-12 14:34:11 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:34:14 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:34:14 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:34:14 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:34:14 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:34:14 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:34:14 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:34:14 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:34:14 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:34:14 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 3
+2018-06-12 14:34:16 INFO  NewRequestPage:176 - Price entered in the Price field : 8000
+2018-06-12 14:34:16 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:34:22 INFO  NewRequestPage:286 - Item Names and Qty are stored in a hash map
+2018-06-12 14:35:50 INFO  TC005_VerifyPriceField:21 - Initializing Setup
+2018-06-12 14:35:50 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 14:35:50 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 14:35:57 INFO  HomePage:79 - OTP entered0000
+2018-06-12 14:35:57 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 14:36:05 INFO  TC005_VerifyPriceField:25 - Login Successfull
+2018-06-12 14:36:08 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 14:36:08 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-12 14:36:08 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-12 14:36:08 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-12 14:36:11 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:36:11 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:36:11 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:36:11 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:36:11 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:36:11 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:36:11 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:36:11 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:36:11 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-12 14:36:13 INFO  NewRequestPage:176 - Price entered in the Price field : 5000
+2018-06-12 14:36:14 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:36:17 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:36:17 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:36:17 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:36:17 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:36:17 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:36:17 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:36:17 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:36:17 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:36:17 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 3
+2018-06-12 14:36:19 INFO  NewRequestPage:176 - Price entered in the Price field : 8000
+2018-06-12 14:36:19 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:36:24 INFO  NewRequestPage:286 - Item Names and Qty are stored in a hash map
+2018-06-12 14:38:12 INFO  TC005_VerifyPriceField:21 - Initializing Setup
+2018-06-12 14:38:12 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 14:38:12 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 14:38:13 INFO  HomePage:79 - OTP entered0000
+2018-06-12 14:38:13 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 14:38:16 INFO  TC005_VerifyPriceField:25 - Login Successfull
+2018-06-12 14:38:17 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 14:38:17 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-12 14:38:17 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-12 14:38:17 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-12 14:38:20 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:38:20 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:38:20 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:38:20 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:38:20 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:38:20 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:38:21 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:38:21 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:38:21 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-12 14:38:23 INFO  NewRequestPage:176 - Price entered in the Price field : 5000
+2018-06-12 14:38:23 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:38:26 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:38:26 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:38:26 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:38:26 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:38:26 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:38:26 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:38:26 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:38:26 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:38:26 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 3
+2018-06-12 14:38:28 INFO  NewRequestPage:176 - Price entered in the Price field : 8000
+2018-06-12 14:38:28 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:38:33 INFO  NewRequestPage:288 - Item Names and Qty are stored in a hash map
+2018-06-12 14:40:48 INFO  TC005_VerifyPriceField:21 - Initializing Setup
+2018-06-12 14:40:48 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 14:40:48 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 14:40:49 INFO  HomePage:79 - OTP entered0000
+2018-06-12 14:40:49 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 14:40:52 INFO  TC005_VerifyPriceField:25 - Login Successfull
+2018-06-12 14:40:53 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 14:40:54 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-12 14:40:54 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-12 14:40:54 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-12 14:40:57 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:40:57 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:40:57 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:40:57 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:40:57 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:40:57 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:40:57 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:40:57 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:40:57 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-12 14:40:59 INFO  NewRequestPage:176 - Price entered in the Price field : 5000
+2018-06-12 14:40:59 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:41:02 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:41:02 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:41:02 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:41:03 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:41:03 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:41:03 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:41:03 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:41:03 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:41:03 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 3
+2018-06-12 14:41:05 INFO  NewRequestPage:176 - Price entered in the Price field : 8000
+2018-06-12 14:41:05 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:41:10 INFO  NewRequestPage:285 - Item Names and Qty are stored in a hash map
+2018-06-12 14:42:04 INFO  TC005_VerifyPriceField:21 - Initializing Setup
+2018-06-12 14:42:04 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 14:42:04 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 14:42:05 INFO  HomePage:79 - OTP entered0000
+2018-06-12 14:42:05 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 14:42:08 INFO  TC005_VerifyPriceField:25 - Login Successfull
+2018-06-12 14:42:09 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 14:42:09 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-12 14:42:09 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-12 14:42:09 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-12 14:42:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:42:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:42:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:42:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:42:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:42:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:42:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:42:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:42:12 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-12 14:42:15 INFO  NewRequestPage:176 - Price entered in the Price field : 5000
+2018-06-12 14:42:15 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:42:18 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:42:18 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:42:18 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:42:18 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:42:18 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:42:18 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:42:18 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:42:18 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:42:18 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 3
+2018-06-12 14:42:20 INFO  NewRequestPage:176 - Price entered in the Price field : 8000
+2018-06-12 14:42:20 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:42:25 INFO  NewRequestPage:285 - Item Names and Qty are stored in a hash map
+2018-06-12 14:50:12 INFO  TC005_VerifyPriceField:21 - Initializing Setup
+2018-06-12 14:50:12 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 14:50:12 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 14:50:13 INFO  HomePage:79 - OTP entered0000
+2018-06-12 14:50:13 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 14:50:16 INFO  TC005_VerifyPriceField:25 - Login Successfull
+2018-06-12 14:50:18 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 14:50:18 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-12 14:50:18 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-12 14:50:18 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-12 14:50:21 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:50:21 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:50:21 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:50:21 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:50:21 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:50:21 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:50:21 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:50:21 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 14:50:21 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-12 14:50:23 INFO  NewRequestPage:176 - Price entered in the Price field : 5000
+2018-06-12 14:50:24 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:50:27 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:50:27 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:50:27 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:50:27 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:50:27 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:50:27 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:50:27 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:50:27 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 14:50:27 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 3
+2018-06-12 14:50:29 INFO  NewRequestPage:176 - Price entered in the Price field : 8000
+2018-06-12 14:50:29 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 14:50:34 INFO  NewRequestPage:285 - Item Names and Qty are stored in a hash map
+2018-06-12 15:11:33 INFO  TC006_VerifyPriceFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 15:11:34 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 15:11:34 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 15:11:35 INFO  HomePage:79 - OTP entered0000
+2018-06-12 15:11:35 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 15:11:38 INFO  TC006_VerifyPriceFieldAfterUpdate:25 - Login Successfull
+2018-06-12 15:11:39 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 15:11:39 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-12 15:11:39 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-12 15:11:39 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-12 15:11:43 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:11:43 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:11:43 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:11:43 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:11:43 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:11:43 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:11:43 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:11:43 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:11:43 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-12 15:11:45 INFO  NewRequestPage:176 - Price entered in the Price field : 5000
+2018-06-12 15:11:45 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 15:11:48 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 15:11:48 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 15:11:48 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 15:11:48 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 15:11:48 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 15:11:48 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 15:11:48 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 15:11:48 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 15:11:48 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 3
+2018-06-12 15:11:50 INFO  NewRequestPage:176 - Price entered in the Price field : 8000
+2018-06-12 15:11:51 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 15:11:56 INFO  NewRequestPage:318 - Fetching the no of items added
+2018-06-12 15:12:00 INFO  NewRequestPage:182 - Price entered in the Price field : 10000
+2018-06-12 15:12:00 INFO  NewRequestPage:324 - Amount updated for the item number : 1
+2018-06-12 15:12:00 INFO  NewRequestPage:216 - Clicked on Add button
+2018-06-12 15:12:04 INFO  NewRequestPage:182 - Price entered in the Price field : 10000
+2018-06-12 15:12:04 INFO  NewRequestPage:324 - Amount updated for the item number : 2
+2018-06-12 15:12:04 INFO  NewRequestPage:216 - Clicked on Add button
+2018-06-12 15:12:04 INFO  NewRequestPage:268 - Item Names and Qty are stored in a hash map
+2018-06-12 15:13:03 INFO  TC006_VerifyPriceFieldAfterUpdate:21 - Initializing Setup
+2018-06-12 15:13:03 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 15:13:04 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 15:13:04 INFO  HomePage:79 - OTP entered0000
+2018-06-12 15:13:04 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 15:13:07 INFO  TC006_VerifyPriceFieldAfterUpdate:25 - Login Successfull
+2018-06-12 15:13:09 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 15:13:09 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-12 15:13:09 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-12 15:13:09 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-12 15:13:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:13:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:13:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:13:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:13:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:13:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:13:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:13:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:13:12 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-12 15:13:14 INFO  NewRequestPage:176 - Price entered in the Price field : 5000
+2018-06-12 15:13:14 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 15:13:18 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 15:13:18 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 15:13:18 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 15:13:18 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 15:13:18 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 15:13:18 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 15:13:18 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 15:13:18 INFO  NewRequestPage:161 - Item 3 not found in Search List
+2018-06-12 15:13:18 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 3
+2018-06-12 15:13:20 INFO  NewRequestPage:176 - Price entered in the Price field : 8000
+2018-06-12 15:13:20 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 15:13:25 INFO  NewRequestPage:318 - Fetching the no of items added
+2018-06-12 15:13:29 INFO  NewRequestPage:182 - Price entered in the Price field : 10000
+2018-06-12 15:13:29 INFO  NewRequestPage:324 - Amount updated for the item number : 1
+2018-06-12 15:13:29 INFO  NewRequestPage:216 - Clicked on Add button
+2018-06-12 15:13:34 INFO  NewRequestPage:182 - Price entered in the Price field : 10000
+2018-06-12 15:13:34 INFO  NewRequestPage:324 - Amount updated for the item number : 2
+2018-06-12 15:13:34 INFO  NewRequestPage:216 - Clicked on Add button
+2018-06-12 15:13:34 INFO  NewRequestPage:285 - Item Names and Qty are stored in a hash map
+2018-06-12 15:26:07 INFO  TC001_VerifyNewRequestFunctionailtyForSingleProduct:22 - Initializing Setup
+2018-06-12 15:26:08 INFO  HomePage:75 - User Mobile Number entered 9967348451
+2018-06-12 15:26:08 INFO  HomePage:77 - Clicked on Send OTP button
+2018-06-12 15:26:17 INFO  HomePage:79 - OTP entered0000
+2018-06-12 15:26:17 INFO  HomePage:81 - Clicked on Verify button
+2018-06-12 15:26:31 INFO  TC001_VerifyNewRequestFunctionailtyForSingleProduct:26 - Login Successfull
+2018-06-12 15:26:33 INFO  HomePage:169 - Fetching the list of PR Numbers for My Request in Grid view : [122, 121, 120, 119]
+2018-06-12 15:26:44 INFO  HomePage:413 - Clicked on New Request button
+2018-06-12 15:26:44 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-12 15:26:44 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-12 15:26:44 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-12 15:26:47 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:26:47 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:26:47 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:26:47 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:26:47 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:26:47 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:26:47 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:26:47 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-12 15:26:47 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-12 15:26:49 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-12 15:27:12 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-12 15:27:17 INFO  HomePage:169 - Fetching the list of PR Numbers for My Request in Grid view : [123, 122, 121, 120]
