@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -81,9 +82,16 @@ public class HomePage extends TestBase{
 		log.info("Clicked on Verify button");
 	}
 	
-	public void doLogOut(){
-		SelectFromAutoSuggestionSearch(": CSQUARE");
-		logoutOKBtn.click();
+	public void doLogOut() throws InterruptedException{
+		List<WebElement> AutoSuggestionItemList = driver.findElements(By.tagName("li"));
+		for(WebElement we : AutoSuggestionItemList){
+			if(we.getText().contains("LOGOUT")){
+				we.click();
+				Thread.sleep(5000);
+				logoutOKBtn.click();
+				break ;
+			}
+		}
 		log.info("Clicked on LogOut button");
 	}
 	
@@ -110,12 +118,16 @@ public class HomePage extends TestBase{
     }
 
 	public void selectAnOptionFromSubMenu(String SubMenuName){
-		List<WebElement> SubMenu = driver.findElements(By.xpath(".//a[@class='submenu']"));
-		for(WebElement we: SubMenu){
-			if(we.getText().contains(SubMenuName)){
-				we.click();
-				log.info("Clicked on the Sub Menu option : "+SubMenuName);
+		try {
+			List<WebElement> SubMenu = driver.findElements(By.xpath(".//a[@class='submenu']"));
+			for(WebElement we: SubMenu){
+				if(we.getText().contains(SubMenuName)){
+					we.click();
+					log.info("Clicked on the Sub Menu option : "+SubMenuName);
+				}
 			}
+		} catch (StaleElementReferenceException e) {
+			e.printStackTrace();
 		}
 	}
 
@@ -133,6 +145,19 @@ public class HomePage extends TestBase{
 		else if(ViewType.equalsIgnoreCase("List")){
 			list.click();
 			log.info("Clicked on "+ViewType+" view");
+		}
+	}
+	
+	public void clickOnPendingNotifications(String linkText){
+		List<WebElement> list = driver.findElements(By.xpath("//a/h4"));
+		for(WebElement we : list){
+			String tempText = we.getText();
+			tempText = tempText.trim().toString();
+			
+			if(tempText.contains(linkText)){
+				we.click();
+				break ;
+			}		
 		}
 	}
 	

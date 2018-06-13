@@ -2,46 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="77702" started-at="2018-06-12T09:56:01Z" finished-at="2018-06-12T09:57:19Z">
+  <suite name="Default suite" duration-ms="201502" started-at="2018-06-13T12:26:40Z" finished-at="2018-06-13T12:30:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="77702" started-at="2018-06-12T09:56:01Z" finished-at="2018-06-12T09:57:19Z">
-      <class name="com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct@61009542]" name="setup" is-config="true" duration-ms="29785" started-at="2018-06-12T15:26:01Z" finished-at="2018-06-12T15:26:31Z">
+    <test name="Default test" duration-ms="201502" started-at="2018-06-13T12:26:40Z" finished-at="2018-06-13T12:30:02Z">
+      <class name="com.c2info.RMS_FinancialApproverTCs.TC001_VerifyUptoFinancialApprovalPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.c2info.RMS_FinancialApproverTCs.TC001_VerifyUptoFinancialApprovalPage@61009542]" name="setup" is-config="true" duration-ms="11057" started-at="2018-06-13T17:56:40Z" finished-at="2018-06-13T17:56:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct@61009542]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2018-06-12T15:26:31Z" finished-at="2018-06-12T15:26:31Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.RMS_FinancialApproverTCs.TC001_VerifyUptoFinancialApprovalPage@61009542]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2018-06-13T17:56:51Z" finished-at="2018-06-13T17:56:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct.verifyNewRequestFunctionality() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.c2info.RMS_FinancialApproverTCs.TC001_VerifyUptoFinancialApprovalPage.verifyUptoCostCenterApprovalFunctionality() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyNewRequestFunctionality()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct@61009542]" name="verifyNewRequestFunctionality" duration-ms="45378" started-at="2018-06-12T15:26:31Z" finished-at="2018-06-12T15:27:17Z">
+        <test-method status="PASS" signature="verifyUptoCostCenterApprovalFunctionality()[pri:0, instance:com.c2info.RMS_FinancialApproverTCs.TC001_VerifyUptoFinancialApprovalPage@61009542]" name="verifyUptoCostCenterApprovalFunctionality" duration-ms="190083" started-at="2018-06-13T17:56:51Z" finished-at="2018-06-13T18:00:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNewRequestFunctionality -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct@61009542]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-06-12T15:27:17Z" finished-at="2018-06-12T15:27:17Z">
+        </test-method> <!-- verifyUptoCostCenterApprovalFunctionality -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.RMS_FinancialApproverTCs.TC001_VerifyUptoFinancialApprovalPage@61009542]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-06-13T18:00:01Z" finished-at="2018-06-13T18:00:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyNewRequestFunctionality status=SUCCESS method=TC001_VerifyNewRequestFunctionailtyForSingleProduct.verifyNewRequestFunctionality()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct@61009542] output={null}]]]>
+                <![CDATA[[TestResult name=verifyUptoCostCenterApprovalFunctionality status=SUCCESS method=TC001_VerifyUptoFinancialApprovalPage.verifyUptoCostCenterApprovalFunctionality()[pri:0, instance:com.c2info.RMS_FinancialApproverTCs.TC001_VerifyUptoFinancialApprovalPage@61009542] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct@61009542]" name="endTest" is-config="true" duration-ms="2527" started-at="2018-06-12T15:27:17Z" finished-at="2018-06-12T15:27:19Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.c2info.RMS_FinancialApproverTCs.TC001_VerifyUptoFinancialApprovalPage@61009542]" name="endTest" is-config="true" duration-ms="343" started-at="2018-06-13T18:00:01Z" finished-at="2018-06-13T18:00:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct -->
+      </class> <!-- com.c2info.RMS_FinancialApproverTCs.TC001_VerifyUptoFinancialApprovalPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

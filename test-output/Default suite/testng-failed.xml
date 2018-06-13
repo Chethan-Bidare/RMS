@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.c2info.RMS_NewRequestTCs.TC006_VerifyPriceFieldAfterUpdate">
+      <class name="com.c2info.RMS_CostCenterApproverTCs.TC001_VerifyUptoCostCenterApprovalFunctionality">
         <methods>
           <include name="beforeMethod"/>
-          <include name="setup"/>
           <include name="endTest"/>
-          <include name="verifyPriceFieldAfterUpdate"/>
+          <include name="setup"/>
+          <include name="verifyUptoCostCenterApprovalFunctionality"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.c2info.RMS_NewRequestTCs.TC006_VerifyPriceFieldAfterUpdate -->
+      </class> <!-- com.c2info.RMS_CostCenterApproverTCs.TC001_VerifyUptoCostCenterApprovalFunctionality -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

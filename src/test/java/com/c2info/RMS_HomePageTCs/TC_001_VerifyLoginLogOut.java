@@ -31,7 +31,7 @@ public class TC_001_VerifyLoginLogOut extends TestBase {
 	
 	
 	@Test(priority=1)
-	public void verifyLogOut(){
+	public void verifyLogOut() throws InterruptedException{
 		HomePage hp = new HomePage();
 		hp.doLogOut();
 		Assert.assertEquals(getPageTitle(),APP.getProperty("LoginPageTitle"));

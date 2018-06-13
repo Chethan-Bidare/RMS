@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 import org.testng.annotations.BeforeClass;
 
 import com.c2info.RMS_TestBase.TestBase;
+import com.c2info.RMS_UIActions.DeskConfirmationPage;
 import com.c2info.RMS_UIActions.HomePage;
 
 import org.testng.annotations.Test;
@@ -20,15 +21,14 @@ public static final Logger log = Logger.getLogger(TC_001_VerifyLoginLogOut.class
 		init();
 		log.info("Initializing Setup");
 		HomePage hp = new HomePage();
-		hp.doLogin(OR.getProperty("Requestor"),OR.getProperty("otp"));
+		hp.doLogin(OR.getProperty("DeskConfirmer"),OR.getProperty("otp"));
 		hp.waitForHomePagetoLoad();
 		
 	}
 	
 	@Test
 	public void check() throws InterruptedException{
-		HomePage hp = new HomePage();
-		hp.ClickOnMenuOption("TRANSACTIONS");
-		Thread.sleep(5000);
+		DeskConfirmationPage dcp = new DeskConfirmationPage();
+		
 	}
 }
