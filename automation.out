@@ -3510,3 +3510,448 @@
 2018-06-13 17:59:38 INFO  HomePage:82 - Clicked on Verify button
 2018-06-13 17:59:43 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
 2018-06-13 17:59:48 INFO  HomePage:126 - Clicked on the Sub Menu option : FINANCIAL APPROVAL LIST
+2018-06-14 10:11:32 INFO  TC_001_VerifyLoginLogOut:23 - Initializing Setup
+2018-06-14 10:11:32 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 10:11:32 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 10:11:34 INFO  HomePage:80 - OTP entered0000
+2018-06-14 10:11:34 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 10:11:38 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 10:12:19 INFO  TC_001_VerifyLoginLogOut:23 - Initializing Setup
+2018-06-14 10:12:19 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 10:12:20 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 10:12:21 INFO  HomePage:80 - OTP entered0000
+2018-06-14 10:12:21 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 10:12:24 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 10:12:25 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 10:12:49 INFO  TC_001_VerifyLoginLogOut:23 - Initializing Setup
+2018-06-14 10:12:49 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 10:12:49 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 10:12:51 INFO  HomePage:80 - OTP entered0000
+2018-06-14 10:12:51 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 10:12:54 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 10:12:55 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 10:13:45 INFO  TC_001_VerifyLoginLogOut:23 - Initializing Setup
+2018-06-14 10:13:45 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 10:13:45 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 10:13:46 INFO  HomePage:80 - OTP entered0000
+2018-06-14 10:13:46 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 10:13:49 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 10:13:51 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 10:26:26 INFO  TC001_VerifyUptoFinancialApprovalPage:30 - Initializing Setup
+2018-06-14 10:26:26 INFO  HomePage:76 - User Mobile Number entered 9967348451
+2018-06-14 10:26:26 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 10:26:27 INFO  TC001_VerifyUptoFinancialApprovalPage:30 - Initializing Setup
+2018-06-14 10:26:27 INFO  HomePage:76 - User Mobile Number entered 9967348451
+2018-06-14 10:26:27 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 10:26:27 INFO  HomePage:80 - OTP entered0000
+2018-06-14 10:26:27 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 10:26:28 INFO  HomePage:80 - OTP entered0000
+2018-06-14 10:26:28 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 10:26:32 INFO  HomePage:438 - Clicked on New Request button
+2018-06-14 10:26:32 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-14 10:26:33 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-14 10:26:33 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-14 10:26:36 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 10:26:36 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 10:26:36 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 10:26:36 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 10:26:36 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 10:26:36 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 10:26:36 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 10:26:36 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 10:26:36 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-14 10:26:38 INFO  HomePage:438 - Clicked on New Request button
+2018-06-14 10:26:38 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-14 10:26:38 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-14 10:26:38 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-14 10:26:38 INFO  NewRequestPage:176 - Price entered in the Price field : 25000
+2018-06-14 10:26:38 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-14 10:26:41 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 10:26:41 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 10:26:41 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 10:26:41 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 10:26:41 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 10:26:41 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 10:26:41 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 10:26:41 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 10:26:41 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-14 10:26:43 INFO  NewRequestPage:176 - Price entered in the Price field : 25000
+2018-06-14 10:26:44 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-14 10:27:01 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-14 10:27:05 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-14 10:27:07 INFO  HomePage:194 - Fetching the list of PR Numbers for My Request in Grid view : [159, 158, 157, 156]
+2018-06-14 10:27:12 INFO  HomePage:194 - Fetching the list of PR Numbers for My Request in Grid view : [159, 158, 157, 156]
+2018-06-14 10:27:13 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 10:27:16 INFO  HomePage:76 - User Mobile Number entered 9990438086
+2018-06-14 10:27:16 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 10:27:16 INFO  HomePage:80 - OTP entered0000
+2018-06-14 10:27:17 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 10:27:17 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 10:27:19 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 10:27:21 INFO  HomePage:76 - User Mobile Number entered 9990438086
+2018-06-14 10:27:21 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 10:27:21 INFO  HomePage:80 - OTP entered0000
+2018-06-14 10:27:21 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 10:27:23 INFO  HomePage:126 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-14 10:27:24 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 10:27:28 INFO  HomePage:126 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-14 10:27:49 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 10:27:54 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 10:27:54 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 10:27:54 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 10:27:55 INFO  HomePage:80 - OTP entered0000
+2018-06-14 10:27:55 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 10:27:58 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 10:27:59 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 10:27:59 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 10:28:00 INFO  HomePage:80 - OTP entered0000
+2018-06-14 10:28:00 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 10:28:02 INFO  HomePage:126 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-14 10:28:02 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 10:28:06 INFO  HomePage:126 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-14 10:29:03 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 10:29:06 INFO  HomePage:76 - User Mobile Number entered 8624046502
+2018-06-14 10:29:06 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 10:29:07 INFO  HomePage:80 - OTP entered0000
+2018-06-14 10:29:07 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 10:29:09 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 10:29:14 INFO  HomePage:126 - Clicked on the Sub Menu option : FINANCIAL APPROVAL LIST
+2018-06-14 10:29:31 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 10:29:34 INFO  HomePage:76 - User Mobile Number entered 9167398416
+2018-06-14 10:29:34 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 10:29:35 INFO  HomePage:80 - OTP entered0000
+2018-06-14 10:29:35 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 10:29:46 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 10:29:51 INFO  HomePage:126 - Clicked on the Sub Menu option : FINANCIAL APPROVAL LIST
+2018-06-14 10:30:10 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 10:30:15 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 10:30:15 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 10:30:16 INFO  HomePage:80 - OTP entered0000
+2018-06-14 10:30:16 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 10:30:19 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 10:30:23 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 11:21:26 INFO  TC_001_VerifyLoginLogOut:23 - Initializing Setup
+2018-06-14 11:21:26 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 11:21:26 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 11:21:27 INFO  HomePage:80 - OTP entered0000
+2018-06-14 11:21:27 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 11:21:31 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 11:21:32 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 11:27:09 INFO  TC_001_VerifyLoginLogOut:23 - Initializing Setup
+2018-06-14 11:27:09 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 11:27:09 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 11:27:10 INFO  HomePage:80 - OTP entered0000
+2018-06-14 11:27:10 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 11:27:13 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 11:27:15 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 11:28:37 INFO  TC_001_VerifyLoginLogOut:23 - Initializing Setup
+2018-06-14 11:28:37 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 11:28:38 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 11:28:38 INFO  HomePage:80 - OTP entered0000
+2018-06-14 11:28:38 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 11:28:41 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 11:28:42 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 11:30:35 INFO  TC_001_VerifyLoginLogOut:23 - Initializing Setup
+2018-06-14 11:30:35 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 11:30:35 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 11:30:36 INFO  HomePage:80 - OTP entered0000
+2018-06-14 11:30:36 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 11:30:39 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 11:30:40 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 11:36:58 INFO  TC_001_VerifyLoginLogOut:23 - Initializing Setup
+2018-06-14 11:36:58 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 11:36:58 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 11:36:59 INFO  HomePage:80 - OTP entered0000
+2018-06-14 11:36:59 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 11:37:02 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 11:37:03 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 11:42:32 INFO  TC_001_VerifyLoginLogOut:23 - Initializing Setup
+2018-06-14 11:42:32 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 11:42:32 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 11:42:33 INFO  HomePage:80 - OTP entered0000
+2018-06-14 11:42:33 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 11:42:35 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 11:42:36 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 11:52:29 INFO  TC_001_VerifyLoginLogOut:23 - Initializing Setup
+2018-06-14 11:52:29 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 11:52:29 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 11:52:30 INFO  HomePage:80 - OTP entered0000
+2018-06-14 11:52:30 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 11:52:32 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 11:52:34 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 11:53:26 INFO  TC_001_VerifyLoginLogOut:23 - Initializing Setup
+2018-06-14 11:53:26 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 11:53:26 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 11:53:27 INFO  HomePage:80 - OTP entered0000
+2018-06-14 11:53:27 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 11:53:30 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 11:53:31 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 11:59:19 INFO  TC_001_VerifyLoginLogOut:23 - Initializing Setup
+2018-06-14 11:59:19 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 11:59:19 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 11:59:20 INFO  HomePage:80 - OTP entered0000
+2018-06-14 11:59:20 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 11:59:22 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 11:59:23 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 12:03:18 INFO  TC_001_VerifyLoginLogOut:23 - Initializing Setup
+2018-06-14 12:03:18 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 12:03:18 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 12:03:19 INFO  HomePage:80 - OTP entered0000
+2018-06-14 12:03:19 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 12:03:22 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 12:03:23 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 12:04:29 INFO  TC_001_VerifyLoginLogOut:23 - Initializing Setup
+2018-06-14 12:04:29 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 12:04:29 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 12:04:30 INFO  HomePage:80 - OTP entered0000
+2018-06-14 12:04:30 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 12:04:33 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 12:04:34 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 12:07:26 INFO  TC_001_VerifyLoginLogOut:23 - Initializing Setup
+2018-06-14 12:07:26 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 12:07:27 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 12:07:27 INFO  HomePage:80 - OTP entered0000
+2018-06-14 12:07:27 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 12:07:30 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 12:07:31 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 12:16:07 INFO  TestBase:28 - Initializing Setup
+2018-06-14 12:16:07 INFO  HomePage:76 - User Mobile Number entered 9967348451
+2018-06-14 12:16:07 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 12:16:08 INFO  HomePage:80 - OTP entered0000
+2018-06-14 12:16:08 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 12:16:12 INFO  HomePage:438 - Clicked on New Request button
+2018-06-14 12:16:12 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-14 12:16:12 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-14 12:16:13 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-14 12:16:16 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 12:16:16 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 12:16:16 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 12:16:16 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 12:16:16 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 12:16:16 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 12:16:16 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 12:16:16 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 12:16:16 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-14 12:16:18 INFO  NewRequestPage:176 - Price entered in the Price field : 25000
+2018-06-14 12:16:18 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-14 12:16:41 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-14 12:16:47 INFO  HomePage:194 - Fetching the list of PR Numbers for My Request in Grid view : [160, 159, 158, 157]
+2018-06-14 12:16:53 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 12:16:56 INFO  HomePage:76 - User Mobile Number entered 9990438086
+2018-06-14 12:16:56 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 12:16:56 INFO  HomePage:80 - OTP entered0000
+2018-06-14 12:16:57 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 12:16:59 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 12:17:03 INFO  HomePage:126 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-14 12:17:29 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 12:17:34 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 12:17:34 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 12:17:35 INFO  HomePage:80 - OTP entered0000
+2018-06-14 12:17:35 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 12:17:43 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 12:17:52 INFO  HomePage:126 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-14 12:18:34 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 12:18:37 INFO  HomePage:76 - User Mobile Number entered 8624046502
+2018-06-14 12:18:37 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 12:18:38 INFO  HomePage:80 - OTP entered0000
+2018-06-14 12:18:38 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 12:18:41 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 12:18:45 INFO  HomePage:126 - Clicked on the Sub Menu option : FINANCIAL APPROVAL LIST
+2018-06-14 12:19:09 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 12:19:12 INFO  HomePage:76 - User Mobile Number entered 9167398416
+2018-06-14 12:19:12 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 12:19:13 INFO  HomePage:80 - OTP entered0000
+2018-06-14 12:19:13 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 12:19:18 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 12:19:23 INFO  HomePage:126 - Clicked on the Sub Menu option : FINANCIAL APPROVAL LIST
+2018-06-14 12:19:42 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 12:19:47 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 12:19:48 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 12:19:48 INFO  HomePage:80 - OTP entered0000
+2018-06-14 12:19:49 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 12:19:51 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 12:19:55 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 12:26:04 INFO  TC_001_VerifyLoginLogOut:25 - Initializing Setup
+2018-06-14 12:26:04 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 12:26:04 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 12:26:05 INFO  HomePage:80 - OTP entered0000
+2018-06-14 12:26:05 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 12:26:08 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 12:26:09 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 12:31:00 INFO  TC_001_VerifyLoginLogOut:25 - Initializing Setup
+2018-06-14 12:31:00 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 12:31:01 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 12:31:01 INFO  HomePage:80 - OTP entered0000
+2018-06-14 12:31:01 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 12:31:05 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 12:31:06 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 12:46:52 INFO  TC_001_VerifyLoginLogOut:25 - Initializing Setup
+2018-06-14 12:46:52 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 12:46:52 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 12:46:53 INFO  HomePage:80 - OTP entered0000
+2018-06-14 12:46:53 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 12:46:56 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 12:46:57 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 12:49:33 INFO  TC_001_VerifyLoginLogOut:25 - Initializing Setup
+2018-06-14 12:49:33 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 12:49:33 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 12:49:34 INFO  HomePage:80 - OTP entered0000
+2018-06-14 12:49:34 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 12:49:37 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 12:49:38 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 12:50:13 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 12:50:14 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 12:52:36 INFO  TC_001_VerifyLoginLogOut:25 - Initializing Setup
+2018-06-14 12:52:36 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 12:52:36 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 12:52:37 INFO  HomePage:80 - OTP entered0000
+2018-06-14 12:52:37 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 12:52:40 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 12:52:41 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 12:53:16 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 12:53:17 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 12:59:19 INFO  TC_001_VerifyLoginLogOut:25 - Initializing Setup
+2018-06-14 12:59:19 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 12:59:19 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 12:59:20 INFO  HomePage:80 - OTP entered0000
+2018-06-14 12:59:20 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 12:59:23 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 12:59:24 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 12:59:59 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 13:00:00 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 13:01:14 INFO  TC_001_VerifyLoginLogOut:25 - Initializing Setup
+2018-06-14 13:01:15 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 13:01:15 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 13:01:16 INFO  HomePage:80 - OTP entered0000
+2018-06-14 13:01:16 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 13:01:19 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 13:01:20 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 13:01:55 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 13:01:56 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 14:20:07 INFO  TestBase:28 - Initializing Setup
+2018-06-14 14:20:07 INFO  HomePage:76 - User Mobile Number entered 9967348451
+2018-06-14 14:20:07 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 14:20:08 INFO  HomePage:80 - OTP entered0000
+2018-06-14 14:20:08 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 14:20:13 INFO  HomePage:438 - Clicked on New Request button
+2018-06-14 14:20:13 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-14 14:20:13 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-14 14:20:13 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-14 14:20:16 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 14:20:16 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 14:20:16 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 14:20:16 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 14:20:16 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 14:20:16 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 14:20:16 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 14:20:16 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 14:20:16 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-14 14:20:19 INFO  NewRequestPage:176 - Price entered in the Price field : 25000
+2018-06-14 14:20:19 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-14 14:20:41 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-14 14:20:48 INFO  HomePage:194 - Fetching the list of PR Numbers for My Request in Grid view : [161, 160, 159, 158]
+2018-06-14 14:20:53 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 14:20:56 INFO  HomePage:76 - User Mobile Number entered 9990438086
+2018-06-14 14:20:56 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 14:20:57 INFO  HomePage:80 - OTP entered0000
+2018-06-14 14:20:57 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 14:21:00 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 14:21:05 INFO  HomePage:126 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-14 14:21:32 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 14:21:37 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 14:21:37 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 14:21:38 INFO  HomePage:80 - OTP entered0000
+2018-06-14 14:21:38 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 14:21:41 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 14:21:45 INFO  HomePage:126 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-14 14:22:27 INFO  TestBase:28 - Initializing Setup
+2018-06-14 14:22:28 INFO  HomePage:76 - User Mobile Number entered 9967348451
+2018-06-14 14:22:28 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 14:22:28 INFO  HomePage:80 - OTP entered0000
+2018-06-14 14:22:29 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 14:22:33 INFO  HomePage:438 - Clicked on New Request button
+2018-06-14 14:22:33 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-14 14:22:33 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-14 14:22:34 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-14 14:22:37 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 14:22:37 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 14:22:37 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 14:22:37 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 14:22:37 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 14:22:37 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 14:22:37 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 14:22:37 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-14 14:22:37 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-14 14:22:39 INFO  NewRequestPage:176 - Price entered in the Price field : 25000
+2018-06-14 14:22:39 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-14 14:23:02 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-14 14:23:08 INFO  HomePage:194 - Fetching the list of PR Numbers for My Request in Grid view : [162, 161, 160, 159]
+2018-06-14 14:23:14 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 14:23:17 INFO  HomePage:76 - User Mobile Number entered 9990438086
+2018-06-14 14:23:17 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 14:23:18 INFO  HomePage:80 - OTP entered0000
+2018-06-14 14:23:18 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 14:23:21 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 14:23:25 INFO  HomePage:126 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-14 14:23:51 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 14:23:56 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 14:23:56 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 14:23:57 INFO  HomePage:80 - OTP entered0000
+2018-06-14 14:23:57 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 14:23:59 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 14:24:03 INFO  HomePage:126 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-14 14:24:46 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 14:24:49 INFO  HomePage:76 - User Mobile Number entered 8624046502
+2018-06-14 14:24:49 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 14:24:50 INFO  HomePage:80 - OTP entered0000
+2018-06-14 14:24:50 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 14:24:53 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 14:24:57 INFO  HomePage:126 - Clicked on the Sub Menu option : FINANCIAL APPROVAL LIST
+2018-06-14 14:25:14 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 14:25:17 INFO  HomePage:76 - User Mobile Number entered 9167398416
+2018-06-14 14:25:17 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 14:25:18 INFO  HomePage:80 - OTP entered0000
+2018-06-14 14:25:18 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 14:25:23 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 14:25:28 INFO  HomePage:126 - Clicked on the Sub Menu option : FINANCIAL APPROVAL LIST
+2018-06-14 14:25:49 INFO  HomePage:95 - Clicked on LogOut button
+2018-06-14 14:25:54 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-14 14:25:54 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 14:25:55 INFO  HomePage:80 - OTP entered0000
+2018-06-14 14:25:55 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 14:25:58 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 14:25:59 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 14:26:34 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 14:26:35 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-14 15:51:12 INFO  TC_001_VerifyLoginLogOut:20 - Initializing Setup
+2018-06-14 15:51:12 INFO  HomePage:76 - User Mobile Number entered 9990438086
+2018-06-14 15:51:13 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 15:51:13 INFO  HomePage:80 - OTP entered0000
+2018-06-14 15:51:13 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 15:51:22 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 15:51:23 INFO  HomePage:126 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-14 16:40:49 INFO  TC_001_VerifyLoginLogOut:20 - Initializing Setup
+2018-06-14 16:40:49 INFO  HomePage:76 - User Mobile Number entered 9990438086
+2018-06-14 16:40:49 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 16:40:50 INFO  HomePage:80 - OTP entered0000
+2018-06-14 16:40:50 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 16:40:54 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 16:40:55 INFO  HomePage:126 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-14 16:52:36 INFO  TC_001_VerifyLoginLogOut:20 - Initializing Setup
+2018-06-14 16:52:36 INFO  HomePage:76 - User Mobile Number entered 9990438086
+2018-06-14 16:52:36 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 16:52:37 INFO  HomePage:80 - OTP entered0000
+2018-06-14 16:53:09 INFO  TC_001_VerifyLoginLogOut:20 - Initializing Setup
+2018-06-14 16:53:10 INFO  HomePage:76 - User Mobile Number entered 9990438086
+2018-06-14 16:53:10 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 16:53:10 INFO  HomePage:80 - OTP entered0000
+2018-06-14 16:53:11 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 16:53:14 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 16:53:15 INFO  HomePage:126 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-14 16:55:02 INFO  TC_001_VerifyLoginLogOut:20 - Initializing Setup
+2018-06-14 16:55:02 INFO  HomePage:76 - User Mobile Number entered 9990438086
+2018-06-14 16:55:02 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-14 16:55:03 INFO  HomePage:80 - OTP entered0000
+2018-06-14 16:55:03 INFO  HomePage:82 - Clicked on Verify button
+2018-06-14 16:55:06 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
+2018-06-14 16:55:08 INFO  HomePage:126 - Clicked on the Sub Menu option : APPROVAL LIST

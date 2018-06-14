@@ -63,7 +63,7 @@ public class TC001_VerifyUptoRequestApprovalFunctionality extends TestBase{
 		Thread.sleep(3000);
 		homePage.selectAnOptionFromSubMenu("APPROVAL LIST");
 		Thread.sleep(5000);
-		approvalPage.clickOnRequestApprovalBasedOnPRnumber(createdReq);
+		approvalPage.clickOnRequestApprovalBasedOnPRnumber("Single Request",createdReq);
 		Thread.sleep(3000);
 		approvalPage.clickOnApproveButton();
 		Thread.sleep(5000);

@@ -64,7 +64,7 @@ public class TC001_VerifyUptoCostCenterApprovalFunctionality extends TestBase{
 		Thread.sleep(3000);
 		homePage.selectAnOptionFromSubMenu("APPROVAL LIST");
 		Thread.sleep(3000);
-		approvalPage.clickOnRequestApprovalBasedOnPRnumber(createdReq);
+		approvalPage.clickOnRequestApprovalBasedOnPRnumber("Single Request",createdReq);
 		Thread.sleep(3000);
 		approvalPage.clickOnApproveButton();
 		Thread.sleep(5000);
@@ -88,7 +88,7 @@ public class TC001_VerifyUptoCostCenterApprovalFunctionality extends TestBase{
 		Thread.sleep(3000);
 		homePage.selectAnOptionFromSubMenu("FINANCIAL APPROVAL LIST");
 		Thread.sleep(3000);
-		approvalPage.clickOnRequestApprovalBasedOnPRnumber(createdReq);
+		approvalPage.clickOnRequestApprovalBasedOnPRnumber("Single Request",createdReq);
 		ccp.clickOnApproveButton();
 		Thread.sleep(5000);
 		homePage.doLogOut();

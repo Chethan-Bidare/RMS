@@ -1,12 +1,11 @@
 package com.c2info.RMS_FinancialApproverTCs;
 
-import static org.testng.Assert.assertTrue;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 
 import org.apache.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -17,6 +16,7 @@ import com.c2info.RMS_UIActions.DeskConfirmationPage;
 import com.c2info.RMS_UIActions.FinancialApprovalPage;
 import com.c2info.RMS_UIActions.HomePage;
 import com.c2info.RMS_UIActions.NewRequestPage;
+import com.c2info.RMS_UIActions.POGenerationPage;
 
 public class TC001_VerifyUptoFinancialApprovalPage extends TestBase{
 
@@ -40,6 +40,7 @@ public class TC001_VerifyUptoFinancialApprovalPage extends TestBase{
 		DeskConfirmationPage dcp = new DeskConfirmationPage();
 		CostCenterApprovalPage ccp = new CostCenterApprovalPage();
 		FinancialApprovalPage fap = new FinancialApprovalPage();
+		POGenerationPage poGenerationPage = new POGenerationPage();
 		homePage.clickOnNewRequestButton();
 		newRequestPage.selectRequestType("Item");
 		newRequestPage.selectRefBranch(APP.getProperty("BranchCode"));
@@ -64,7 +65,7 @@ public class TC001_VerifyUptoFinancialApprovalPage extends TestBase{
 		Thread.sleep(3000);
 		homePage.selectAnOptionFromSubMenu("APPROVAL LIST");
 		Thread.sleep(3000);
-		approvalPage.clickOnRequestApprovalBasedOnPRnumber(createdReq);
+		approvalPage.clickOnRequestApprovalBasedOnPRnumber("Single Request",createdReq);
 		Thread.sleep(3000);
 		approvalPage.clickOnApproveButton();
 		Thread.sleep(5000);
@@ -88,7 +89,7 @@ public class TC001_VerifyUptoFinancialApprovalPage extends TestBase{
 		Thread.sleep(3000);
 		homePage.selectAnOptionFromSubMenu("FINANCIAL APPROVAL LIST");
 		Thread.sleep(3000);
-		approvalPage.clickOnRequestApprovalBasedOnPRnumber(createdReq);
+		approvalPage.clickOnRequestApprovalBasedOnPRnumber("Single Request",createdReq);
 		ccp.clickOnApproveButton();
 		Thread.sleep(5000);
 		homePage.doLogOut();
@@ -101,6 +102,17 @@ public class TC001_VerifyUptoFinancialApprovalPage extends TestBase{
 		fap.clickOnRequestApprovalBasedOnPRnumber(createdReq);
 		ccp.clickOnApproveButton();
 		Thread.sleep(5000);
+		homePage.doLogOut();
+		Thread.sleep(5000);
+		homePage.doLogin(OR.getProperty("DeskConfirmer"), "0000");
+		homePage.ClickOnMenuOption("TRANSACTIONS");
+		Thread.sleep(3000);
+		homePage.selectAnOptionFromSubMenu("PO GENERATION");
+		Thread.sleep(3000);
+		poGenerationPage.selectSupplierPOlist(APP.getProperty("SupplierName"));
+		Thread.sleep(3000);
+		ArrayList<String> refIDs = poGenerationPage.getRefIDs();
+		Assert.assertTrue(refIDs.contains(createdReq));
 		/*ArrayList<String> prNums = fap.getPRnumber(); 
 		assertTrue(prNums.contains(createdReq));*/
 	}
