@@ -2,6 +2,7 @@ package com.c2info.RMS_HomePageTCs;
 
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.Set;
 
 import org.apache.log4j.Logger;
 import org.testng.annotations.BeforeClass;
@@ -30,16 +31,20 @@ public static final Logger log = Logger.getLogger(TC_001_VerifyLoginLogOut.class
 	@Test
 	public void check() throws InterruptedException{
 		HomePage homePage = new HomePage();
-		CostCenterApprovalPage ccp = new CostCenterApprovalPage();
-		DeskConfirmationPage dcp = new DeskConfirmationPage();
+		CostCenterApprovalPage costCenterPage = new CostCenterApprovalPage();
+		DeskConfirmationPage deskConfirmationPage = new DeskConfirmationPage();
 		homePage.ClickOnMenuOption("TRANSACTIONS");
 		homePage.selectAnOptionFromSubMenu("FINANCIAL APPROVAL LIST");
 		Thread.sleep(2000);
-		dcp.clickOnDeskApprovalRequestBasedOnPRnumber("Single Request", "181");
+		deskConfirmationPage.clickOnDeskApprovalRequestBasedOnPRnumber("Single Request", "181");
 		Thread.sleep(5000);
-		HashMap<String, HashMap<String, String>> itemData = ccp.getItemDetails(); 
-		System.out.println(itemData);
-		
+		HashMap<String, HashMap<String, String>> itemDetailsInCostCenterPage = costCenterPage.getItemDetails();
+		 Set<String> keySet = itemDetailsInCostCenterPage.keySet();
+		 
+		for(String s : keySet){
+			HashMap<String, String> itemData =  itemDetailsInCostCenterPage.get(s);
+			System.out.println(itemData);
+		}
 		
 	}
 }

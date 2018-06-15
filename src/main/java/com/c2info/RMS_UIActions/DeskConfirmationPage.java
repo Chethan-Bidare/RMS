@@ -154,17 +154,22 @@ public class DeskConfirmationPage extends TestBase{
 			String itemName = driver.findElement(By.xpath(".//*[@id='table1']/tbody/tr["+i+"]/td[1]/input")).getAttribute("value");
 			itemName = itemName.trim().toString();
 			
-			List<WebElement> cols = driver.findElements(By.xpath(".//*[@id='table1']/tbody/tr["+"]/td"));
+			List<WebElement> cols = driver.findElements(By.xpath(".//*[@id='table1']/tbody/tr["+i+"]/td"));
 			HashMap<String, String> dataSets = new HashMap<String, String>();
 			
 			for(int j=2; j<=cols.size()-2; j++){
-				String header = driver.findElement(By.xpath(".//*[@id='table1']/thead/tr[1]/th[+j+]")).getText();
-				header = header.trim().toString();
-				
-				String data = driver.findElement(By.xpath(".//*[@id='table1']/tbody/tr["+i+"]/td["+j+"]/input")).getAttribute("value");
-				data = data.trim().toString();
-				
-				dataSets.put(header, data);
+				if(j==4){
+					System.out.println("td[4] skipped");
+				}
+				else{
+					String header = driver.findElement(By.xpath(".//*[@id='table1']/thead/tr[1]/th["+j+"]")).getText();
+					header = header.trim().toString();
+					
+					String data = driver.findElement(By.xpath(".//*[@id='table1']/tbody/tr["+i+"]/td["+j+"]/input")).getAttribute("value");
+					data = data.trim().toString();
+					
+					dataSets.put(header, data);
+				}
 			}
 			itemDetails.put(itemName, dataSets);
 		}

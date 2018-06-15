@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.c2info.RMS_HomePageTCs.TC_002_Check">
+      <class name="com.c2info.RMS_CostCenterApproverTCs.TC002_VerifyItemDetailsInCostCenterPage">
         <methods>
-          <include name="check"/>
           <include name="beforeMethod"/>
+          <include name="verifyItemDetails"/>
           <include name="setup"/>
           <include name="endTest"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.c2info.RMS_HomePageTCs.TC_002_Check -->
+      </class> <!-- com.c2info.RMS_CostCenterApproverTCs.TC002_VerifyItemDetailsInCostCenterPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
