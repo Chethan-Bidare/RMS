@@ -1,5 +1,7 @@
 package com.c2info.RMS_UIActions;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -62,4 +64,53 @@ public class CostCenterApprovalPage extends TestBase{
 			}
 		}
 	}
+	
+	public HashMap<String,HashMap<String,String>> getItemDetails(){
+		HashMap<String, HashMap<String,String>> itemDetails = new HashMap<String, HashMap<String,String>>();
+		List<WebElement> items = driver.findElements(By.xpath(".//*[@id='items-value']/table/tbody/tr"));
+		System.out.println(items.size());
+		for(int i=1 ; i<items.size(); i++){
+			String itemName = driver.findElement(By.xpath(".//*[@id='items-value']/table/tbody/tr["+i+"]/td[1]")).getText();
+			List<WebElement> cols = driver.findElements(By.xpath(".//*[@id='items-value']/table/tbody/tr["+i+"]/td"));
+			HashMap<String, String> tempData = new HashMap<String, String>();
+			for(int j=2;j<= cols.size(); j++){
+				String text = driver.findElement(By.xpath(".//*[@id='items-value']/table/tbody/tr["+i+"]/td["+j+"]")).getText();
+				text = text.trim().toString();
+				String header = driver.findElement(By.xpath(".//*[@id='items-value']/table/thead/tr/th["+j+"]")).getText();
+				header = header.trim().toString();
+				tempData.put(header, text);
+			}
+			itemDetails.put(itemName, tempData);
+		}
+		return itemDetails;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

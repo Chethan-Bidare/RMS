@@ -52,7 +52,6 @@ public class TC001_VerifyUptoRequestApprovalFunctionality extends TestBase{
 		Thread.sleep(3000);
 		ArrayList<Integer> prNum = homePage.getPRnoForRequiredSectionInGridView("My Request");
 		Collections.sort(prNum);
-		System.out.println(prNum);
 		int createdRequst = prNum.get(prNum.size()-1);
 		String createdReq = String.valueOf(createdRequst);
 		System.out.println("Check highest num---"+prNum.get(prNum.size()-1));

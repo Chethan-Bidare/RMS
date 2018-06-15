@@ -68,7 +68,8 @@ public class ApprovalPage extends TestBase{
 			for(WebElement we : reqs){
 				if(we.isDisplayed()==true){
 					String PRnum = we.getText();
-					PRnum = PRnum.replaceAll("PR No : ","").trim();
+					System.out.println(PRnum);
+					PRnum = PRnum.replaceAll("Project Id: ","").trim();
 					if(PRnum.equalsIgnoreCase(prNum)){
 						we.click();
 						break;
@@ -103,9 +104,21 @@ public class ApprovalPage extends TestBase{
 			key = key.trim().toString();
 			ArrayList<String> dataSet = new ArrayList<String>();
 			for(int j=2;j<=cols.size(); j++){
-				String text = driver.findElement(By.xpath(".//*[@id='setup']/tbody/tr["+i+"]/td["+j+"]")).getText();
-				text = text.trim().toString();
-				dataSet.add(text);
+				if(j==2){
+					String text;
+					try {
+						text = driver.findElement(By.xpath(".//*[@id='setup']/tbody/tr["+i+"]/td["+j+"]")).getText();
+					} catch (Exception e) {
+						text = driver.findElement(By.xpath(".//*[@id='setup']/tbody/tr["+i+"]/td["+j+"]/input")).getAttribute("value");
+					}
+					text = text.trim().toString();
+					dataSet.add(text);
+				}
+				else{
+					String text = driver.findElement(By.xpath(".//*[@id='setup']/tbody/tr["+i+"]/td["+j+"]")).getText();
+					text = text.trim().toString();
+					dataSet.add(text);
+				}
 			}
 			itemNamesAndData.put(key, dataSet);
 		}

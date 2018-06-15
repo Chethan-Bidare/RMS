@@ -1,6 +1,7 @@
 package com.c2info.RMS_UIActions;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -34,6 +35,18 @@ public class DeskConfirmationPage extends TestBase{
 	@FindBy(id="btn_rate")
 	WebElement OKbtn ;
 	/*
+	@FindBy(id="item_description1-1")
+	WebElement description ;
+	
+	@FindBy(id="")
+	WebElement abc ;
+	
+	@FindBy(id="")
+	WebElement abc ;
+	
+	@FindBy(id="")
+	WebElement abc ;
+	
 	@FindBy(id="")
 	WebElement abc ;
 	
@@ -55,7 +68,7 @@ public class DeskConfirmationPage extends TestBase{
 	
 	public void clickOnDeskApprovalRequestBasedOnPRnumber(String RequestType,String PRnumber){
 		
-		if(RequestType.equalsIgnoreCase("My Request")){
+		if(RequestType.equalsIgnoreCase("Single Request")){
 			List<WebElement> row = driver.findElements(By.xpath("//*[@id='theCarousel']/div/div/a/div/div/div[2]/p[1]"));	
 			for(WebElement we : row){
 				if(we.isDisplayed()==true){
@@ -73,7 +86,7 @@ public class DeskConfirmationPage extends TestBase{
 			for(WebElement we : row){
 				if(we.isDisplayed()==true){
 					String PRnum = we.getText();
-					PRnum = PRnum.replaceAll("Group Id:", "");
+					PRnum = PRnum.replaceAll("Project Id:", "");
 					PRnum = PRnum.trim();
 					if(PRnum.equalsIgnoreCase(PRnumber)){
 						we.click();
@@ -113,4 +126,64 @@ public class DeskConfirmationPage extends TestBase{
 		Thread.sleep(5000);
 		OKbtn.click();
 	}
+	
+	
+	public HashMap<String,ArrayList<String>> getItemNameAndData(){
+		HashMap<String, ArrayList<String>> itemNameAndData = new HashMap<String, ArrayList<String>>();
+		List<WebElement> itemNameData = driver.findElements(By.xpath("//table/tbody/tr"));
+		for(int i=1; i<=itemNameData.size(); i++){
+			String itemName = driver.findElement(By.xpath("//table/tbody/tr["+i+"]/td[2]")).getText();
+			ArrayList<String> dataSet = new ArrayList<String>();
+			for(int j=3; j<=5; j++){
+				String text = driver.findElement(By.xpath("//table/tbody/tr["+i+"]/td["+j+"]")).getText();
+				text = text.trim().toString();
+				dataSet.add(text);
+			}
+			itemNameAndData.put(itemName, dataSet);
+		}
+		
+		return itemNameAndData ;
+	}
+	
+	
+	public HashMap<String,HashMap<String,String>> getItemDetailsAfterLoading(){
+		HashMap<String, HashMap<String,String>> itemDetails = new HashMap<String, HashMap<String,String>>();
+		List<WebElement> rows = driver.findElements(By.xpath(".//*[@id='table1']/tbody/tr"));
+		
+		for(int i=1; i<rows.size(); i++){
+			String itemName = driver.findElement(By.xpath(".//*[@id='table1']/tbody/tr["+i+"]/td[1]/input")).getAttribute("value");
+			itemName = itemName.trim().toString();
+			
+			List<WebElement> cols = driver.findElements(By.xpath(".//*[@id='table1']/tbody/tr["+"]/td"));
+			HashMap<String, String> dataSets = new HashMap<String, String>();
+			
+			for(int j=2; j<=cols.size()-2; j++){
+				String header = driver.findElement(By.xpath(".//*[@id='table1']/thead/tr[1]/th[+j+]")).getText();
+				header = header.trim().toString();
+				
+				String data = driver.findElement(By.xpath(".//*[@id='table1']/tbody/tr["+i+"]/td["+j+"]/input")).getAttribute("value");
+				data = data.trim().toString();
+				
+				dataSets.put(header, data);
+			}
+			itemDetails.put(itemName, dataSets);
+		}
+		return itemDetails;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

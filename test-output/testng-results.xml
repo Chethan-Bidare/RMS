@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="80138" started-at="2018-06-14T11:24:56Z" finished-at="2018-06-14T11:26:16Z">
+  <suite name="Default suite" duration-ms="22250" started-at="2018-06-15T09:55:03Z" finished-at="2018-06-15T09:55:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="80138" started-at="2018-06-14T11:24:56Z" finished-at="2018-06-14T11:26:16Z">
+    <test name="Default test" duration-ms="22250" started-at="2018-06-15T09:55:03Z" finished-at="2018-06-15T09:55:25Z">
       <class name="com.c2info.RMS_HomePageTCs.TC_002_Check">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.c2info.RMS_HomePageTCs.TC_002_Check@61009542]" name="setup" is-config="true" duration-ms="10106" started-at="2018-06-14T16:54:56Z" finished-at="2018-06-14T16:55:06Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.c2info.RMS_HomePageTCs.TC_002_Check@61009542]" name="setup" is-config="true" duration-ms="11388" started-at="2018-06-15T15:25:03Z" finished-at="2018-06-15T15:25:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.RMS_HomePageTCs.TC_002_Check@61009542]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2018-06-14T16:55:06Z" finished-at="2018-06-14T16:55:06Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.RMS_HomePageTCs.TC_002_Check@61009542]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2018-06-15T15:25:15Z" finished-at="2018-06-15T15:25:15Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="check()[pri:0, instance:com.c2info.RMS_HomePageTCs.TC_002_Check@61009542]" name="check" duration-ms="69693" started-at="2018-06-14T16:55:06Z" finished-at="2018-06-14T16:56:16Z">
+        <test-method status="PASS" signature="check()[pri:0, instance:com.c2info.RMS_HomePageTCs.TC_002_Check@61009542]" name="check" duration-ms="10579" started-at="2018-06-15T15:25:15Z" finished-at="2018-06-15T15:25:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- check -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.RMS_HomePageTCs.TC_002_Check@61009542]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-06-14T16:56:16Z" finished-at="2018-06-14T16:56:16Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.c2info.RMS_HomePageTCs.TC_002_Check@61009542]" name="endTest" is-config="true" duration-ms="259" started-at="2018-06-15T15:25:25Z" finished-at="2018-06-15T15:25:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.RMS_HomePageTCs.TC_002_Check@61009542]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-06-15T15:25:25Z" finished-at="2018-06-15T15:25:25Z">
           <params>
             <param index="0">
               <value>
@@ -37,10 +41,6 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.c2info.RMS_HomePageTCs.TC_002_Check@61009542]" name="endTest" is-config="true" duration-ms="318" started-at="2018-06-14T16:56:16Z" finished-at="2018-06-14T16:56:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
       </class> <!-- com.c2info.RMS_HomePageTCs.TC_002_Check -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
