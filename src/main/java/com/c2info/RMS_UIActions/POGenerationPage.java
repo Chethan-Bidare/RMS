@@ -1,6 +1,7 @@
 package com.c2info.RMS_UIActions;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -114,5 +115,48 @@ public class POGenerationPage extends TestBase{
 		}
 		System.out.println(poNumbers);
 		return poNumbers;
+	}
+	
+	
+	public HashMap<String,HashMap<String,String>> getItemDetailsAfterLoading(){
+		HashMap<String, HashMap<String,String>> itemDetails = new HashMap<String, HashMap<String,String>>();
+		List<WebElement> rows = driver.findElements(By.xpath("//*[@id='setup']/tbody/tr"));
+		
+		for(int i=1; i<=rows.size(); i++){
+			String itemName = driver.findElement(By.xpath(".//*[@id='setup']/tbody/tr["+i+"]/td[3]")).getText();
+			itemName = itemName.trim().toString();
+			
+			List<WebElement> cols = driver.findElements(By.xpath(".//*[@id='setup']/tbody/tr["+i+"]/td"));
+			HashMap<String, String> dataSets = new HashMap<String, String>();
+			
+			for(int j=4; j<=cols.size()-3; j++){
+				
+				if(j==5){
+					System.out.println("td[5] skipped ----> Description column");
+				}
+				else if(j==4){
+				
+					String header = driver.findElement(By.xpath(".//*[@id='setup_wrapper']/div[3]/div[1]/div/table/thead/tr/th["+j+"]")).getText();
+					header = header.trim().toString();
+					
+					String data = driver.findElement(By.xpath(".//*[@id='setup']/tbody/tr["+i+"]/td["+j+"]")).getText();
+					data = data.trim().toString();						
+					dataSets.put(header, data);
+				}
+				else{
+				String header = driver.findElement(By.xpath(".//*[@id='setup_wrapper']/div[3]/div[1]/div/table/thead/tr/th["+j+"]")).getText();
+				header = header.trim().toString();
+				
+				String data = driver.findElement(By.xpath(".//*[@id='setup']/tbody/tr["+i+"]/td["+j+"]/input")).getAttribute("value");
+				data = data.trim().toString();
+				System.out.println(header+" data ->>>"+data);
+				dataSets.put(header, data);
+				}
+			}
+			
+		itemDetails.put(itemName, dataSets);
+	}
+		return itemDetails;
+		
 	}
 }

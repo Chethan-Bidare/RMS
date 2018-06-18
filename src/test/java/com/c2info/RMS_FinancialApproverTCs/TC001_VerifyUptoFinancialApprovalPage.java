@@ -99,7 +99,7 @@ public class TC001_VerifyUptoFinancialApprovalPage extends TestBase{
 		Thread.sleep(3000);
 		homePage.selectAnOptionFromSubMenu("FINANCIAL APPROVAL LIST");
 		Thread.sleep(5000);
-		fap.clickOnRequestApprovalBasedOnPRnumber(createdReq);
+		fap.clickOnFinancialApprovalRequestBasedOnPRnumber("Single Project", createdReq);
 		ccp.clickOnApproveButton();
 		Thread.sleep(5000);
 		homePage.doLogOut();

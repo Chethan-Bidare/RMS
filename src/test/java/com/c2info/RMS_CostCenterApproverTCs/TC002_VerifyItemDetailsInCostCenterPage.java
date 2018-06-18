@@ -20,6 +20,7 @@ import com.c2info.RMS_UIActions.NewRequestPage;
 public class TC002_VerifyItemDetailsInCostCenterPage extends TestBase{
 
 	public static final Logger log = Logger.getLogger(TC002_VerifyItemDetailsInCostCenterPage.class.getName());
+	
 	@BeforeClass
 	public void setup() throws IOException, InterruptedException{
 		init();
@@ -82,9 +83,11 @@ public class TC002_VerifyItemDetailsInCostCenterPage extends TestBase{
 		deskConfirmationPage.clickOnDeskApprovalRequestBasedOnPRnumber("Single Request", createdReq);
 		Thread.sleep(5000);
 		HashMap<String, HashMap<String, String>> itemDetailsInCostCenterPage = costCenterPage.getItemDetails();
-		Set<String> keySetInCostCenter = itemDetailsInCostCenterPage.keySet();
+		System.out.println(itemDetailsInCostCenterPage);
+		
 		
 		//getting item details from cost center page and storing it in a new hashmap
+		Set<String> keySetInCostCenter = itemDetailsInCostCenterPage.keySet();
 		HashMap<String, String> itemDataInCostCenter = new HashMap<String, String>();
 		for(String s : keySetInCostCenter){
 			itemDataInCostCenter =  itemDetailsInCostCenterPage.get(s);
@@ -101,14 +104,13 @@ public class TC002_VerifyItemDetailsInCostCenterPage extends TestBase{
 		
 		//Assertion for all the values displayed in Cost center page
 		
-		Assert.assertTrue(itemDetailsInCostCenterPage.containsKey(APP.getProperty("ItemName2")));
+		Assert.assertTrue(itemDetailsInCostCenterPage.containsKey("NT Item 2"));
 		Assert.assertTrue(itemDataInCostCenter.get("HSN Code").equals(itemDataInDesk.get("HSN Code")));
-		Assert.assertTrue(itemDataInCostCenter.get("Qty").equals(itemDataInDesk.get("Qty")));
 		Assert.assertTrue(itemDataInCostCenter.get("Price").equals(itemDataInDesk.get("Price")));
-		Assert.assertTrue(itemDataInCostCenter.get("Value").equals(itemDataInDesk.get("Value")));
-		Assert.assertTrue(itemDataInCostCenter.get("Discount").equals(itemDataInDesk.get("Discount")));
+		Assert.assertTrue(itemDataInCostCenter.get("Value").equals(itemDataInDesk.get("Value")));		
 		Assert.assertTrue(itemDataInCostCenter.get("Tax").equals(itemDataInDesk.get("Tax")));
 		Assert.assertTrue(itemDataInCostCenter.get("Net Amt").equals(itemDataInDesk.get("Net Amt")));
-		
+		Assert.assertTrue(itemDataInCostCenter.get("Qty").equals("5.00"));
+		Assert.assertTrue(itemDataInCostCenter.get("Discount").equals("0.00"));
 	}
 }

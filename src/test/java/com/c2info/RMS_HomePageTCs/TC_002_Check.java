@@ -10,7 +10,10 @@ import org.testng.annotations.BeforeClass;
 import com.c2info.RMS_TestBase.TestBase;
 import com.c2info.RMS_UIActions.CostCenterApprovalPage;
 import com.c2info.RMS_UIActions.DeskConfirmationPage;
+import com.c2info.RMS_UIActions.FinancialApprovalPage;
 import com.c2info.RMS_UIActions.HomePage;
+import com.c2info.RMS_UIActions.POGenerationPage;
+
 import org.testng.annotations.Test;
 public class TC_002_Check extends TestBase{
 
@@ -23,7 +26,7 @@ public static final Logger log = Logger.getLogger(TC_001_VerifyLoginLogOut.class
 		init();
 		log.info("Initializing Setup");
 		HomePage hp = new HomePage();
-		hp.doLogin(OR.getProperty("CostCenterApprover"),OR.getProperty("otp"));
+		hp.doLogin(OR.getProperty("DeskConfirmer"),OR.getProperty("otp"));
 		hp.waitForHomePagetoLoad();
 		
 	}
@@ -33,18 +36,15 @@ public static final Logger log = Logger.getLogger(TC_001_VerifyLoginLogOut.class
 		HomePage homePage = new HomePage();
 		CostCenterApprovalPage costCenterPage = new CostCenterApprovalPage();
 		DeskConfirmationPage deskConfirmationPage = new DeskConfirmationPage();
+		FinancialApprovalPage fap = new FinancialApprovalPage();
+		POGenerationPage po = new POGenerationPage();
 		homePage.ClickOnMenuOption("TRANSACTIONS");
-		homePage.selectAnOptionFromSubMenu("FINANCIAL APPROVAL LIST");
-		Thread.sleep(2000);
-		deskConfirmationPage.clickOnDeskApprovalRequestBasedOnPRnumber("Single Request", "181");
+		homePage.selectAnOptionFromSubMenu("PO GENERATION");
 		Thread.sleep(5000);
-		HashMap<String, HashMap<String, String>> itemDetailsInCostCenterPage = costCenterPage.getItemDetails();
-		 Set<String> keySet = itemDetailsInCostCenterPage.keySet();
-		 
-		for(String s : keySet){
-			HashMap<String, String> itemData =  itemDetailsInCostCenterPage.get(s);
-			System.out.println(itemData);
-		}
+		po.selectSupplierPOlist(APP.getProperty("SupplierName"));
+		HashMap<String, HashMap<String, String>> itemDetails = po.getItemDetailsAfterLoading();
+		System.out.println(itemDetails);
+		
 		
 	}
 }

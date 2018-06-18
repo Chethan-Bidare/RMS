@@ -3,7 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.c2info.RMS_CostCenterApproverTCs.TC002_VerifyItemDetailsInCostCenterPage">
+      <class name="com.c2info.RMS_POGeneratorTCs.TC002_VerifyItemDetailsInPOpage">
         <methods>
           <include name="beforeMethod"/>
           <include name="verifyItemDetails"/>
@@ -11,7 +11,7 @@
           <include name="endTest"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.c2info.RMS_CostCenterApproverTCs.TC002_VerifyItemDetailsInCostCenterPage -->
+      </class> <!-- com.c2info.RMS_POGeneratorTCs.TC002_VerifyItemDetailsInPOpage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

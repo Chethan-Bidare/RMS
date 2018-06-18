@@ -1,6 +1,7 @@
 package com.c2info.RMS_UIActions;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -65,21 +66,55 @@ public class FinancialApprovalPage extends TestBase{
 	}
 	
 	
-	public void clickOnRequestApprovalBasedOnPRnumber(String prNum){
-		List<WebElement> reqs = driver.findElements(By.xpath("//*[@id='theCarousel2']/div/div/a/div/div/div[2]/p[1]"));
-		for(WebElement we : reqs){
-			if(we.isDisplayed()==true){
-				String PRnum = we.getText();
-				PRnum = PRnum.replaceAll("PR No : ","").trim();
-				if(PRnum.equalsIgnoreCase(prNum)){
-					we.click();
-					break;
+	public void clickOnFinancialApprovalRequestBasedOnPRnumber(String RequestType,String PRnumber){
+			
+			if(RequestType.equalsIgnoreCase("Single Request")){
+				List<WebElement> row = driver.findElements(By.xpath("//*[@id='theCarousel2']/div/div/a/div/div/div[2]/p[1]"));	
+				for(WebElement we : row){
+					if(we.isDisplayed()==true){
+						String PRnum = we.getText();
+						PRnum = PRnum.replaceAll("PR No : ","").trim();
+						if(PRnum.equalsIgnoreCase(PRnumber)){
+							we.click();
+							break;
+						}
+					}
+				}
+			}
+			else if(RequestType.equalsIgnoreCase("Projectwise Request")){
+				List<WebElement> row = driver.findElements(By.xpath("//*[@id='theCarousel3']/div/div/a/div/div/div[2]/p[1]"));
+				for(WebElement we : row){
+					if(we.isDisplayed()==true){
+						String PRnum = we.getText();
+						PRnum = PRnum.replaceAll("Project Id:", "");
+						PRnum = PRnum.trim();
+						if(PRnum.equalsIgnoreCase(PRnumber)){
+							we.click();
+						}
+					}
 				}
 			}
 		}
+	
+	public HashMap<String,HashMap<String,String>> getItemDetails(){
+		HashMap<String, HashMap<String,String>> itemDetails = new HashMap<String, HashMap<String,String>>();
+		List<WebElement> items = driver.findElements(By.xpath(".//*[@id='items-value']/table/tbody/tr"));
+		System.out.println(items.size());
+		for(int i=1 ; i<items.size(); i++){
+			String itemName = driver.findElement(By.xpath(".//*[@id='items-value']/table/tbody/tr["+i+"]/td[1]")).getText();
+			List<WebElement> cols = driver.findElements(By.xpath(".//*[@id='items-value']/table/tbody/tr["+i+"]/td"));
+			HashMap<String, String> tempData = new HashMap<String, String>();
+			for(int j=2;j<= cols.size(); j++){
+				String text = driver.findElement(By.xpath(".//*[@id='items-value']/table/tbody/tr["+i+"]/td["+j+"]")).getText();
+				text = text.trim().toString();
+				String header = driver.findElement(By.xpath(".//*[@id='items-value']/table/thead/tr/th["+j+"]")).getText();
+				header = header.trim().toString();
+				tempData.put(header, text);
+			}
+			itemDetails.put(itemName, tempData);
+		}
+		return itemDetails;
 	}
-	
-	
 	
 	
 }
