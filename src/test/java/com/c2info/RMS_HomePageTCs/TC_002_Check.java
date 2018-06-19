@@ -1,6 +1,7 @@
 package com.c2info.RMS_HomePageTCs;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Set;
 
@@ -26,7 +27,7 @@ public static final Logger log = Logger.getLogger(TC_001_VerifyLoginLogOut.class
 		init();
 		log.info("Initializing Setup");
 		HomePage hp = new HomePage();
-		hp.doLogin(OR.getProperty("DeskConfirmer"),OR.getProperty("otp"));
+		hp.doLogin(OR.getProperty("Requestor"),OR.getProperty("otp"));
 		hp.waitForHomePagetoLoad();
 		
 	}
@@ -38,12 +39,10 @@ public static final Logger log = Logger.getLogger(TC_001_VerifyLoginLogOut.class
 		DeskConfirmationPage deskConfirmationPage = new DeskConfirmationPage();
 		FinancialApprovalPage fap = new FinancialApprovalPage();
 		POGenerationPage po = new POGenerationPage();
-		homePage.ClickOnMenuOption("TRANSACTIONS");
-		homePage.selectAnOptionFromSubMenu("PO GENERATION");
+		
 		Thread.sleep(5000);
-		po.selectSupplierPOlist(APP.getProperty("SupplierName"));
-		HashMap<String, HashMap<String, String>> itemDetails = po.getItemDetailsAfterLoading();
-		System.out.println(itemDetails);
+		String status = homePage.getStatusBasedOnPRnumber("192","My Request");
+		System.out.println(status);
 		
 		
 	}

@@ -2,46 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="190013" started-at="2018-06-18T09:12:34Z" finished-at="2018-06-18T09:15:44Z">
+  <suite name="Default suite" duration-ms="80068" started-at="2018-06-19T10:20:23Z" finished-at="2018-06-19T10:21:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="190013" started-at="2018-06-18T09:12:34Z" finished-at="2018-06-18T09:15:44Z">
-      <class name="com.c2info.RMS_POGeneratorTCs.TC002_VerifyItemDetailsInPOpage">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.c2info.RMS_POGeneratorTCs.TC002_VerifyItemDetailsInPOpage@61009542]" name="setup" is-config="true" duration-ms="10548" started-at="2018-06-18T14:42:34Z" finished-at="2018-06-18T14:42:45Z">
+    <test name="Default test" duration-ms="80068" started-at="2018-06-19T10:20:23Z" finished-at="2018-06-19T10:21:43Z">
+      <class name="com.c2info.RMS_NewRequestTCs.TC007_VerifyNewRequestStatusInRequestorPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC007_VerifyNewRequestStatusInRequestorPage@61009542]" name="setup" is-config="true" duration-ms="20632" started-at="2018-06-19T15:50:23Z" finished-at="2018-06-19T15:50:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.RMS_POGeneratorTCs.TC002_VerifyItemDetailsInPOpage@61009542]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2018-06-18T14:42:45Z" finished-at="2018-06-18T14:42:45Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC007_VerifyNewRequestStatusInRequestorPage@61009542]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2018-06-19T15:50:44Z" finished-at="2018-06-19T15:50:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.c2info.RMS_POGeneratorTCs.TC002_VerifyItemDetailsInPOpage.verifyItemDetails() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.c2info.RMS_NewRequestTCs.TC007_VerifyNewRequestStatusInRequestorPage.verifyNewRequestStatus() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyItemDetails()[pri:0, instance:com.c2info.RMS_POGeneratorTCs.TC002_VerifyItemDetailsInPOpage@61009542]" name="verifyItemDetails" duration-ms="179142" started-at="2018-06-18T14:42:45Z" finished-at="2018-06-18T14:45:44Z">
+        <test-method status="PASS" signature="verifyNewRequestStatus()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC007_VerifyNewRequestStatusInRequestorPage@61009542]" name="verifyNewRequestStatus" duration-ms="57142" started-at="2018-06-19T15:50:44Z" finished-at="2018-06-19T15:51:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyItemDetails -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.RMS_POGeneratorTCs.TC002_VerifyItemDetailsInPOpage@61009542]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-06-18T14:45:44Z" finished-at="2018-06-18T14:45:44Z">
+        </test-method> <!-- verifyNewRequestStatus -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC007_VerifyNewRequestStatusInRequestorPage@61009542]" name="endTest" is-config="true" duration-ms="2276" started-at="2018-06-19T15:51:41Z" finished-at="2018-06-19T15:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC007_VerifyNewRequestStatusInRequestorPage@61009542]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-06-19T15:51:41Z" finished-at="2018-06-19T15:51:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyItemDetails status=SUCCESS method=TC002_VerifyItemDetailsInPOpage.verifyItemDetails()[pri:0, instance:com.c2info.RMS_POGeneratorTCs.TC002_VerifyItemDetailsInPOpage@61009542] output={null}]]]>
+                <![CDATA[[TestResult name=verifyNewRequestStatus status=SUCCESS method=TC007_VerifyNewRequestStatusInRequestorPage.verifyNewRequestStatus()[pri:0, instance:com.c2info.RMS_NewRequestTCs.TC007_VerifyNewRequestStatusInRequestorPage@61009542] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.c2info.RMS_POGeneratorTCs.TC002_VerifyItemDetailsInPOpage@61009542]" name="endTest" is-config="true" duration-ms="305" started-at="2018-06-18T14:45:44Z" finished-at="2018-06-18T14:45:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- com.c2info.RMS_POGeneratorTCs.TC002_VerifyItemDetailsInPOpage -->
+      </class> <!-- com.c2info.RMS_NewRequestTCs.TC007_VerifyNewRequestStatusInRequestorPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -4971,3 +4971,83 @@
 2018-06-18 14:45:35 INFO  HomePage:82 - Clicked on Verify button
 2018-06-18 14:45:38 INFO  HomePage:108 - Clicked on the Menu option : TRANSACTIONS
 2018-06-18 14:45:40 INFO  HomePage:126 - Clicked on the Sub Menu option : PO GENERATION
+2018-06-19 12:36:39 INFO  TC_001_VerifyLoginLogOut:28 - Initializing Setup
+2018-06-19 12:36:39 INFO  HomePage:76 - User Mobile Number entered 8806639049
+2018-06-19 12:36:39 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-19 12:36:40 INFO  HomePage:80 - OTP entered0000
+2018-06-19 12:36:40 INFO  HomePage:82 - Clicked on Verify button
+2018-06-19 12:36:44 INFO  HomePage:456 - Fetching the list of Item Names for My Request in grid view : []
+2018-06-19 12:37:07 INFO  TC_001_VerifyLoginLogOut:28 - Initializing Setup
+2018-06-19 12:37:07 INFO  HomePage:76 - User Mobile Number entered 9967348451
+2018-06-19 12:37:07 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-19 12:37:08 INFO  HomePage:80 - OTP entered0000
+2018-06-19 12:37:08 INFO  HomePage:82 - Clicked on Verify button
+2018-06-19 12:37:16 INFO  HomePage:456 - Fetching the list of Item Names for My Request in grid view : []
+2018-06-19 12:39:47 INFO  TC_001_VerifyLoginLogOut:28 - Initializing Setup
+2018-06-19 12:39:47 INFO  HomePage:76 - User Mobile Number entered 9967348451
+2018-06-19 12:39:48 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-19 12:39:48 INFO  HomePage:80 - OTP entered0000
+2018-06-19 12:39:48 INFO  HomePage:82 - Clicked on Verify button
+2018-06-19 12:40:02 INFO  HomePage:456 - Fetching the list of Item Names for My Request in grid view : []
+2018-06-19 12:43:59 INFO  TC_001_VerifyLoginLogOut:28 - Initializing Setup
+2018-06-19 12:43:59 INFO  HomePage:76 - User Mobile Number entered 9967348451
+2018-06-19 12:43:59 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-19 12:44:00 INFO  HomePage:80 - OTP entered0000
+2018-06-19 12:44:00 INFO  HomePage:82 - Clicked on Verify button
+2018-06-19 12:44:13 INFO  HomePage:456 - Fetching the list of Item Names for My Request in grid view : []
+2018-06-19 12:45:18 INFO  TC_001_VerifyLoginLogOut:28 - Initializing Setup
+2018-06-19 12:45:18 INFO  HomePage:76 - User Mobile Number entered 9967348451
+2018-06-19 12:45:18 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-19 12:45:19 INFO  HomePage:80 - OTP entered0000
+2018-06-19 12:45:19 INFO  HomePage:82 - Clicked on Verify button
+2018-06-19 12:45:32 INFO  HomePage:456 - Fetching the list of Item Names for My Request in grid view : [Rate Confimation, PO Generated, PO Generated, Confirmed]
+2018-06-19 12:48:29 INFO  TC_001_VerifyLoginLogOut:28 - Initializing Setup
+2018-06-19 12:48:29 INFO  HomePage:76 - User Mobile Number entered 9967348451
+2018-06-19 12:48:29 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-19 12:48:30 INFO  HomePage:80 - OTP entered0000
+2018-06-19 12:48:31 INFO  HomePage:82 - Clicked on Verify button
+2018-06-19 12:48:45 INFO  HomePage:456 - Fetching the list of Item Names for My Request in grid view : [Waiting for : Rate Confimation, Status : PO Generated, Status : PO Generated, Status : Confirmed]
+2018-06-19 14:04:07 INFO  TC_001_VerifyLoginLogOut:28 - Initializing Setup
+2018-06-19 14:04:07 INFO  HomePage:76 - User Mobile Number entered 9967348451
+2018-06-19 14:04:07 INFO  HomePage:78 - Clicked on Send OTP button
+2018-06-19 14:04:08 INFO  HomePage:80 - OTP entered0000
+2018-06-19 14:04:08 INFO  HomePage:82 - Clicked on Verify button
+2018-06-19 14:04:28 INFO  HomePage:463 - Fetching the list of Item Names for My Request in grid view : [Status : PO Generated, Status : PO Generated, Status : Confirmed, Status : Rate Confirmation]
+2018-06-19 15:40:09 INFO  TC_001_VerifyLoginLogOut:28 - Initializing Setup
+2018-06-19 15:40:09 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-19 15:40:09 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-19 15:40:10 INFO  HomePage:82 - OTP entered0000
+2018-06-19 15:40:11 INFO  HomePage:84 - Clicked on Verify button
+2018-06-19 15:42:30 INFO  TC_001_VerifyLoginLogOut:28 - Initializing Setup
+2018-06-19 15:42:30 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-19 15:42:30 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-19 15:42:31 INFO  HomePage:82 - OTP entered0000
+2018-06-19 15:42:31 INFO  HomePage:84 - Clicked on Verify button
+2018-06-19 15:43:43 INFO  TC_001_VerifyLoginLogOut:28 - Initializing Setup
+2018-06-19 15:43:43 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-19 15:43:43 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-19 15:43:44 INFO  HomePage:82 - OTP entered0000
+2018-06-19 15:43:44 INFO  HomePage:84 - Clicked on Verify button
+2018-06-19 15:50:31 INFO  TC007_VerifyNewRequestStatusInRequestorPage:22 - Initializing Setup
+2018-06-19 15:50:31 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-19 15:50:31 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-19 15:50:32 INFO  HomePage:82 - OTP entered0000
+2018-06-19 15:50:32 INFO  HomePage:84 - Clicked on Verify button
+2018-06-19 15:50:46 INFO  HomePage:440 - Clicked on New Request button
+2018-06-19 15:50:46 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-19 15:50:46 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-19 15:50:46 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-19 15:50:49 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-19 15:50:49 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-19 15:50:49 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-19 15:50:49 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-19 15:50:49 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-19 15:50:49 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-19 15:50:49 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-19 15:50:49 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-19 15:50:49 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-19 15:50:51 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-19 15:50:51 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-19 15:50:51 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-19 15:51:13 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-19 15:51:23 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [194, 193, 192, 191]

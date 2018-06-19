@@ -1,6 +1,7 @@
 package com.c2info.RMS_UIActions;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -18,6 +19,7 @@ import com.c2info.RMS_TestBase.TestBase;
 public class HomePage extends TestBase{
 	
 	public static final Logger log = Logger.getLogger(HomePage.class.getName());
+	
 	WebDriverWait wait = new WebDriverWait(driver, 45);
 	
 	@FindBy(id="user_name")
@@ -442,9 +444,69 @@ public class HomePage extends TestBase{
 	
 	
 	
-	
-	
-	
+	public String getStatusBasedOnPRnumber(String PRnumber,String RequestType){
+		String status = null ;
+		if(RequestType.equals("My Request")){
+			List<WebElement> prNums = driver.findElements(By.xpath("//*[@id='theCarousel']/div/div/a/div/div/div[2]/p[1]"));
+			List<WebElement> row = driver.findElements(By.xpath("//*[@id='theCarousel']/div/div/a/div/div/div[2]/p[3]"));
+			List<WebElement> row1 = driver.findElements(By.xpath("//*[@id='theCarousel']/div/div/a/div/div/div[2]/p[4]"));
+			HashMap<String, String> prNumWithStatus = new HashMap<String, String>();
+			for(int i=0,j=0,k=0; i<prNums.size() && j<row.size() && k<row1.size(); i++,j++,k++){
+				String prNum = prNums.get(i).getText();
+				prNum = prNum.replaceAll("PR No : ","").trim();
+				if(row.get(j).getText().contains("Status")){
+				String Status = row.get(j).getText();
+				Status = Status.replaceAll("Status : ","").trim();
+				prNumWithStatus.put(prNum, Status);
+				}
+				else if(row1.get(k).getText().contains("Status")){
+					String Status = row1.get(k).getText();
+					Status = Status.replaceAll("Status : ","").trim();
+					prNumWithStatus.put(prNum, Status);
+				}
+				
+			}
+			
+			if(prNumWithStatus.containsKey(PRnumber)){
+				 status = prNumWithStatus.get(PRnumber);
+			}
+			else{
+				System.out.println("PR number not found");
+			}
+			return status ;
+		}
+		
+		else if(RequestType.equals("Projectwise Request")){
+			List<WebElement> prNums = driver.findElements(By.xpath("//*[@id='theCarousel1']/div/div/a/div/div/div[2]/p[1]"));
+			List<WebElement> row = driver.findElements(By.xpath("//*[@id='theCarousel1']/div/div/a/div/div/div[2]/p[3]"));
+			List<WebElement> row1 = driver.findElements(By.xpath("//*[@id='theCarousel1']/div/div/a/div/div/div[2]/p[4]"));
+			HashMap<String, String> prNumWithStatus = new HashMap<String, String>();
+			for(int i=0,j=0,k=0; i<prNums.size() && j<row.size() && k<row1.size(); i++,j++,k++){
+				String prNum = prNums.get(i).getText();
+				prNum = prNum.replaceAll("PR No : ","").trim();
+				if(row.get(j).getText().contains("Status")){
+				String Status = row.get(j).getText();
+				Status = Status.replaceAll("Status : ","").trim();
+				prNumWithStatus.put(prNum, Status);
+				}
+				else if(row1.get(k).getText().contains("Status")){
+					String Status = row1.get(k).getText();
+					Status = Status.replaceAll("Status : ","").trim();
+					prNumWithStatus.put(prNum, Status);
+				}
+				
+			}
+			if(prNumWithStatus.containsKey(PRnumber)){
+				 status = prNumWithStatus.get(PRnumber);
+			}
+			else{
+				System.out.println("PR number not found");
+			}
+			return status ;
+		}
+		
+		return status ;
+	}
 	
 	
 	
