@@ -127,6 +127,54 @@ public class ApprovalPage extends TestBase{
 	
 	
 	
+	public String getStatusBasedOnPRnumber(String PRnumber,String RequestType){
+		String status = null ;
+		if(RequestType.equals("My Request")){
+			List<WebElement> prNums = driver.findElements(By.xpath("//*[@id='theCarousel']/div/div/a/div/div/div[2]/p[1]"));
+			List<WebElement> row = driver.findElements(By.xpath("//*[@id='theCarousel']/div/div/a/div/div/div[2]/p[3]"));
+			
+			HashMap<String, String> prNumWithStatus = new HashMap<String, String>();
+			for(int i=0,j=0; i<prNums.size() && j<row.size(); i++,j++){
+				String prNum = prNums.get(i).getText();
+				prNum = prNum.replaceAll("PR No : ","").trim();
+				
+				String Status = row.get(j).getText();
+				Status = Status.replaceAll("Status : ","").trim();
+				prNumWithStatus.put(prNum, Status);
+			}
+			
+			if(prNumWithStatus.containsKey(PRnumber)){
+				 status = prNumWithStatus.get(PRnumber);
+			}
+			else{
+				System.out.println("PR number not found");
+			}
+			return status ;
+		}
+		
+		else if(RequestType.equals("Projectwise Request")){
+			List<WebElement> prNums = driver.findElements(By.xpath("//*[@id='theCarousel1']/div/div/a/div/div/div[2]/p[1]"));
+			List<WebElement> row = driver.findElements(By.xpath("//*[@id='theCarousel1']/div/div/a/div/div/div[2]/p[3]"));
+			HashMap<String, String> prNumWithStatus = new HashMap<String, String>();
+			for(int i=0,j=0; i<prNums.size() && j<row.size(); i++,j++){
+				String prNum = prNums.get(i).getText();
+				prNum = prNum.replaceAll("PR No : ","").trim();
+				String Status = row.get(j).getText();
+				Status = Status.replaceAll("Status : ","").trim();
+				prNumWithStatus.put(prNum, Status);
+				
+			}
+			if(prNumWithStatus.containsKey(PRnumber)){
+				 status = prNumWithStatus.get(PRnumber);
+			}
+			else{
+				System.out.println("PR number not found");
+			}
+			return status ;
+		}
+		
+		return status ;
+	}
 	
 	
 	

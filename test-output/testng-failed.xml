@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.c2info.RMS_POGeneratorTCs.TC002_VerifyItemDetailsInPOpage">
+      <class name="com.c2info.RMS_RequestApproverTCs.TC004_VerifyNewRequestStatusInApprovalPage">
         <methods>
+          <include name="verifyStatusInApprovalPage"/>
           <include name="beforeMethod"/>
-          <include name="verifyItemDetails"/>
           <include name="setup"/>
           <include name="endTest"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.c2info.RMS_POGeneratorTCs.TC002_VerifyItemDetailsInPOpage -->
+      </class> <!-- com.c2info.RMS_RequestApproverTCs.TC004_VerifyNewRequestStatusInApprovalPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
