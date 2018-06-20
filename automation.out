@@ -5129,3 +5129,844 @@
 2018-06-19 16:50:59 INFO  HomePage:84 - Clicked on Verify button
 2018-06-19 16:51:02 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
 2018-06-19 16:51:03 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-19 16:57:53 INFO  TC004_VerifyNewRequestStatusInApprovalPage:23 - Initializing Setup
+2018-06-19 16:57:54 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-19 16:57:54 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-19 16:57:55 INFO  HomePage:82 - OTP entered0000
+2018-06-19 16:57:55 INFO  HomePage:84 - Clicked on Verify button
+2018-06-19 16:57:59 INFO  HomePage:440 - Clicked on New Request button
+2018-06-19 16:58:00 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-19 16:58:00 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-19 16:58:00 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-19 16:58:03 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-19 16:58:03 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-19 16:58:03 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-19 16:58:03 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-19 16:58:03 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-19 16:58:03 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-19 16:58:03 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-19 16:58:03 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-19 16:58:03 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-19 16:58:05 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-19 16:58:05 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-19 16:58:05 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-19 16:58:28 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-19 16:58:38 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [197, 196, 195, 194]
+2018-06-19 16:58:44 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-19 16:58:44 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-19 16:58:44 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-19 16:58:45 INFO  HomePage:82 - OTP entered3212
+2018-06-19 16:58:45 INFO  HomePage:84 - Clicked on Verify button
+2018-06-19 16:58:47 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-19 16:58:49 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 10:15:48 INFO  TC004_VerifyNewRequestStatusInApprovalPage:23 - Initializing Setup
+2018-06-20 10:15:48 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 10:15:48 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 10:15:49 INFO  HomePage:82 - OTP entered0000
+2018-06-20 10:15:49 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 10:15:53 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 10:15:53 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 10:15:53 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 10:15:53 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 10:15:56 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:15:56 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:15:56 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:15:56 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:15:56 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:15:57 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:15:57 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:15:57 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:15:57 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 10:15:59 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 10:15:59 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 10:15:59 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 10:16:21 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 10:16:32 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [198, 197, 196, 195]
+2018-06-20 10:16:38 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 10:16:38 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 10:16:38 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 10:16:39 INFO  HomePage:82 - OTP entered3212
+2018-06-20 10:16:39 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 10:16:42 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 10:16:43 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 10:21:02 INFO  TC004_VerifyNewRequestStatusInApprovalPage:24 - Initializing Setup
+2018-06-20 10:21:02 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 10:21:02 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 10:21:03 INFO  HomePage:82 - OTP entered0000
+2018-06-20 10:21:03 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 10:21:08 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 10:21:08 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 10:21:08 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 10:21:08 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 10:21:11 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:21:11 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:21:11 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:21:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:21:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:21:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:21:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:21:12 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:21:12 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 10:21:14 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 10:21:14 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 10:21:14 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 10:21:38 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 10:21:50 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [200, 198, 197, 196]
+2018-06-20 10:21:55 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 10:21:56 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 10:21:56 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 10:21:57 INFO  HomePage:82 - OTP entered3212
+2018-06-20 10:21:57 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 10:22:00 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 10:22:01 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 10:39:28 INFO  TC004_VerifyNewRequestStatusInDeskConfirmationPage:24 - Initializing Setup
+2018-06-20 10:39:29 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 10:39:29 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 10:39:29 INFO  HomePage:82 - OTP entered0000
+2018-06-20 10:39:30 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 10:39:34 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 10:39:34 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 10:39:34 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 10:39:34 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 10:39:38 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:39:38 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:39:38 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:39:38 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:39:38 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:39:38 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:39:38 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:39:38 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:39:38 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 10:39:40 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 10:39:40 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 10:39:40 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 10:40:02 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 10:40:12 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [201, 200, 198, 197]
+2018-06-20 10:40:17 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 10:40:17 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 10:40:18 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 10:40:18 INFO  HomePage:82 - OTP entered3212
+2018-06-20 10:40:18 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 10:40:21 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 10:40:23 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 10:40:51 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 10:40:51 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 10:40:51 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 10:41:27 INFO  TC004_VerifyNewRequestStatusInDeskConfirmationPage:24 - Initializing Setup
+2018-06-20 10:41:27 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 10:41:28 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 10:41:28 INFO  HomePage:82 - OTP entered0000
+2018-06-20 10:41:29 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 10:41:34 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 10:41:34 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 10:41:34 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 10:41:34 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 10:41:37 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:41:37 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:41:37 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:41:37 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:41:37 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:41:37 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:41:37 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:41:37 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:41:37 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 10:41:39 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 10:41:40 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 10:41:40 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 10:42:01 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 10:42:12 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [202, 201, 200, 198]
+2018-06-20 10:42:17 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 10:42:17 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 10:42:17 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 10:42:18 INFO  HomePage:82 - OTP entered3212
+2018-06-20 10:42:18 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 10:42:21 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 10:42:22 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 10:46:25 INFO  TC004_VerifyNewRequestStatusInDeskConfirmationPage:24 - Initializing Setup
+2018-06-20 10:46:25 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 10:46:25 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 10:46:26 INFO  HomePage:82 - OTP entered0000
+2018-06-20 10:46:26 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 10:46:31 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 10:46:31 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 10:46:31 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 10:46:32 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 10:46:35 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:46:35 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:46:35 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:46:35 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:46:35 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:46:35 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:46:35 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:46:35 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:46:35 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 10:46:37 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 10:46:37 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 10:46:37 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 10:46:59 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 10:47:09 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [203, 202, 201, 200]
+2018-06-20 10:47:14 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 10:47:14 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 10:47:14 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 10:47:15 INFO  HomePage:82 - OTP entered3212
+2018-06-20 10:47:15 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 10:47:18 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 10:47:19 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 10:47:42 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 10:53:24 INFO  TC004_VerifyNewRequestStatusInDeskConfirmationPage:24 - Initializing Setup
+2018-06-20 10:53:24 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 10:53:24 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 10:53:25 INFO  HomePage:82 - OTP entered0000
+2018-06-20 10:53:25 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 10:53:31 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 10:53:31 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 10:53:31 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 10:53:31 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 10:53:34 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:53:34 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:53:34 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:53:34 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:53:34 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:53:34 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:53:34 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:53:34 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 10:53:34 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 10:53:36 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 10:53:37 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 10:53:37 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 10:53:58 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 10:54:10 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [204, 203, 202, 201]
+2018-06-20 10:54:16 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 10:54:16 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 10:54:16 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 10:54:17 INFO  HomePage:82 - OTP entered3212
+2018-06-20 10:54:17 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 10:54:19 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 10:54:21 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 10:54:49 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 10:54:49 INFO  HomePage:78 - User Mobile Number entered 8806639049
+2018-06-20 10:54:49 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 10:54:50 INFO  HomePage:82 - OTP entered3212
+2018-06-20 10:54:50 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 10:54:53 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 10:54:54 INFO  HomePage:128 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-20 11:31:22 INFO  TC008_VerifyApprovalStatusInRequestorLogin:24 - Initializing Setup
+2018-06-20 11:31:22 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 11:31:22 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 11:31:23 INFO  HomePage:82 - OTP entered0000
+2018-06-20 11:31:23 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 11:31:31 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 11:31:31 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 11:31:31 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 11:31:31 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 11:31:34 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:31:34 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:31:35 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:31:35 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:31:35 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:31:35 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:31:35 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:31:35 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:31:35 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 11:31:37 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 11:31:37 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 11:31:37 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 11:31:59 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 11:32:10 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [206, 204, 203, 202]
+2018-06-20 11:32:15 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 11:32:15 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 11:32:15 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 11:32:16 INFO  HomePage:82 - OTP entered3212
+2018-06-20 11:32:16 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 11:32:19 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 11:32:20 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 11:32:50 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 11:32:50 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 11:32:50 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 11:32:51 INFO  HomePage:82 - OTP entered3212
+2018-06-20 11:32:51 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 11:48:17 INFO  TC003_VerifyNewRequestStatusInCostCenterPage:25 - Initializing Setup
+2018-06-20 11:48:17 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 11:48:17 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 11:48:18 INFO  HomePage:82 - OTP entered0000
+2018-06-20 11:48:18 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 11:48:23 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 11:48:24 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 11:48:24 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 11:48:24 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 11:48:27 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:48:27 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:48:27 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:48:27 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:48:27 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:48:27 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:48:27 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:48:27 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:48:27 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 11:48:29 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 11:48:29 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 11:48:29 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 11:48:51 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 11:49:02 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [207, 206, 204, 203]
+2018-06-20 11:49:07 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 11:49:07 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 11:49:08 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 11:49:08 INFO  HomePage:82 - OTP entered3212
+2018-06-20 11:49:09 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 11:49:11 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 11:49:13 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 11:49:41 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 11:49:41 INFO  HomePage:78 - User Mobile Number entered 8806639049
+2018-06-20 11:49:41 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 11:49:42 INFO  HomePage:82 - OTP entered3212
+2018-06-20 11:49:42 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 11:49:45 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 11:49:52 INFO  HomePage:128 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-20 11:51:52 INFO  TC003_VerifyNewRequestStatusInCostCenterPage:25 - Initializing Setup
+2018-06-20 11:51:52 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 11:51:52 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 11:51:53 INFO  HomePage:82 - OTP entered0000
+2018-06-20 11:51:53 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 11:52:04 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 11:52:04 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 11:52:05 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 11:52:05 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 11:52:08 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:52:08 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:52:08 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:52:08 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:52:08 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:52:08 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:52:08 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:52:08 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:52:08 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 11:52:10 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 11:52:10 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 11:52:10 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 11:52:32 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 11:52:43 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [208, 207, 206, 204]
+2018-06-20 11:52:48 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 11:52:48 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 11:52:48 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 11:52:49 INFO  HomePage:82 - OTP entered3212
+2018-06-20 11:52:49 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 11:53:02 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 11:53:04 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 11:54:31 INFO  TC003_VerifyNewRequestStatusInCostCenterPage:25 - Initializing Setup
+2018-06-20 11:54:31 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 11:54:31 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 11:54:32 INFO  HomePage:82 - OTP entered0000
+2018-06-20 11:54:32 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 11:54:43 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 11:54:43 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 11:54:44 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 11:54:44 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 11:54:47 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:54:47 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:54:47 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:54:47 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:54:47 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:54:47 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:54:47 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:54:47 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 11:54:47 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 11:54:49 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 11:54:49 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 11:54:49 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 11:55:11 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 11:55:22 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [209, 208, 207, 206]
+2018-06-20 11:55:28 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 11:55:28 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 11:55:28 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 11:55:29 INFO  HomePage:82 - OTP entered3212
+2018-06-20 11:55:29 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 11:55:32 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 11:55:33 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 11:56:02 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 11:56:02 INFO  HomePage:78 - User Mobile Number entered 8806639049
+2018-06-20 11:56:02 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 11:56:03 INFO  HomePage:82 - OTP entered3212
+2018-06-20 11:56:04 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 11:56:07 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 11:56:09 INFO  HomePage:128 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-20 12:21:29 INFO  TC003_VerifyNewRequestStatusInCostCenterPage:25 - Initializing Setup
+2018-06-20 12:21:29 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 12:21:29 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 12:21:30 INFO  HomePage:82 - OTP entered0000
+2018-06-20 12:21:30 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 12:21:36 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 12:21:36 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 12:21:36 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 12:21:36 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 12:21:39 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:21:39 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:21:39 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:21:39 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:21:39 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:21:39 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:21:39 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:21:39 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:21:39 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 12:21:42 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 12:21:42 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 12:21:42 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 12:22:03 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 12:22:14 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [210, 209, 208, 207]
+2018-06-20 12:22:20 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 12:22:20 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 12:22:20 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 12:22:21 INFO  HomePage:82 - OTP entered3212
+2018-06-20 12:22:21 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 12:22:23 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 12:22:25 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 12:22:54 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 12:22:54 INFO  HomePage:78 - User Mobile Number entered 8806639049
+2018-06-20 12:22:54 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 12:22:55 INFO  HomePage:82 - OTP entered3212
+2018-06-20 12:22:55 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 12:22:58 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 12:22:59 INFO  HomePage:128 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-20 12:29:26 INFO  TC003_VerifyNewRequestStatusInCostCenterPage:25 - Initializing Setup
+2018-06-20 12:29:26 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 12:29:27 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 12:29:27 INFO  HomePage:82 - OTP entered0000
+2018-06-20 12:29:27 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 12:29:32 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 12:29:33 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 12:29:33 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 12:29:33 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 12:29:36 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:29:36 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:29:36 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:29:36 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:29:36 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:29:36 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:29:36 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:29:36 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:29:36 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 12:29:38 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 12:29:38 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 12:29:38 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 12:30:00 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 12:30:11 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [211, 210, 209, 208]
+2018-06-20 12:30:17 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 12:30:17 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 12:30:17 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 12:30:18 INFO  HomePage:82 - OTP entered3212
+2018-06-20 12:30:18 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 12:30:21 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 12:30:22 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 12:30:50 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 12:30:50 INFO  HomePage:78 - User Mobile Number entered 8806639049
+2018-06-20 12:30:51 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 12:30:51 INFO  HomePage:82 - OTP entered3212
+2018-06-20 12:30:51 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 12:30:54 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 12:30:55 INFO  HomePage:128 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-20 12:31:37 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 12:31:37 INFO  HomePage:78 - User Mobile Number entered 8624046502
+2018-06-20 12:31:37 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 12:31:38 INFO  HomePage:82 - OTP entered3312
+2018-06-20 12:31:38 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 12:31:41 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 12:31:43 INFO  HomePage:128 - Clicked on the Sub Menu option : FINANCIAL APPROVAL
+2018-06-20 12:36:33 INFO  TC009_VerifyRateConfirmationStatusInRequestorLogin:25 - Initializing Setup
+2018-06-20 12:36:33 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 12:36:34 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 12:36:34 INFO  HomePage:82 - OTP entered0000
+2018-06-20 12:36:35 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 12:36:40 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 12:36:40 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 12:36:40 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 12:36:40 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 12:36:43 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:36:43 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:36:44 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:36:44 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:36:44 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:36:44 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:36:44 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:36:44 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:36:44 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 12:36:46 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 12:36:46 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 12:36:46 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 12:37:08 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 12:37:19 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [212, 211, 210, 209]
+2018-06-20 12:37:24 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 12:37:24 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 12:37:24 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 12:37:25 INFO  HomePage:82 - OTP entered3212
+2018-06-20 12:37:25 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 12:37:28 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 12:37:29 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 12:37:58 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 12:37:58 INFO  HomePage:78 - User Mobile Number entered 8806639049
+2018-06-20 12:37:58 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 12:37:59 INFO  HomePage:82 - OTP entered3212
+2018-06-20 12:37:59 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 12:38:02 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 12:38:03 INFO  HomePage:128 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-20 12:38:45 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 12:38:45 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 12:38:45 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 12:38:46 INFO  HomePage:82 - OTP entered3312
+2018-06-20 12:38:46 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 12:58:36 INFO  TC003_VerifyNewRequestStatusInFinancialPage:26 - Initializing Setup
+2018-06-20 12:58:37 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 12:58:37 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 12:58:37 INFO  HomePage:82 - OTP entered0000
+2018-06-20 12:58:38 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 12:58:47 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 12:58:47 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 12:58:47 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 12:58:48 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 12:58:51 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:58:51 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:58:51 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:58:51 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:58:51 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:58:51 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:58:51 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:58:51 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 12:58:51 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 12:58:53 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 12:58:53 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 12:58:53 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 12:59:15 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 12:59:26 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [213, 212, 211, 210]
+2018-06-20 12:59:31 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 12:59:31 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 12:59:31 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 12:59:32 INFO  HomePage:82 - OTP entered3212
+2018-06-20 12:59:32 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 12:59:35 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 12:59:37 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 13:00:05 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:00:05 INFO  HomePage:78 - User Mobile Number entered 8806639049
+2018-06-20 13:00:05 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:00:06 INFO  HomePage:82 - OTP entered3212
+2018-06-20 13:00:06 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:00:09 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:00:10 INFO  HomePage:128 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-20 13:00:52 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:00:52 INFO  HomePage:78 - User Mobile Number entered 8624046502
+2018-06-20 13:00:52 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:00:53 INFO  HomePage:82 - OTP entered3312
+2018-06-20 13:00:53 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:00:57 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:01:00 INFO  HomePage:128 - Clicked on the Sub Menu option : FINANCIAL APPROVAL
+2018-06-20 13:01:20 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:01:20 INFO  HomePage:78 - User Mobile Number entered FinancialApprover
+2018-06-20 13:01:20 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:44:33 INFO  TC003_VerifyNewRequestStatusInFinancialPage:26 - Initializing Setup
+2018-06-20 13:44:33 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 13:44:33 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:44:34 INFO  HomePage:82 - OTP entered0000
+2018-06-20 13:44:35 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:44:40 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 13:44:40 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 13:44:40 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 13:44:40 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 13:44:43 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:44:43 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:44:43 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:44:43 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:44:43 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:44:43 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:44:43 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:44:43 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:44:43 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 13:44:45 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 13:44:46 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 13:44:46 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 13:45:08 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 13:45:19 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [214, 213, 212, 211]
+2018-06-20 13:45:24 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:45:24 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 13:45:24 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:45:25 INFO  HomePage:82 - OTP entered3212
+2018-06-20 13:45:25 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:45:28 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:45:30 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 13:45:59 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:45:59 INFO  HomePage:78 - User Mobile Number entered 8806639049
+2018-06-20 13:45:59 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:46:00 INFO  HomePage:82 - OTP entered3212
+2018-06-20 13:46:00 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:46:03 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:46:04 INFO  HomePage:128 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-20 13:46:46 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:46:46 INFO  HomePage:78 - User Mobile Number entered 8624046502
+2018-06-20 13:46:46 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:46:52 INFO  HomePage:82 - OTP entered3312
+2018-06-20 13:46:52 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:46:55 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:46:57 INFO  HomePage:128 - Clicked on the Sub Menu option : FINANCIAL APPROVAL
+2018-06-20 13:47:16 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:47:16 INFO  HomePage:78 - User Mobile Number entered FinancialApprover
+2018-06-20 13:47:16 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:48:49 INFO  TC003_VerifyNewRequestStatusInFinancialPage:26 - Initializing Setup
+2018-06-20 13:48:49 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 13:48:49 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:48:51 INFO  HomePage:82 - OTP entered0000
+2018-06-20 13:48:51 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:48:56 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 13:48:56 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 13:48:56 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 13:48:56 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 13:48:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:48:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:48:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:48:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:48:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:48:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:48:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:48:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:48:59 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 13:49:02 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 13:49:02 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 13:49:02 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 13:49:29 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 13:49:40 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [215, 214, 213, 212]
+2018-06-20 13:49:46 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:49:46 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 13:49:46 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:49:47 INFO  HomePage:82 - OTP entered3212
+2018-06-20 13:49:47 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:49:50 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:49:51 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 13:50:20 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:50:21 INFO  HomePage:78 - User Mobile Number entered 8806639049
+2018-06-20 13:50:21 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:50:22 INFO  HomePage:82 - OTP entered3212
+2018-06-20 13:50:22 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:50:25 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:50:26 INFO  HomePage:128 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-20 13:51:39 INFO  TC003_VerifyNewRequestStatusInFinancialPage:26 - Initializing Setup
+2018-06-20 13:51:39 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 13:51:39 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:51:40 INFO  HomePage:82 - OTP entered0000
+2018-06-20 13:51:40 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:51:46 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 13:51:47 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 13:51:47 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 13:51:47 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 13:51:50 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:51:50 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:51:50 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:51:50 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:51:50 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:51:50 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:51:50 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:51:50 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:51:50 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 13:51:52 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 13:51:52 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 13:51:53 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 13:52:14 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 13:52:26 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [216, 215, 214, 213]
+2018-06-20 13:52:31 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:52:31 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 13:52:31 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:52:32 INFO  HomePage:82 - OTP entered3212
+2018-06-20 13:52:33 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:52:39 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:52:40 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 13:53:09 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:53:09 INFO  HomePage:78 - User Mobile Number entered 8806639049
+2018-06-20 13:53:09 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:53:10 INFO  HomePage:82 - OTP entered3212
+2018-06-20 13:53:10 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:53:13 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:53:14 INFO  HomePage:128 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-20 13:54:46 INFO  TC003_VerifyNewRequestStatusInFinancialPage:26 - Initializing Setup
+2018-06-20 13:54:46 INFO  TC003_VerifyNewRequestStatusInFinancialPage:26 - Initializing Setup
+2018-06-20 13:54:46 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 13:54:46 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 13:54:47 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:54:47 INFO  TC003_VerifyNewRequestStatusInFinancialPage:26 - Initializing Setup
+2018-06-20 13:54:47 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:54:47 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 13:54:47 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:54:48 INFO  HomePage:82 - OTP entered0000
+2018-06-20 13:54:48 INFO  HomePage:82 - OTP entered0000
+2018-06-20 13:54:48 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:54:48 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:54:48 INFO  HomePage:82 - OTP entered0000
+2018-06-20 13:54:48 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:54:55 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 13:54:55 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 13:54:55 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 13:54:55 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 13:54:55 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 13:54:56 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 13:54:56 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 13:54:56 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 13:54:56 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 13:54:56 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 13:54:56 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 13:54:56 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:54:59 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:55:00 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:55:00 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 13:55:00 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 13:55:01 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 13:55:01 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 13:55:01 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 13:55:01 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 13:55:01 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 13:55:01 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 13:55:02 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 13:55:02 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 13:55:02 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 13:55:23 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 13:55:23 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 13:55:28 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 13:55:36 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [219, 218, 217, 216]
+2018-06-20 13:55:36 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [219, 218, 217, 216]
+2018-06-20 13:55:40 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [219, 218, 217, 216]
+2018-06-20 13:55:41 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:55:41 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 13:55:41 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:55:41 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:55:41 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 13:55:42 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:55:42 INFO  HomePage:82 - OTP entered3212
+2018-06-20 13:55:42 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:55:42 INFO  HomePage:82 - OTP entered3212
+2018-06-20 13:55:43 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:55:45 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:55:45 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 13:55:45 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:55:45 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:55:46 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:55:46 INFO  HomePage:82 - OTP entered3212
+2018-06-20 13:55:46 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:55:47 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 13:55:47 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 13:55:49 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:55:51 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 13:56:15 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:56:15 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:56:15 INFO  HomePage:78 - User Mobile Number entered 8806639049
+2018-06-20 13:56:15 INFO  HomePage:78 - User Mobile Number entered 8806639049
+2018-06-20 13:56:15 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:56:16 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:56:16 INFO  HomePage:82 - OTP entered3212
+2018-06-20 13:56:16 INFO  HomePage:82 - OTP entered3212
+2018-06-20 13:56:16 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:56:16 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:56:19 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:56:19 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:56:19 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:56:19 INFO  HomePage:78 - User Mobile Number entered 8806639049
+2018-06-20 13:56:19 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:56:20 INFO  HomePage:82 - OTP entered3212
+2018-06-20 13:56:20 INFO  HomePage:128 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-20 13:56:20 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:56:20 INFO  HomePage:128 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-20 13:56:23 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:56:24 INFO  HomePage:128 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-20 13:57:05 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:57:05 INFO  HomePage:78 - User Mobile Number entered 8624046502
+2018-06-20 13:57:05 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:57:08 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:57:08 INFO  HomePage:78 - User Mobile Number entered 8624046502
+2018-06-20 13:57:08 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:57:09 INFO  HomePage:82 - OTP entered3312
+2018-06-20 13:57:09 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:57:11 INFO  HomePage:82 - OTP entered3312
+2018-06-20 13:57:11 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:57:13 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:57:14 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:57:14 INFO  HomePage:128 - Clicked on the Sub Menu option : FINANCIAL APPROVAL
+2018-06-20 13:57:16 INFO  HomePage:128 - Clicked on the Sub Menu option : FINANCIAL APPROVAL
+2018-06-20 13:57:34 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:57:34 INFO  HomePage:78 - User Mobile Number entered 9167398416
+2018-06-20 13:57:34 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:57:35 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 13:57:35 INFO  HomePage:78 - User Mobile Number entered 9167398416
+2018-06-20 13:57:35 INFO  HomePage:82 - OTP entered3321
+2018-06-20 13:57:35 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 13:57:35 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:57:36 INFO  HomePage:82 - OTP entered3321
+2018-06-20 13:57:36 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 13:57:40 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:57:42 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 13:57:42 INFO  HomePage:128 - Clicked on the Sub Menu option : FINANCIAL APPROVAL
+2018-06-20 13:57:44 INFO  HomePage:128 - Clicked on the Sub Menu option : FINANCIAL APPROVAL
+2018-06-20 14:09:43 INFO  TC003_VerifyNewRequestStatusInFinancialPage:27 - Initializing Setup
+2018-06-20 14:09:43 INFO  HomePage:78 - User Mobile Number entered 9967348451
+2018-06-20 14:09:43 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 14:09:44 INFO  HomePage:82 - OTP entered0000
+2018-06-20 14:09:44 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 14:09:50 INFO  HomePage:440 - Clicked on New Request button
+2018-06-20 14:09:50 INFO  NewRequestPage:119 - Itemselected from the Request Type dropdown
+2018-06-20 14:09:50 INFO  NewRequestPage:134 - 000 selected from the Ref Branch dropdown
+2018-06-20 14:09:50 INFO  NewRequestPage:140 - Information Technology selected from the Cost Center dropdown
+2018-06-20 14:09:53 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 14:09:53 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 14:09:53 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 14:09:53 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 14:09:53 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 14:09:53 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 14:09:53 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 14:09:53 INFO  NewRequestPage:161 - Item 2 not found in Search List
+2018-06-20 14:09:53 INFO  NewRequestPage:158 - Clicked on the searched Product Name : Item 2
+2018-06-20 14:09:55 INFO  NewRequestPage:170 - Qty entered in the Qty field : 5
+2018-06-20 14:09:56 INFO  NewRequestPage:176 - Price entered in the Price field : 25000.00
+2018-06-20 14:09:56 INFO  NewRequestPage:211 - Clicked on Add button
+2018-06-20 14:10:18 INFO  NewRequestPage:242 - Clicked on Submit button
+2018-06-20 14:10:29 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [220, 219, 218, 217]
+2018-06-20 14:10:34 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 14:10:35 INFO  HomePage:78 - User Mobile Number entered 9990438086
+2018-06-20 14:10:35 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 14:10:36 INFO  HomePage:82 - OTP entered3212
+2018-06-20 14:10:36 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 14:10:39 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 14:10:40 INFO  HomePage:128 - Clicked on the Sub Menu option : APPROVAL LIST
+2018-06-20 14:11:09 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 14:11:09 INFO  HomePage:78 - User Mobile Number entered 8806639049
+2018-06-20 14:11:09 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 14:11:10 INFO  HomePage:82 - OTP entered3212
+2018-06-20 14:11:10 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 14:11:13 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 14:11:15 INFO  HomePage:128 - Clicked on the Sub Menu option : DESK CONFIRMATION LIST
+2018-06-20 14:12:00 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 14:12:00 INFO  HomePage:78 - User Mobile Number entered 8624046502
+2018-06-20 14:12:00 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 14:12:01 INFO  HomePage:82 - OTP entered3312
+2018-06-20 14:12:01 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 14:12:04 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 14:12:06 INFO  HomePage:128 - Clicked on the Sub Menu option : FINANCIAL APPROVAL
+2018-06-20 14:12:25 INFO  HomePage:97 - Clicked on LogOut button
+2018-06-20 14:12:26 INFO  HomePage:78 - User Mobile Number entered 9167398416
+2018-06-20 14:12:26 INFO  HomePage:80 - Clicked on Send OTP button
+2018-06-20 14:12:27 INFO  HomePage:82 - OTP entered3321
+2018-06-20 14:12:27 INFO  HomePage:84 - Clicked on Verify button
+2018-06-20 14:12:40 INFO  HomePage:110 - Clicked on the Menu option : TRANSACTIONS
+2018-06-20 14:12:42 INFO  HomePage:128 - Clicked on the Sub Menu option : FINANCIAL APPROVAL

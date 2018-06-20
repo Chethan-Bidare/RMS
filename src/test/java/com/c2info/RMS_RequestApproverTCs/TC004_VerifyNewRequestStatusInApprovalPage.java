@@ -9,6 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import com.c2info.RMS_TestBase.TestBase;
+import com.c2info.RMS_UIActions.ApprovalPage;
 import com.c2info.RMS_UIActions.HomePage;
 import com.c2info.RMS_UIActions.NewRequestPage;
 
@@ -31,7 +32,7 @@ public class TC004_VerifyNewRequestStatusInApprovalPage extends TestBase{
 	public void verifyStatusInApprovalPage() throws InterruptedException{
 		HomePage homePage = new HomePage();
 		NewRequestPage newRequest = new NewRequestPage();
-		
+		ApprovalPage approvalPage = new ApprovalPage();
 		homePage.clickOnNewRequestButton();
 		newRequest.selectRequestType("Item");
 		newRequest.selectRefBranch(APP.getProperty("BranchCode"));
@@ -53,7 +54,7 @@ public class TC004_VerifyNewRequestStatusInApprovalPage extends TestBase{
 		homePage.ClickOnMenuOption("TRANSACTIONS");
 		homePage.selectAnOptionFromSubMenu("APPROVAL LIST");
 		Thread.sleep(5000);
-		String actualResult = homePage.getStatusBasedOnPRnumber(createdReq, "My Request");
+		String actualResult = approvalPage.getStatusBasedOnPRnumber(createdReq, "My Request");
 		String expectedResult = "Pending" ;
 		Assert.assertEquals(actualResult, expectedResult);
 	}
