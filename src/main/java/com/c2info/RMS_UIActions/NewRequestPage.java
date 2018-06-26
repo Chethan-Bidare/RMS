@@ -9,13 +9,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.c2info.RMS_TestBase.TestBase;
 
 public class NewRequestPage extends TestBase{
 	
 	public static final Logger log = Logger.getLogger(NewRequestPage.class.getName());
+	WebDriverWait wait = new WebDriverWait(driver, 60);
 	
 	@FindBy(id="request_type")
 	WebElement RequestType ;
@@ -207,11 +210,13 @@ public class NewRequestPage extends TestBase{
 	}
 	
 	public void clickOnAddButton(){
+		wait.until(ExpectedConditions.elementToBeClickable(AddBtn));
 		AddBtn.click();
 		log.info("Clicked on Add button");
 	}
 	
 	public void clickOnAddButtonOnUpdate(){
+		wait.until(ExpectedConditions.elementToBeClickable(AddBtnOnUpdate));
 		AddBtnOnUpdate.click();
 		log.info("Clicked on Add button");
 	}
@@ -233,10 +238,11 @@ public class NewRequestPage extends TestBase{
 	}*/
 	
 	public void clickOnSubmitButton() throws InterruptedException{
+		wait.until(ExpectedConditions.elementToBeClickable(SubmitBtn));
 		SubmitBtn.click();
-		Thread.sleep(2000);
+		wait.until(ExpectedConditions.elementToBeClickable(SubmitOKBtn));
 		SubmitOKBtn.click();
-		Thread.sleep(10000);
+		wait.until(ExpectedConditions.elementToBeClickable(SubmitSuccessOkBtn));
 		SubmitSuccessOkBtn.click();
 		Thread.sleep(5000);
 		log.info("Clicked on Submit button");

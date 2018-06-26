@@ -9,13 +9,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.c2info.RMS_TestBase.TestBase;
 
 public class CostCenterApprovalPage extends TestBase{
 
 	public static final Logger log = Logger.getLogger(CostCenterApprovalPage.class.getName());
-	
+	WebDriverWait wait = new WebDriverWait(driver, 60);
 	
 	@FindBy(id="remark")
 	WebElement ApproverRemark ;
@@ -57,8 +59,9 @@ public class CostCenterApprovalPage extends TestBase{
 		for( WebElement we : buttons){
 			if(we.getText().equalsIgnoreCase("approve")){
 				we.click();
-				Thread.sleep(2000);
+				wait.until(ExpectedConditions.elementToBeClickable(ApproverRemark));
 				ApproverRemark.sendKeys("Approved");
+				wait.until(ExpectedConditions.elementToBeClickable(ApproveOKbuton));
 				ApproveOKbuton.click();
 				break;
 			}

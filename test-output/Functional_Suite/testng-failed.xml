@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional_Suite]">
+  <test name="FunctionalTest(failed)">
+    <classes>
+      <class name="com.c2info.RMS_CostCenterApproverTCs.TC003_VerifyNewRequestStatusInCostCenterPage">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="verifyStatusInCostCenterPage"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_CostCenterApproverTCs.TC003_VerifyNewRequestStatusInCostCenterPage -->
+      <class name="com.c2info.RMS_HomePageTCs.TC_004_VerifySortingFunctionalityInListView">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="endTest"/>
+          <include name="verifySortAscendingInListView"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_HomePageTCs.TC_004_VerifySortingFunctionalityInListView -->
+      <class name="com.c2info.RMS_DeskConfirmerTCs.TC002_VerifyUptoDeskConfirmationFunctionality">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="verifyDeskConfirmationFunctionality"/>
+          <include name="endTest"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_DeskConfirmerTCs.TC002_VerifyUptoDeskConfirmationFunctionality -->
+      <class name="com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName">
+        <methods>
+          <include name="verifyItemSearchInGridViewForMyRequest"/>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="endTest"/>
+          <include name="verifyItemSearchInListViewForMyRequest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName -->
+      <class name="com.c2info.RMS_CostCenterApproverTCs.TC001_VerifyUptoCostCenterApprovalFunctionality">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+          <include name="setup"/>
+          <include name="verifyUptoCostCenterApprovalFunctionality"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_CostCenterApproverTCs.TC001_VerifyUptoCostCenterApprovalFunctionality -->
+      <class name="com.c2info.RMS_POGeneratorTCs.TC001_VerifyPOGenerationFunctionality">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="verifyUptoCostCenterApprovalFunctionality"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_POGeneratorTCs.TC001_VerifyPOGenerationFunctionality -->
+      <class name="com.c2info.RMS_FinancialApproverTCs.TC001_VerifyUptoFinancialApprovalPage">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="endTest"/>
+          <include name="verifyUptoCostCenterApprovalFunctionality"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_FinancialApproverTCs.TC001_VerifyUptoFinancialApprovalPage -->
+      <class name="com.c2info.RMS_NewRequestTCs.TC008_VerifyApprovalStatusInRequestorLogin">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="endTest"/>
+          <include name="verifyStatusInHomePage"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_NewRequestTCs.TC008_VerifyApprovalStatusInRequestorLogin -->
+      <class name="com.c2info.RMS_HomePageTCs.TC_001_VerifyLoginLogOut">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="verifyLogOut"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_HomePageTCs.TC_001_VerifyLoginLogOut -->
+      <class name="com.c2info.RMS_HomePageTCs.TC_006_VerifySearchForEmployeeName">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="verifyEmployeeSearchInGridView"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_HomePageTCs.TC_006_VerifySearchForEmployeeName -->
+    </classes>
+  </test> <!-- FunctionalTest(failed) -->
+</suite> <!-- Failed suite [Functional_Suite] -->

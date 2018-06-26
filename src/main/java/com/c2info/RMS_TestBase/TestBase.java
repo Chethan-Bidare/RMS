@@ -5,12 +5,18 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
@@ -181,6 +187,51 @@ public class TestBase {
 		return flag ;
 		
 	}
+	
+	public ArrayList<String> getBrokenLinks(){
+		List<WebElement> list = driver.findElements(By.tagName("a"));
+		System.out.println("Total Number of Links : "+list.size());
+		ArrayList<String> brokenLinks = new ArrayList<String>();
+		for(WebElement we : list){
+			
+			if(we != null){
+			String url = we.getAttribute("href");
+			if(url != null && ! url.contains("javascript")){
+				verifyUrlStatus(url);
+			}
+			else{
+				brokenLinks.add(url);
+				System.out.println("Broken Link : "+url);
+			}
+			}
+		}
+		return brokenLinks ;
+	}
+	
+	
+	public void verifyUrlStatus(String url){
+		
+		HttpClient client = HttpClientBuilder.create().build();
+		HttpGet request = new HttpGet(url);
+		
+		try {
+			HttpResponse response = client.execute(request);
+			
+			if(response.getStatusLine().getStatusCode()==200){
+				System.out.println("Valid Link : "+url);
+			}
+			else{
+				System.out.println("Broken Link : "+url);
+			}
+		} catch (ClientProtocolException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
 	
 	
 	public void getResult(ITestResult Result){

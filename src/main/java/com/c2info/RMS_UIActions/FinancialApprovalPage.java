@@ -8,13 +8,14 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.c2info.RMS_TestBase.TestBase;
 
 public class FinancialApprovalPage extends TestBase{
 
 	public static final Logger log = Logger.getLogger(FinancialApprovalPage.class.getName());
-	
+	WebDriverWait wait = new WebDriverWait(driver, 60);
 	/*
 	@FindBy(id="")
 	WebElement abc ;

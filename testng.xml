@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functional_Suite">
+    <listeners>
+        <listener class-name="com.c2info.RMS_Listeners.Listeners"></listener>
+    </listeners>
+  <test name="FunctionalTest">
+    <classes>
+      <class name="com.c2info.RMS_NewRequestTCs.TC007_VerifyNewRequestStatusInRequestorPage"/>
+      <class name="com.c2info.RMS_FinancialApproverTCs.TC001_VerifyUptoFinancialApprovalPage"/>
+      <class name="com.c2info.RMS_RequestApproverTCs.TC003_VerifyItemName_Qty_Price_InApprovalPage"/>
+      <class name="com.c2info.RMS_DeskConfirmerTCs.TC003_VerifyItemName_Qty_Price_InDeskConfirmPage"/>
+      <class name="com.c2info.RMS_POGeneratorTCs.TC002_VerifyItemDetailsInPOpage"/>
+      <class name="com.c2info.RMS_HomePageTCs.TC_001_VerifyLoginLogOut"/>
+      <class name="com.c2info.RMS_NewRequestTCs.TC006_VerifyPriceFieldAfterUpdate"/>
+      <class name="com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName"/>
+      <class name="com.c2info.RMS_HomePageTCs.TC_002_Check"/>
+      <class name="com.c2info.RMS_HomePageTCs.TC_004_VerifySortingFunctionalityInListView"/>
+      <class name="com.c2info.RMS_NewRequestTCs.TC009_VerifyRateConfirmationStatusInRequestorLogin"/>
+      <class name="com.c2info.RMS_DeskConfirmerTCs.TC002_VerifyUptoDeskConfirmationFunctionality"/>
+      <class name="com.c2info.RMS_HomePageTCs.TC_006_VerifySearchForEmployeeName"/>
+      <class name="com.c2info.RMS_RequestApproverTCs.TC002_VerifyRequestCreationInApprovalPage"/>
+      <class name="com.c2info.RMS_RequestApproverTCs.TC004_VerifyNewRequestStatusInApprovalPage"/>
+      <class name="com.c2info.RMS_DeskConfirmerTCs.TC004_VerifyNewRequestStatusInDeskConfirmationPage"/>
+      <class name="com.c2info.RMS_CostCenterApproverTCs.TC001_VerifyUptoCostCenterApprovalFunctionality"/>
+      <class name="com.c2info.RMS_POGeneratorTCs.TC001_VerifyPOGenerationFunctionality"/>
+      <class name="com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField"/>
+      <class name="com.c2info.RMS_NewRequestTCs.TC008_VerifyApprovalStatusInRequestorLogin"/>
+      <class name="com.c2info.RMS_FinancialApproverTCs.TC003_VerifyNewRequestStatusInFinancialPage"/>
+      <class name="com.c2info.RMS_NewRequestTCs.TC005_VerifyPriceField"/>
+      <class name="com.c2info.RMS_DeskConfirmerTCs.TC001_VerifyDeskConfimationApprovalLink"/>
+      <class name="com.c2info.RMS_FinancialApproverTCs.TC002_VerifyItemDetailsInFinancialPage"/>
+      <class name="com.c2info.RMS_NewRequestTCs.TC001_VerifyNewRequestFunctionailtyForSingleProduct"/>
+      <class name="com.c2info.RMS_HomePageTCs.TC_003_VerifySortingFunctionalityInGridView"/>
+      <class name="com.c2info.RMS_NewRequestTCs.TC004_VerifyQtyFieldAfterUpdate"/>
+      <class name="com.c2info.RMS_RequestApproverTCs.TC001_VerifyUptoRequestApprovalFunctionality"/>
+      <class name="com.c2info.RMS_CostCenterApproverTCs.TC003_VerifyNewRequestStatusInCostCenterPage"/>
+      <class name="com.c2info.RMS_HomePageTCs.TC_007_VerifyGridAndListButtonFunctionality"/>
+      <class name="com.c2info.RMS_HomePageTCs.TC_008_VerifyBrokenLinks"/>
+      <class name="com.c2info.RMS_CostCenterApproverTCs.TC002_VerifyItemDetailsInCostCenterPage"/>
+      <class name="com.c2info.RMS_NewRequestTCs.TC002_VerifyByAddingItemsInRequest"/>
+    </classes>
+  </test> <!-- FunctionalTest -->
+</suite> <!-- Functional_Suite -->

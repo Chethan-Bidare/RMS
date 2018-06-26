@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import com.c2info.RMS_TestBase.TestBase;
@@ -18,7 +19,7 @@ import com.c2info.RMS_UIActions.NewRequestPage;
 public class TC002_VerifyUptoDeskConfirmationFunctionality extends TestBase{
 
 public static final Logger log = Logger.getLogger(TC002_VerifyUptoDeskConfirmationFunctionality.class.getName());
-    
+    WebDriverWait wait = new WebDriverWait(driver, 60);
     
 	@BeforeClass
 	public void setup() throws IOException, InterruptedException{

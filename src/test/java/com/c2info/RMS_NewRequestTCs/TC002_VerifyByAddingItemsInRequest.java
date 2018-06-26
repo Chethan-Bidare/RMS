@@ -21,7 +21,7 @@ public static final Logger log = Logger.getLogger(TC002_VerifyByAddingItemsInReq
 		init();
 		log.info("Initializing Setup");
 		HomePage hp = new HomePage();
-		hp.doLogin(OR.getProperty("Employee"),OR.getProperty("otp"));
+		hp.doLogin(OR.getProperty("Requestor"),OR.getProperty("otp"));
 		hp.waitForHomePagetoLoad();
 		log.info("Login Successfull");
 	}

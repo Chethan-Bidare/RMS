@@ -1,47 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="192416" started-at="2018-06-20T08:39:36Z" finished-at="2018-06-20T08:42:49Z">
+  <suite name="Default suite" duration-ms="64860" started-at="2018-06-26T08:47:01Z" finished-at="2018-06-26T08:48:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="192416" started-at="2018-06-20T08:39:36Z" finished-at="2018-06-20T08:42:49Z">
-      <class name="com.c2info.RMS_FinancialApproverTCs.TC003_VerifyNewRequestStatusInFinancialPage">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.c2info.RMS_FinancialApproverTCs.TC003_VerifyNewRequestStatusInFinancialPage@61009542]" name="setup" is-config="true" duration-ms="11538" started-at="2018-06-20T14:09:36Z" finished-at="2018-06-20T14:09:48Z">
+    <test name="Default test" duration-ms="64860" started-at="2018-06-26T08:47:01Z" finished-at="2018-06-26T08:48:06Z">
+      <class name="com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName@55040f2f]" name="setup" is-config="true" duration-ms="10613" started-at="2018-06-26T14:17:01Z" finished-at="2018-06-26T14:17:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.RMS_FinancialApproverTCs.TC003_VerifyNewRequestStatusInFinancialPage@61009542]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2018-06-20T14:09:48Z" finished-at="2018-06-20T14:09:48Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName@55040f2f]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2018-06-26T14:17:12Z" finished-at="2018-06-26T14:17:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.c2info.RMS_FinancialApproverTCs.TC003_VerifyNewRequestStatusInFinancialPage.verifyStatusInFinancialPage() throws java.lang.InterruptedException]]>
+                <![CDATA[public void com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName.verifyItemSearchInGridViewForMyRequest() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyStatusInFinancialPage()[pri:0, instance:com.c2info.RMS_FinancialApproverTCs.TC003_VerifyNewRequestStatusInFinancialPage@61009542]" name="verifyStatusInFinancialPage" duration-ms="180554" started-at="2018-06-20T14:09:48Z" finished-at="2018-06-20T14:12:49Z">
+        <test-method status="PASS" signature="verifyItemSearchInGridViewForMyRequest()[pri:0, instance:com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName@55040f2f]" name="verifyItemSearchInGridViewForMyRequest" duration-ms="26175" started-at="2018-06-26T14:17:12Z" finished-at="2018-06-26T14:17:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyStatusInFinancialPage -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.RMS_FinancialApproverTCs.TC003_VerifyNewRequestStatusInFinancialPage@61009542]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-06-20T14:12:49Z" finished-at="2018-06-20T14:12:49Z">
+        </test-method> <!-- verifyItemSearchInGridViewForMyRequest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName@55040f2f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-06-26T14:17:38Z" finished-at="2018-06-26T14:17:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyStatusInFinancialPage status=SUCCESS method=TC003_VerifyNewRequestStatusInFinancialPage.verifyStatusInFinancialPage()[pri:0, instance:com.c2info.RMS_FinancialApproverTCs.TC003_VerifyNewRequestStatusInFinancialPage@61009542] output={null}]]]>
+                <![CDATA[[TestResult name=verifyItemSearchInGridViewForMyRequest status=SUCCESS method=TC_005_VerifySearchForItemName.verifyItemSearchInGridViewForMyRequest()[pri:0, instance:com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName@55040f2f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.c2info.RMS_FinancialApproverTCs.TC003_VerifyNewRequestStatusInFinancialPage@61009542]" name="endTest" is-config="true" duration-ms="305" started-at="2018-06-20T14:12:49Z" finished-at="2018-06-20T14:12:49Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName@55040f2f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-06-26T14:17:38Z" finished-at="2018-06-26T14:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName.verifyItemSearchInListViewForMyRequest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyItemSearchInListViewForMyRequest()[pri:1, instance:com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName@55040f2f]" name="verifyItemSearchInListViewForMyRequest" duration-ms="25522" started-at="2018-06-26T14:17:38Z" finished-at="2018-06-26T14:18:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemSearchInListViewForMyRequest -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName@55040f2f]" name="endTest" is-config="true" duration-ms="2531" started-at="2018-06-26T14:18:04Z" finished-at="2018-06-26T14:18:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.c2info.RMS_FinancialApproverTCs.TC003_VerifyNewRequestStatusInFinancialPage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName@55040f2f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-06-26T14:18:04Z" finished-at="2018-06-26T14:18:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyItemSearchInListViewForMyRequest status=SUCCESS method=TC_005_VerifySearchForItemName.verifyItemSearchInListViewForMyRequest()[pri:1, instance:com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName@55040f2f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

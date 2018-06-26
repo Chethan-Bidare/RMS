@@ -20,7 +20,7 @@ public static final Logger log = Logger.getLogger(TC_005_VerifySearchForItemName
 		init();
 		log.info("Initializing Setup");
 		HomePage hp = new HomePage();
-		hp.doLogin(OR.getProperty("Employee"),OR.getProperty("otp"));
+		hp.doLogin(OR.getProperty("Requestor"),OR.getProperty("otp"));
 		hp.waitForHomePagetoLoad();
 		log.info("Login Successfull");
 	}
@@ -28,11 +28,11 @@ public static final Logger log = Logger.getLogger(TC_005_VerifySearchForItemName
 	@Test(priority=0)
 	public void verifyItemSearchInGridViewForMyRequest() throws InterruptedException{
 		HomePage hp = new HomePage();
-		hp.clickOnGlobalSearch(APP.getProperty("ItemName"));
-		Thread.sleep(3000);
+		hp.clickOnGlobalSearch(APP.getProperty("ItemName2"));
+		Thread.sleep(20000);
 		ArrayList<String> itemNamesAfterSearch = hp.getItemNamesForRequiredSectionInGridView("My Request");
 		//System.out.println(itemNamesAfterSearch.listIterator().);
-		Assert.assertTrue(itemNamesAfterSearch.listIterator().next().equals(APP.getProperty("ItemName")));
+		Assert.assertTrue(itemNamesAfterSearch.listIterator().next().equals(APP.getProperty("ItemName2")));
 	}
 	
 	@Test(priority=1)
@@ -40,10 +40,10 @@ public static final Logger log = Logger.getLogger(TC_005_VerifySearchForItemName
 		HomePage hp = new HomePage();
 		refreshPage();
 		hp.clickOnGridORListView("List");
-		hp.clickOnGlobalSearch(APP.getProperty("ItemName"));
-		Thread.sleep(3000);
+		hp.clickOnGlobalSearch(APP.getProperty("ItemName2"));
+		Thread.sleep(20000);
 		ArrayList<String> itemNamesAfterSearch = hp.getItemNamesForRequiredSectionInListView("My Request");
 		//System.out.println(itemNamesAfterSearch.listIterator().);
-		Assert.assertTrue(itemNamesAfterSearch.listIterator().next().equals(APP.getProperty("ItemName")));
+		Assert.assertTrue(itemNamesAfterSearch.listIterator().next().equals(APP.getProperty("ItemName2")));
 	}
 }

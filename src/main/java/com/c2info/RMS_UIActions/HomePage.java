@@ -20,7 +20,7 @@ public class HomePage extends TestBase{
 	
 	public static final Logger log = Logger.getLogger(HomePage.class.getName());
 	
-	WebDriverWait wait = new WebDriverWait(driver, 45);
+	WebDriverWait wait = new WebDriverWait(driver, 60);
 	
 	@FindBy(id="user_name")
 	WebElement UserNumber ;
@@ -89,7 +89,7 @@ public class HomePage extends TestBase{
 		for(WebElement we : AutoSuggestionItemList){
 			if(we.getText().contains("LOGOUT")){
 				we.click();
-				Thread.sleep(5000);
+				wait.until(ExpectedConditions.elementToBeClickable(logoutOKBtn));
 				logoutOKBtn.click();
 				break ;
 			}

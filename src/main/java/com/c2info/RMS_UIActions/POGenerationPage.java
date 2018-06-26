@@ -10,7 +10,9 @@ import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.c2info.RMS_TestBase.TestBase;
 
@@ -18,7 +20,7 @@ public class POGenerationPage extends TestBase{
 
 	
 	public static final Logger log = Logger.getLogger(POGenerationPage.class.getName());
-	
+	WebDriverWait wait = new WebDriverWait(driver, 60);
 	
 	@FindBy(id="selectall")
 	WebElement SelectAllCheckBox ;
@@ -85,8 +87,9 @@ public class POGenerationPage extends TestBase{
 	}
 	
 	public void clickOnSubmitButton() throws InterruptedException{
+		wait.until(ExpectedConditions.elementToBeClickable(SubmitButton));
 		SubmitButton.click();
-		Thread.sleep(5000);
+		wait.until(ExpectedConditions.elementToBeClickable(OKbtn));
 		OKbtn.click();
 	}
 	
@@ -103,7 +106,7 @@ public class POGenerationPage extends TestBase{
 				driver.findElement(By.xpath(".//*[@id='setup1_paginate']/span/a["+i+"]")).click();
 				Thread.sleep(3000);
 				List<WebElement> rows = driver.findElements(By.xpath(".//*[@id='setup1']/tbody/tr/td[2]"));
-				Thread.sleep(3000);
+				wait.until(ExpectedConditions.visibilityOfAllElements(rows));
 				for(WebElement we : rows){
 					String text = we.getText().trim().toString();
 					poNumbers.add(text);

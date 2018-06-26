@@ -9,13 +9,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.c2info.RMS_TestBase.TestBase;
 
 public class DeskConfirmationPage extends TestBase{
 
 	public static final Logger log = Logger.getLogger(DeskConfirmationPage.class.getName());
-	
+	WebDriverWait wait = new WebDriverWait(driver, 60);
 	
 	@FindBy(id="select2-empname-container")
 	WebElement Supplierbox ;
@@ -110,20 +112,22 @@ public class DeskConfirmationPage extends TestBase{
 	}
 	
 	public void selectSupplierAndLoadData(String suppName) throws InterruptedException{
+		wait.until(ExpectedConditions.elementToBeClickable(Supplierbox));
 		Supplierbox.click();
 		SupplierEntry.sendKeys(suppName);
 		Thread.sleep(2000);
 		SelectFromAutoSuggestionSearch(suppName);
-		Thread.sleep(5000);
+		wait.until(ExpectedConditions.elementToBeClickable(LoadDataBtn));
 		LoadDataBtn.click();
 		Thread.sleep(2000);
 	}
 	
 	public void clickOnSubmitBtn() throws InterruptedException{
+		wait.until(ExpectedConditions.elementToBeClickable(SubmitBtn));
 		SubmitBtn.click();
-		Thread.sleep(5000);
+		wait.until(ExpectedConditions.elementToBeClickable(Updatebtn));
 		Updatebtn.click();
-		Thread.sleep(5000);
+		wait.until(ExpectedConditions.elementToBeClickable(OKbtn));
 		OKbtn.click();
 	}
 	

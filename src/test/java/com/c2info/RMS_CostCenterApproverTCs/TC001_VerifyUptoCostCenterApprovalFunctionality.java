@@ -74,9 +74,9 @@ public class TC001_VerifyUptoCostCenterApprovalFunctionality extends TestBase{
 		homePage.ClickOnMenuOption("TRANSACTIONS");
 		Thread.sleep(3000);
 		homePage.selectAnOptionFromSubMenu("DESK CONFIRMATION LIST");
-		Thread.sleep(3000);
-		dcp.clickOnDeskApprovalRequestBasedOnPRnumber("My Request",createdReq);
 		Thread.sleep(5000);
+		dcp.clickOnDeskApprovalRequestBasedOnPRnumber("My Request",createdReq);
+		Thread.sleep(10000);
 		dcp.selectSupplierAndLoadData(APP.getProperty("SupplierName"));
 		Thread.sleep(3000);
 		dcp.clickOnSubmitBtn();

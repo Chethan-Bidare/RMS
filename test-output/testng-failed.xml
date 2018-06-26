@@ -3,15 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.c2info.RMS_FinancialApproverTCs.TC003_VerifyNewRequestStatusInFinancialPage">
+      <class name="com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName">
         <methods>
+          <include name="verifyItemSearchInGridViewForMyRequest"/>
           <include name="beforeMethod"/>
           <include name="setup"/>
           <include name="endTest"/>
-          <include name="verifyStatusInCostCenterPage"/>
+          <include name="verifyItemSearchInListViewForMyRequest"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.c2info.RMS_FinancialApproverTCs.TC003_VerifyNewRequestStatusInFinancialPage -->
+      </class> <!-- com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
