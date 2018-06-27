@@ -88,6 +88,7 @@ public class HomePage extends TestBase{
 		List<WebElement> AutoSuggestionItemList = driver.findElements(By.tagName("li"));
 		for(WebElement we : AutoSuggestionItemList){
 			if(we.getText().contains("LOGOUT")){
+				wait.until(ExpectedConditions.textToBePresentInElement(we, "LOGOUT"));
 				we.click();
 				wait.until(ExpectedConditions.elementToBeClickable(logoutOKBtn));
 				logoutOKBtn.click();
@@ -389,7 +390,8 @@ public class HomePage extends TestBase{
     return employeeNames ;
 }	
 	
-	public ArrayList<String> getEmployeeNamesInGridView(){
+	public ArrayList<String> getEmployeeNamesInGridView() throws InterruptedException{
+		Thread.sleep(5000);
 		List<WebElement> text =  driver.findElements(By.xpath("//*/div/div/a/div/div/div[2]/p[3]/span"));
 		ArrayList<String> employeeNames = new ArrayList<String>();
 		for(WebElement we : text){

@@ -112,7 +112,7 @@ public class DeskConfirmationPage extends TestBase{
 	}
 	
 	public void selectSupplierAndLoadData(String suppName) throws InterruptedException{
-		wait.until(ExpectedConditions.elementToBeClickable(Supplierbox));
+		Thread.sleep(10000);
 		Supplierbox.click();
 		SupplierEntry.sendKeys(suppName);
 		Thread.sleep(2000);

@@ -3,9 +3,12 @@ package com.c2info.RMS_HomePageTCs;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Set;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeClass;
 
 import com.c2info.RMS_TestBase.TestBase;
@@ -34,6 +37,7 @@ public static final Logger log = Logger.getLogger(TC_001_VerifyLoginLogOut.class
 	
 	@Test
 	public void check() throws InterruptedException{
+		
 		HomePage homePage = new HomePage();
 		CostCenterApprovalPage costCenterPage = new CostCenterApprovalPage();
 		DeskConfirmationPage deskConfirmationPage = new DeskConfirmationPage();
@@ -41,8 +45,7 @@ public static final Logger log = Logger.getLogger(TC_001_VerifyLoginLogOut.class
 		POGenerationPage po = new POGenerationPage();
 		
 		Thread.sleep(5000);
-		String status = homePage.getStatusBasedOnPRnumber("192","My Request");
-		System.out.println(status);
+		
 		
 		
 	}

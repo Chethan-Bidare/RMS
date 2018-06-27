@@ -14,7 +14,7 @@ import com.c2info.RMS_UIActions.HomePage;
 public class TC_001_VerifyLoginLogOut extends TestBase {
 	
     public static final Logger log = Logger.getLogger(TC_001_VerifyLoginLogOut.class.getName());
-    WebDriverWait wait = new WebDriverWait(driver, 60);
+    
     
 	@BeforeClass
 	public void setup() throws IOException, InterruptedException{

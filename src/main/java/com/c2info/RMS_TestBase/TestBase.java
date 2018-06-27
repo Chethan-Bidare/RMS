@@ -265,8 +265,13 @@ public class TestBase {
 	}
 	@AfterClass(alwaysRun=true)
 	public void endTest(){
-		driver.close();
-		extent.endTest(Test);
-		extent.flush();
+		try {
+			driver.close();
+			extent.endTest(Test);
+			extent.flush();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			System.out.println("No such session found to close the driver");
+		}
 	}
 }

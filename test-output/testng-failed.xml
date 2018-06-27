@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional_Suite]">
+  <listeners>
+    <listener class-name="com.c2info.RMS_Listeners.Listeners"/>
+  </listeners>
+  <test name="FunctionalTest(failed)">
     <classes>
+      <class name="com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="endTest"/>
+          <include name="verifyQtyField"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_NewRequestTCs.TC003_VerifyQtyField -->
+      <class name="com.c2info.RMS_HomePageTCs.TC_001_VerifyLoginLogOut">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="verifyLogOut"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_HomePageTCs.TC_001_VerifyLoginLogOut -->
       <class name="com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName">
         <methods>
-          <include name="verifyItemSearchInGridViewForMyRequest"/>
           <include name="beforeMethod"/>
           <include name="setup"/>
           <include name="endTest"/>
@@ -13,6 +33,96 @@
           <include name="afterMethod"/>
         </methods>
       </class> <!-- com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName -->
+      <class name="com.c2info.RMS_HomePageTCs.TC_006_VerifySearchForEmployeeName">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="verifyEmployeeSearchInGridView"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_HomePageTCs.TC_006_VerifySearchForEmployeeName -->
+      <class name="com.c2info.RMS_NewRequestTCs.TC006_VerifyPriceFieldAfterUpdate">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="endTest"/>
+          <include name="verifyPriceFieldAfterUpdate"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_NewRequestTCs.TC006_VerifyPriceFieldAfterUpdate -->
+      <class name="com.c2info.RMS_HomePageTCs.TC_004_VerifySortingFunctionalityInListView">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="endTest"/>
+          <include name="verifySortAscendingInListView"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_HomePageTCs.TC_004_VerifySortingFunctionalityInListView -->
+      <class name="com.c2info.RMS_NewRequestTCs.TC004_VerifyQtyFieldAfterUpdate">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="verifyQtyIncreaseAfterUpdate"/>
+          <include name="endTest"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_NewRequestTCs.TC004_VerifyQtyFieldAfterUpdate -->
+      <class name="com.c2info.RMS_FinancialApproverTCs.TC002_VerifyItemDetailsInFinancialPage">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="verifyItemDetails"/>
+          <include name="endTest"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_FinancialApproverTCs.TC002_VerifyItemDetailsInFinancialPage -->
+      <class name="com.c2info.RMS_POGeneratorTCs.TC001_VerifyPOGenerationFunctionality">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="verifyUptoCostCenterApprovalFunctionality"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_POGeneratorTCs.TC001_VerifyPOGenerationFunctionality -->
+      <class name="com.c2info.RMS_FinancialApproverTCs.TC003_VerifyNewRequestStatusInFinancialPage">
+        <methods>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+          <include name="verifyStatusInFinancialPage"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_FinancialApproverTCs.TC003_VerifyNewRequestStatusInFinancialPage -->
+      <class name="com.c2info.RMS_FinancialApproverTCs.TC001_VerifyUptoFinancialApprovalPage">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="endTest"/>
+          <include name="verifyUptoCostCenterApprovalFunctionality"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_FinancialApproverTCs.TC001_VerifyUptoFinancialApprovalPage -->
+      <class name="com.c2info.RMS_DeskConfirmerTCs.TC002_VerifyUptoDeskConfirmationFunctionality">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="verifyDeskConfirmationFunctionality"/>
+          <include name="endTest"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_DeskConfirmerTCs.TC002_VerifyUptoDeskConfirmationFunctionality -->
+      <class name="com.c2info.RMS_CostCenterApproverTCs.TC001_VerifyUptoCostCenterApprovalFunctionality">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+          <include name="setup"/>
+          <include name="verifyUptoCostCenterApprovalFunctionality"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.c2info.RMS_CostCenterApproverTCs.TC001_VerifyUptoCostCenterApprovalFunctionality -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- FunctionalTest(failed) -->
+</suite> <!-- Failed suite [Functional_Suite] -->

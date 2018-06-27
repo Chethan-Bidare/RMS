@@ -168,12 +168,14 @@ public class NewRequestPage extends TestBase{
 	}
 	
 	public void enterQty(String Qty){
+		wait.until(ExpectedConditions.elementToBeClickable(QtyEdit));
 		QtyEdit.clear();
 		QtyEdit.sendKeys(Qty);
 		log.info("Qty entered in the Qty field : "+Qty);
 	}
 	
 	public void enterAmount(String price){
+		wait.until(ExpectedConditions.elementToBeClickable(Price));
 		Price.clear();
 		Price.sendKeys(price);
 		log.info("Price entered in the Price field : "+price);
