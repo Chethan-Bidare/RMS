@@ -101,6 +101,10 @@ public class TestBase {
 			waitForElementToLoad();
 			
 		}
+		else if(BrowserName.equalsIgnoreCase("htmlunit")){
+			//driver = new HtmlUnitDriver() ;
+			waitForElementToLoad();
+		}
 	}
 	
 	public void getBaseUrl(String BaseUrl){
@@ -148,6 +152,7 @@ public class TestBase {
 			String destination = ReportDirectory+"_"+methodName+"_"+formatter.format(calendar.getTime())+".png";
 			File destFile = new File(destination);
 			FileUtils.copyFile(srcFile, destFile);
+			
 			return destination ;
 		} catch (WebDriverException e) {
 			// TODO Auto-generated catch block
@@ -193,7 +198,6 @@ public class TestBase {
 		System.out.println("Total Number of Links : "+list.size());
 		ArrayList<String> brokenLinks = new ArrayList<String>();
 		for(WebElement we : list){
-			
 			if(we != null){
 			String url = we.getAttribute("href");
 			if(url != null && ! url.contains("javascript")){
@@ -202,7 +206,7 @@ public class TestBase {
 			else{
 				brokenLinks.add(url);
 				System.out.println("Broken Link : "+url);
-			}
+				}
 			}
 		}
 		return brokenLinks ;

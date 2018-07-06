@@ -3,16 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName">
+      <class name="com.c2info.RMS_HomePageTCs.TC_001_VerifyLoginLogOut">
         <methods>
-          <include name="verifyItemSearchInGridViewForMyRequest"/>
           <include name="beforeMethod"/>
+          <include name="verifyLogin"/>
           <include name="setup"/>
+          <include name="verifyLogOut"/>
           <include name="endTest"/>
-          <include name="verifyItemSearchInListViewForMyRequest"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.c2info.RMS_HomePageTCs.TC_005_VerifySearchForItemName -->
+      </class> <!-- com.c2info.RMS_HomePageTCs.TC_001_VerifyLoginLogOut -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

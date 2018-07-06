@@ -7,6 +7,7 @@ import org.testng.annotations.Test ;
 import com.c2info.RMS_TestBase.TestBase;
 import com.c2info.RMS_UIActions.HomePage;
 
+
 public class TC_008_VerifyBrokenLinks extends TestBase{
 
 	public static final Logger log = Logger.getLogger(TC_008_VerifyBrokenLinks.class.getName());
@@ -25,5 +26,6 @@ public class TC_008_VerifyBrokenLinks extends TestBase{
 	public void verifyBrokenLinks(){
 		
 		System.out.println(getBrokenLinks());
+		
 	}
 }

@@ -8006,3 +8006,4 @@
 2018-06-27 12:35:41 INFO  NewRequestPage:215 - Clicked on Add button
 2018-06-27 12:35:55 INFO  NewRequestPage:248 - Clicked on Submit button
 2018-06-27 12:36:07 INFO  HomePage:196 - Fetching the list of PR Numbers for My Request in Grid view : [262, 261, 260, 259]
+2018-07-04 10:44:57 INFO  TC_001_VerifyLoginLogOut:22 - Initializing Setup
