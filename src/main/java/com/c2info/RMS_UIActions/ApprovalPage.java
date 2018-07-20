@@ -3,7 +3,6 @@ package com.c2info.RMS_UIActions;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -50,8 +49,7 @@ public class ApprovalPage extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void clickOnRequestApprovalBasedOnPRnumber(String approvalType,String prNum){
-		 
+	public void clickOnRequestApprovalBasedOnPRnumber(String approvalType,String prNum){		 
 		if(approvalType.equalsIgnoreCase("Single Request")){
 			List<WebElement> reqs = driver.findElements(By.xpath("//*[@id='theCarousel']/div/div/a/div/div/div[2]/p[1]"));
 			for(WebElement we : reqs){
@@ -76,6 +74,7 @@ public class ApprovalPage extends TestBase{
 					if(PRnum.equalsIgnoreCase(prNum)){
 						we.click();
 						break;
+						
 					}
 				}
 			}

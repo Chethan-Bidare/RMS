@@ -23,7 +23,7 @@ public class TC_001_VerifyLoginLogOut extends TestBase {
 		
 	}
 	
-	@Test(priority=0)
+	@Test
 	public void verifyLogin(){
 		HomePage hp = new HomePage();
 		hp.doLogin(OR.getProperty("Requestor"),OR.getProperty("otp"));
@@ -33,7 +33,7 @@ public class TC_001_VerifyLoginLogOut extends TestBase {
 	}
 	
 	
-	@Test(priority=1)
+	@Test(dependsOnMethods="verifyLogin")
 	public void verifyLogOut() throws InterruptedException{
 		HomePage hp = new HomePage();
 		hp.doLogOut();

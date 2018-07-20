@@ -33,6 +33,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import com.c2info.RMS_ExcelReader.ExcelReader;
+import com.c2info.RMS_ExcelReader.ExcelWriter;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -74,6 +75,12 @@ public class TestBase {
 		String[][] TestData = excel.getdatafromSheet(SheetName, ExcelName);
 		return TestData;
 		
+	}
+	
+	public void writeExcel(String sheetName,String excelName,String testName, String testResult) throws IOException{
+		String path = System.getProperty("user.dir")+"//src//main//java//com//c2info//RMS_Data//TC.xlsx";
+		ExcelWriter excel = new ExcelWriter(path);
+		excel.writeDataIntoExcel(sheetName, excelName,testName,testResult);
 	}
 	
 	public void init() throws IOException{
@@ -238,16 +245,19 @@ public class TestBase {
 	
 	
 	
-	public void getResult(ITestResult Result){
+	public void getResult(ITestResult Result) throws IOException{
 		if(Result.getStatus()==ITestResult.SUCCESS){
 			Test.log(LogStatus.PASS, Result.getName()+" Test is Passed");
+			writeExcel("TC", "TC.xlsx",Result.getName(),"PASS");
 		}
 		else if(Result.getStatus()==ITestResult.FAILURE){
 			Test.log(LogStatus.FAIL, Result.getName()+" Test is Failed");
 			Test.log(LogStatus.FAIL, Test.addScreenCapture(getScreenshot(Thread.currentThread().getStackTrace()[1].getMethodName())));
+			writeExcel("TC", "TC.xlsx",Result.getName(),"FAIL");
 		}
 		else if(Result.getStatus()==ITestResult.SKIP){
 			Test.log(LogStatus.SKIP, Result.getName()+" Test is Skipped");
+			writeExcel("TC", "TC.xlsx",Result.getName(),"SKIPPED");
 		}
 		else if(Result.getStatus()==ITestResult.STARTED){
 			Test.log(LogStatus.INFO, Result.getName()+" Test is Started");
@@ -264,8 +274,9 @@ public class TestBase {
 	}
 	
 	@AfterMethod()
-	public void afterMethod(ITestResult Result){
+	public void afterMethod(ITestResult Result) throws IOException{
 		getResult(Result);
+		
 	}
 	@AfterClass(alwaysRun=true)
 	public void endTest(){
